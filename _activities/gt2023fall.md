@@ -7,10 +7,8 @@ author_profile: false
 
 ## Differential geometry and symplectic topology seminar (Fall 2023)
 
-| date | time | speaker | title | zoom link 
+| date | time | speaker | title | location
 | -- | -- | ---- | -------- | ----- 
-| Th, Sep 30, 2021 | 1:30pm - 2:30pm |  |  |  
-| Th, Oct 7, 2021 | 1:30pm - 2:30pm | Russell Avdek |An algebraic generalization of Giroux's criterion| [https://umn.zoom.us/j/98547599523](https://umn.zoom.us/j/98547599523)
  | Thu, 2023-09-07 | 1:30pm - 2:30pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-09-14 | 1:30pm - 2:30pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-09-21 | 1:30pm - 2:30pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
