@@ -13,13 +13,13 @@ author_profile: false
  | Thu, 2023-09-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-09-21 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-09-28 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2023-10-05 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2023-10-12 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2023-10-19 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2023-10-26 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+ | Thu, 2023-10-05 | 1:25pm - 2:25pm | Guangbo Xu (Rutgers) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+ | Thu, 2023-10-12 | 1:25pm - 2:25pm | Luya Wang (Stanford) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+ | Thu, 2023-10-19 | 1:25pm - 2:25pm | Sunrose Shrestha (Carleton) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+ | Thu, 2023-10-26 | 1:25pm - 2:25pm | Mohan Swaminathan (Stanford)  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-11-02 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2023-11-09 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2023-11-16 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+ | Thu, 2023-11-09 | 1:25pm - 2:25pm | Yoosik Kim (Pusan National University) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+ | Thu, 2023-11-16 | 1:25pm - 2:25pm | Fabio Gironella (University of Nantes) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-11-23 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-11-30 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-12-07 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
