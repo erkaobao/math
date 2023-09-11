@@ -11,7 +11,7 @@ author_profile: false
 | -- | -- | ---- | -------- | ----- 
  | Thu, 2023-09-07 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-09-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2023-09-21 | 1:25pm - 2:25pm | Christopher Kuo |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+ | Thu, 2023-09-21 | 1:25pm - 2:25pm | Christopher Kuo (USC) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-09-28 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-10-05 | 1:25pm - 2:25pm | Guangbo Xu (Rutgers) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-10-12 | 1:25pm - 2:25pm | Luya Wang (Stanford) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
