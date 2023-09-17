@@ -9,9 +9,7 @@ author_profile: false
 
 | date | time | speaker | title | location
 | -- | -- | ---- | -------- | ----- 
- | Thu, 2023-09-07 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2023-09-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2023-09-21 | 1:25pm - 2:25pm | Christopher Kuo (USC) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+ | Thu, 2023-09-21 | 1:25pm - 2:25pm | Christopher Kuo (USC) | Perverse Microsheaves | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-09-28 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-10-05 | 1:25pm - 2:25pm | Guangbo Xu (Rutgers) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-10-12 | 1:25pm - 2:25pm | Luya Wang (Stanford) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
@@ -30,7 +28,7 @@ author_profile: false
 
 ## Abstracts
 
-- aaa
+- Christopher Kuo
 
-  - bbb
+  - Perverse sheaves are topological invariants that classify objects from several different fields. For example, they are equivalent to regular holonomic D-modules on the same complex manifold and holomorphic Lagrangians in infinitesimal Fukaya category of its cotangent bundle. In this talk, I will discuss a joint work with Côté, Nadler and Shende, where we perform a construction on complex contact manifolds, globalizing the previously defined perverse microsheaves on coprojective bundles. 
 
