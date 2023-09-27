@@ -10,8 +10,8 @@ author_profile: false
 | date | time | speaker | title | location
 | -- | -- | ---- | -------- | ----- 
  | Thu, 2023-09-21 | 1:25pm - 2:25pm | Christopher Kuo (USC) | Perverse Microsheaves | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2023-09-28 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2023-10-05 | 1:25pm - 2:25pm | Guangbo Xu (Rutgers) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+ | Thu, 2023-10-05 | 1:25pm - 2:25pm | Guangbo Xu (Rutgers) | Hofer-Zehnder conjecture for toric manifolds
+ | room 215 | 
  | Thu, 2023-10-12 | 1:25pm - 2:25pm | Luya Wang (Stanford) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-10-19 | 1:25pm - 2:25pm | Sunrose Shrestha (Carleton) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-10-26 | 1:25pm - 2:25pm | Mohan Swaminathan (Stanford)  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
@@ -32,3 +32,6 @@ author_profile: false
 
   - Perverse sheaves are topological invariants that classify objects from several different fields. For example, they are equivalent to regular holonomic D-modules on the same complex manifold and holomorphic Lagrangians in infinitesimal Fukaya category of its cotangent bundle. In this talk, I will discuss a joint work with Côté, Nadler and Shende, where we perform a construction on complex contact manifolds, globalizing the previously defined perverse microsheaves on coprojective bundles. 
 
+- Christopher Kuo
+
+  - (joint with Shaoyun Bai) While the Arnold conjecture provides a (topological) lower bound on the number of fixed points of Hamiltonian diffeomorphisms, it has been proved that in many cases Hamiltonian diffeomorphisms have infinitely many periodic points (i.e. fixed points of iterations), such as the proof of the Conley conjecture in various cases. On the other hand, manifolds such as projective spaces admit Hamiltonian diffeomorphisms which have only finitely many simple periodic orbits. The Hofer-Zehnder conjecture stated that even for these manifolds, if the number of fixed points is strictly greater than the Arnold lower bound, i.e., there are "redundant" fixed points, then there should be infinitely many periodic points. A recent major breakthrough towards the Hofer-Zehnder conjecture was the work of Shelukhin, who proved that for a monotone symplectic manifold, when the quantum cohomology is semisimple (over a certain field), then the Hofer-Zehnder conjecture is true. Inspired by Shelukhin's work and the picture of mirror symmetry, we prove the Hofer-Zehnder conjecture for ALL compact toric manifolds. There are a few key ingredients in the proof. First, following Givental, Hori-Vafa, Fukaya-Oh-Ohta-Ono etc. toric manifolds are mirror to Landau-Ginzburg models and hence their quantum cohomology are "generically" semisimple. Second, as toric manifolds are GIT quotients of vector spaces, we use the gauged linear sigma model (GLSM) to do Floer theory over integers without the need of virtual technique.
