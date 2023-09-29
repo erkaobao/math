@@ -5,11 +5,12 @@ permalink: /publications/
 author_profile: false
 ---
 ## Preprints
-- [_Coherent orientations in symplectic field theory revisited_](https://arxiv.org/abs/2206.08443), *preprint* (2022)
+
 
 ## Publications
+- [_Coherent orientations in symplectic field theory revisited_](https://arxiv.org/abs/2206.08443), *Mathematische Zeitschrift*, Volume 305, (2023)
 
-- [_Semi-global Kuranishi charts and the definition of contact homology_](https://arxiv.org/abs/1512.00580) (with K. Honda), *Advances in Mathematics*,   Volume 414, (2023)
+- [_Semi-global Kuranishi charts and the definition of contact homology_](https://arxiv.org/abs/1512.00580) (with K. Honda), *Advances in Mathematics*, Volume 414, (2023)
 
 - [_Immersed Lagrangian Floer cohomology via pearly trajectories_](https://arxiv.org/abs/1907.03072) (with G. Alston), *Journal of Geometry and Physics* (2021) 169
 
