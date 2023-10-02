@@ -10,8 +10,7 @@ author_profile: false
 | date | time | speaker | title | location
 | -- | -- | ---- | -------- | ----- 
  | Thu, 2023-09-21 | 1:25pm - 2:25pm | Christopher Kuo (USC) | Perverse Microsheaves | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2023-10-05 | 1:25pm - 2:25pm | Guangbo Xu (Rutgers) | Hofer-Zehnder conjecture for toric manifolds
- | room 215 | 
+ | Thu, 2023-10-05 | 1:25pm - 2:25pm | Guangbo Xu (Rutgers) | Hofer-Zehnder conjecture for toric manifolds| room 215 | 
  | Thu, 2023-10-12 | 1:25pm - 2:25pm | Luya Wang (Stanford) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-10-19 | 1:25pm - 2:25pm | Sunrose Shrestha (Carleton) |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2023-10-26 | 1:25pm - 2:25pm | Mohan Swaminathan (Stanford)  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
