@@ -9,16 +9,12 @@ author_profile: false
 
 | date            | time            | speaker        | title                                                                | zoom link                                                              |
 | --------------- | --------------- | -------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| Thu, 2023-02-09 | 1:25pm - 2:25pm |                |                                                                      | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) |
 | Thu, 2023-02-16 | 1:25pm - 2:25pm | Li-Sheng Tseng | A Cone Story for Smooth Manifolds                                    | Vincent 215                                                            |
-| Thu, 2023-02-23 | 1:25pm - 2:25pm | Ke Zhu (cancelled)         |  |                                                        |
 | Thu, 2023-03-02 | 1:25pm - 2:25pm |   Ke Zhu             |   High-jet relations of the heat kernel embedding map and applications                                                                   |  Vincent 215  |
 | Thu, 2023-03-09 | 1:25pm - 2:25pm | spring break   |                                                                      | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) |
 | Thu, 2023-03-16 | 1:25pm - 2:25pm | Shaoyun Bai    |   Arnold conjecture over integers                                                                   | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) |
 | Thu, 2023-03-23 | 1:25pm - 2:25pm | Chris Wendl    |   How to view multiple covers as a feature instead of a bug                                                                   | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) |
-| Thu, 2023-03-25 | 1:25pm - 2:25pm |                |                                                                      | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) |
 | Thu, 2023-04-06 | 1:25pm - 2:25pm |    Yuan Yao             |                                                                      | Vincent 215 |
-| Thu, 2023-04-13 | 1:25pm - 2:25pm |       |                                                                      | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) |
 | Tu, 2023-04-18 | 3:30pm - 4:30pm |       Kenji Fukaya         |      1 :  Generating function and Lagrangian Floer theory      | Vincent Hall 301 |
 | Thu, 2023-04-20 | 2:30pm - 3:30pm |       Kenji Fukaya         |   2 :  Lagrangian Correspondence and Floer homology | Vincent Hall 301 |
 | Thu, 2023-04-27 | 1:25pm - 2:25pm |      Franco Vargas Pallete          |  Minimal surface entropy for asymptotically cusped metrics in 3-manifolds                                                                    | Vincent 215 |
