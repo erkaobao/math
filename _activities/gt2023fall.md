@@ -12,7 +12,7 @@ author_profile: false
  | Thu, 2023-09-21 | 1:25pm - 2:25pm | Christopher Kuo (USC) | Perverse Microsheaves | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-10-05 | 1:25pm - 2:25pm | Guangbo Xu (Rutgers) | Hofer-Zehnder conjecture for toric manifolds| room 215 | 
  | Thu, 2023-10-12 | 1:25pm - 2:25pm | Luya Wang (Stanford) | Deformation inequivalent symplectic structures and Donaldson's four-six question| [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
- | Thu, 2023-10-19 | 1:25pm - 2:25pm | Sunrose Shrestha (Carleton) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2023-10-19 | 1:25pm - 2:25pm | Sunrose Shrestha (Carleton) |From cylinders to symmetry on the Mucube  | room 215 | 
  | Thu, 2023-10-26 | 1:25pm - 2:25pm | Mohan Swaminathan (Stanford)  |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-02 | 1:25pm - 2:25pm |  |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-09 | 1:25pm - 2:25pm | Yoosik Kim (Pusan National University) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
@@ -38,3 +38,7 @@ author_profile: false
 - Luya Wang
 
   - Studying symplectic structures up to deformation equivalences is a fundamental question in symplectic geometry. Donaldson asked: given two homeomorphic closed symplectic four-manifolds, are they diffeomorphic if and only if their stabilized symplectic six-manifolds, obtained by taking products with $\mathbb{CP}^1$ with the standard symplectic form, are deformation equivalent? I will discuss joint work with Amanda Hirschi on showing how deformation inequivalent symplectic forms remain deformation inequivalent when stabilized, under certain algebraic conditions. This gives the first counterexamples to one direction of Donaldson’s “four-six” question and the related Stabilizing Conjecture by Ruan.
+
+- Sunrose Shrestha
+  - The dynamics of straight-line flows on compact translation surfaces (surfaces formed by gluing Euclidean polygons edge-to-edge via translations) has been well studied due to its connections to polygonal billiards and Teichmüller theory. However, less is known in general regarding straight-line flows on non-compact infinite area translation surfaces. In this talk, we will consider straight line trajectories on the Mucube -- an infinite Z^3 periodic half-translation surface -- first discovered by Coxeter and Petrie and more recently studied by Athreya-Lee. We will give a complete characterization of the periodic directions (aka cylinder directions) on the Mucube in terms of an infinitely generated infinite index subgroup of SL(2,Z). Using the characterization, we show that the characterizing group is in fact the group of derivatives of affine diffeomorphisms of the Mucube. This is joint work (in progress) with Andre P. Oliveira, Felipe A. Ramírez and Chandrika Sadanand.
+
