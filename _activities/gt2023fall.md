@@ -14,7 +14,7 @@ author_profile: false
  | Thu, 2023-10-12 | 1:25pm - 2:25pm | Luya Wang (Stanford) | Deformation inequivalent symplectic structures and Donaldson's four-six question| [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-10-19 | 1:25pm - 2:25pm | Sunrose Shrestha (Carleton) |From cylinders to symmetry on the Mucube  | room 215 | 
  | Thu, 2023-10-26 | 1:25pm - 2:25pm | Mohan Swaminathan (Stanford)  | Constructing smoothings of stable maps | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
- | Thu, 2023-11-02 | 1:25pm - 2:25pm | Martin Pinsonnault (University of Western Ontario) |  | room 215 | 
+ | Thu, 2023-11-02 | 1:25pm - 2:25pm | Martin Pinsonnault (University of Western Ontario) | Embeddings of symplectic balls and configuration spaces | room 215 | 
  | Thu, 2023-11-09 | 1:25pm - 2:25pm | Yoosik Kim (Pusan National University) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-16 | 1:25pm - 2:25pm | Fabio Gironella (University of Nantes) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-23 | 1:25pm - 2:25pm | Thanksgiving |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
@@ -43,3 +43,8 @@ author_profile: false
 
 - Mohan Swaminathan
   - Gromov's compactness theorem (later refined by Kontsevich) shows that any sequence of pseudo-holomorphic maps from compact (non-singular) Riemann surfaces to a compact almost Kahler manifold (with fixed genus and homology class) has a subsequence converging to a "stable map", i.e., a pseudo-holomorphic map defined on a compact, but possibly nodal, Riemann surface of the same arithmetic genus (satisfying a stability condition). Even in the nicest case (e.g., degree d curves of genus g with d>>g in CP^N), a dimension count shows that most stable maps which have "ghosts" (i.e., irreducible components on which the map is constant) can never appear as the limit of any sequence of maps with non-singular domains. Thus, we may ask: (a) which stable maps actually do appear as limits & (b) which ones may be discarded, to obtain a more optimal compactification. In this talk, I will describe recent work (joint with Fatemeh Rezaee) where we use a gluing construction to provide a partial answer to (a), in all genera, for the case of smooth projective varieties. The key geometric input is a new class of explicit model solutions which governs the gluing construction near the ghosts.
+
+- Martin Pinsonnault
+  - Existence of symplectic embeddings of $k$ disjoint balls of given capacites $c_1,\ldots, c_k$ into a given symplectic manifold is a central problem in symplectic topology. However, beside a few examples, very little is known about the space of all such embeddings. In this talk, I will discuss the case of rational $4$-manifolds of small Euler numbers, with a special attention to the minimal manifolds $\mathbb{C}P^2$ and $S^2\times S^2$. For rational manifolds, a very rich and intricate picture emerges that blends symplectic topology, complex geometry, and algebraic topology.
+ 
+ 
