@@ -15,7 +15,7 @@ author_profile: false
  | Thu, 2023-10-19 | 1:25pm - 2:25pm | Sunrose Shrestha (Carleton) |From cylinders to symmetry on the Mucube  | room 215 | 
  | Thu, 2023-10-26 | 1:25pm - 2:25pm | Mohan Swaminathan (Stanford)  | Constructing smoothings of stable maps | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-02 | 1:25pm - 2:25pm | Martin Pinsonnault (University of Western Ontario) | Embeddings of symplectic balls and configuration spaces | room 215 | 
- | Thu, 2023-11-09 | 1:25pm - 2:25pm | Yoosik Kim (Pusan National University) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2023-11-09 | 1:25pm - 2:25pm | Yoosik Kim (Pusan National University) | Disk potential function for polygon spaces | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-16 | 1:25pm - 2:25pm | Fabio Gironella (University of Nantes) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-23 | 1:25pm - 2:25pm | Thanksgiving |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-30 | 1:25pm - 2:25pm | Yandi Wu (Madison) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
@@ -47,4 +47,6 @@ author_profile: false
 - Martin Pinsonnault
   - Existence of symplectic embeddings of $k$ disjoint balls of given capacites $c_1,\ldots, c_k$ into a given symplectic manifold is a central problem in symplectic topology. However, beside a few examples, very little is known about the space of all such embeddings. In this talk, I will discuss the case of rational $4$-manifolds of small Euler numbers, with a special attention to the minimal manifolds $\mathbb{C}P^2$ and $S^2\times S^2$. For rational manifolds, a very rich and intricate picture emerges that blends symplectic topology, complex geometry, and algebraic topology.
  
- 
+- Yoosik Kim
+  - In this talk, we explain polygon spaces and bending completely integrable systems. We then explain how to understand the topology of fibers of completely integrable systems. Based on the structural result of the monotone Fukaya category and toric degenerations, we compute the disk potential function of the monotone torus fiber of the caterpillar bending system and derive a Floer theoretical SYZ mirror for an equilateral and generic polygon space. This talk is based on joint work with Siu-Cheong Lau and Xiao Zheng. 
+
