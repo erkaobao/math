@@ -16,7 +16,7 @@ author_profile: false
  | Thu, 2023-10-26 | 1:25pm - 2:25pm | Mohan Swaminathan (Stanford)  | Constructing smoothings of stable maps | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-02 | 1:25pm - 2:25pm | Martin Pinsonnault (University of Western Ontario) | Embeddings of symplectic balls and configuration spaces | room 215 | 
  | Thu, 2023-11-09 | 1:25pm - 2:25pm | Yoosik Kim (Pusan National University) | Disk potential function for polygon spaces | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
- | Thu, 2023-11-16 | 1:25pm - 2:25pm | Fabio Gironella (University of Nantes) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2023-11-16 | 1:25pm - 2:25pm | Fabio Gironella (University of Nantes) | Vanishing cycles for symplectic foliations | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-23 | 1:25pm - 2:25pm | Thanksgiving |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-30 | 1:25pm - 2:25pm | Yandi Wu (Madison) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-12-07 | 1:25pm - 2:25pm | Austin Christian (Georgia Tech) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
@@ -50,3 +50,5 @@ author_profile: false
 - Yoosik Kim
   - In this talk, we explain polygon spaces and bending completely integrable systems. We then explain how to understand the topology of fibers of completely integrable systems. Based on the structural result of the monotone Fukaya category and toric degenerations, we compute the disk potential function of the monotone torus fiber of the caterpillar bending system and derive a Floer theoretical SYZ mirror for an equilateral and generic polygon space. This talk is based on joint work with Siu-Cheong Lau and Xiao Zheng. 
 
+- Fabio Gironella
+  - The main objects of the talk will be symplectic foliations, and more precisely a subclass of them called "strong". These are one of the possible generalizations of taut foliations to high dimensions, and indeed have quite a rigid nature, with techniques such as pseudo-holomorphic curves à la Gromov and asymptotically holomorphic sequences of sections à la Donaldson working well in this setting. I will present a joint work (in progress) with Klaus Niederkrüger and Lauran Toussaint that aims at giving a new obstruction for a symplectic foliation to be strong, that comes in the form of a symplectic high-dimensional version of vanishing cycles for smooth codimension 1 foliations on 3-manifolds. The proof relies on pseudo-holomorphic curve techniques, in a way which is parallel to the case of Plastikstufe introduced by Niederkrüger '06 in the contact case.
