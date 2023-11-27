@@ -18,7 +18,7 @@ author_profile: false
  | Thu, 2023-11-09 | 1:25pm - 2:25pm | Yoosik Kim (Pusan National University) | Disk potential function for polygon spaces | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-16 | 1:25pm - 2:25pm | Fabio Gironella (University of Nantes) | Vanishing cycles for symplectic foliations | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-23 | 1:25pm - 2:25pm | Thanksgiving |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
- | Thu, 2023-11-30 | 1:25pm - 2:25pm | Yandi Wu (Madison) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2023-11-30 | 1:25pm - 2:25pm | Yandi Wu (Madison) | Marked Length Spectrum Rigidity for Surface Amalgams  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-12-07 | 1:25pm - 2:25pm | Austin Christian (Georgia Tech) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-12-14 | 1:25pm - 2:25pm | Shuo Zhang (UMN) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-12-21 | 1:25pm - 2:25pm |  |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
@@ -52,3 +52,7 @@ author_profile: false
 
 - Fabio Gironella
   - The main objects of the talk will be symplectic foliations, and more precisely a subclass of them called "strong". These are one of the possible generalizations of taut foliations to high dimensions, and indeed have quite a rigid nature, with techniques such as pseudo-holomorphic curves à la Gromov and asymptotically holomorphic sequences of sections à la Donaldson working well in this setting. I will present a joint work (in progress) with Klaus Niederkrüger and Lauran Toussaint that aims at giving a new obstruction for a symplectic foliation to be strong, that comes in the form of a symplectic high-dimensional version of vanishing cycles for smooth codimension 1 foliations on 3-manifolds. The proof relies on pseudo-holomorphic curve techniques, in a way which is parallel to the case of Plastikstufe introduced by Niederkrüger '06 in the contact case.
+
+- Yandi Wu
+  - The marked length spectrum of a negatively curved metric space can be thought of as a length assignment to every closed geodesic in the space. A celebrated result by Otal says that metrics on negatively curved closed surfaces are determined completely by their marked length spectra. In my talk, I will discuss my work towards extending Otal’s result to a large class of surface amalgams, which are natural generalizations of surfaces.
+
