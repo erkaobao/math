@@ -19,7 +19,7 @@ author_profile: false
  | Thu, 2023-11-16 | 1:25pm - 2:25pm | Fabio Gironella (University of Nantes) | Vanishing cycles for symplectic foliations | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-23 | 1:25pm - 2:25pm | Thanksgiving |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-30 | 1:25pm - 2:25pm | Yandi Wu (Madison) | Marked Length Spectrum Rigidity for Surface Amalgams  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
- | Thu, 2023-12-07 | 1:25pm - 2:25pm | Austin Christian (Georgia Tech) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2023-12-07 | 1:25pm - 2:25pm | Austin Christian (Georgia Tech) | Stably Weinstein Liouville domains | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-12-14 | 1:25pm - 2:25pm | Shuo Zhang (UMN) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-12-21 | 1:25pm - 2:25pm |  |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
 
@@ -56,3 +56,5 @@ author_profile: false
 - Yandi Wu
   - The marked length spectrum of a negatively curved metric space can be thought of as a length assignment to every closed geodesic in the space. A celebrated result by Otal says that metrics on negatively curved closed surfaces are determined completely by their marked length spectra. In my talk, I will discuss my work towards extending Otal’s result to a large class of surface amalgams, which are natural generalizations of surfaces.
 
+- Austin Christian
+  - Morse functions are generic among real-valued functions on a smooth manifold, and distinct Morse functions on a fixed manifold are related to each other in well-understood ways. In the contact and symplectic categories, Morse theory is more delicate and certainly less well-understood. In this talk we will address the question of whether an exact symplectic manifold-with-boundary can be made compatible with a Morse function --- that is, whether a Liouville domain can be made Weinstein. We provide some explicit constructions for realizing this compatibility, and use these to demonstrate that a famous family of Liouville-but-not-Weinstein domains first studied by Geiges and Mitsumatsu is stably Weinstein. This talk is based on joint work with Joseph Breen.
