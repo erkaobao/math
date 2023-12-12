@@ -20,7 +20,7 @@ author_profile: false
  | Thu, 2023-11-23 | 1:25pm - 2:25pm | Thanksgiving |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-11-30 | 1:25pm - 2:25pm | Yandi Wu (Madison) | Marked Length Spectrum Rigidity for Surface Amalgams  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2023-12-07 | 1:25pm - 2:25pm | Austin Christian (Georgia Tech) | Stably Weinstein Liouville domains | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
- | Thu, 2023-12-14 | 1:25pm - 2:25pm | Shuo Zhang (UMN) |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2023-12-14 | 1:25pm - 2:25pm | Shuo Zhang (UMN) | postponed  |  | 
  | Thu, 2023-12-21 | 1:25pm - 2:25pm |  |  | [zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
 
 
