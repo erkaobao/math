@@ -4,6 +4,9 @@ title: ""
 permalink: /teaching/
 author_profile: false
 ---
+- 2024 Spring
+  - [Math 1572h](https://erkaobao.github.io/math/teaching/2024_spring_1572h) 
+
 - 2023 Fall
   - [Math 5378](https://erkaobao.github.io/math/teaching/2023_fall_5378)
 
