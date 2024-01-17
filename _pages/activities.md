@@ -12,3 +12,6 @@ author_profile: false
 - [Fall 2022](https://erkaobao.github.io/math/activities/gt2022fall)
 - [Spring 2022](https://erkaobao.github.io/math/activities/gt2022spring)
 - [Fall 2021](https://erkaobao.github.io/math/activities/gt2021fall)
+
+## Yamabe Memorial Symposium
+- 4th to Sunday, October 6th, 2024: Symplectic and Contact Geometry
