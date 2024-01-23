@@ -13,13 +13,14 @@ author_profile: false
  | Thu, 2024-02-01 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2024-02-08 | 1:25pm - 2:25pm | Hao Zhuang  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2024-02-15 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+ | **Tu, 2024-02-20** | 1:25pm - 2:25pm | Ko Honda  |  | vincent 215 | 
  | Thu, 2024-02-22 | 1:25pm - 2:25pm | Khanh Le  |  | vincent 215 | 
  | Thu, 2024-02-29 | 1:25pm - 2:25pm | Amanda Hirschi  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2024-03-07 | 1:25pm - 2:25pm | spring break |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2024-03-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2024-03-21 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2024-03-28 | 1:25pm - 2:25pm | Caglar Uyanik |  | vincent 215 | 
- | Thu, 2024-04-04 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+ | Thu, 2024-04-04 | 1:25pm - 2:25pm | Shuo Zhang |  | vincent 215 | 
  | Thu, 2024-04-11 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2024-04-18 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2024-04-25 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
