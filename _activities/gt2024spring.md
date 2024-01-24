@@ -12,7 +12,7 @@ author_profile: false
  | Thu, 2024-01-25 | 1:25pm - 2:25pm | Joseph Breen | The Giroux correspondence in arbitrary dimensions | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2024-02-01 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | Thu, 2024-02-08 | 1:25pm - 2:25pm | Hao Zhuang  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
- | Thu, 2024-02-15 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+ | Thu, 2024-02-15 | 1:25pm - 2:25pm | Roman Krutowski |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
  | **Tu, 2024-02-20** | 1:25pm - 2:25pm | Ko Honda  |  | vincent 215 | 
  | Thu, 2024-02-22 | 1:25pm - 2:25pm | Khanh Le  |  | vincent 215 | 
  | Thu, 2024-02-29 | 1:25pm - 2:25pm | Amanda Hirschi  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
