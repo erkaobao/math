@@ -13,8 +13,9 @@ author_profile: false
  | Thu, 2024-02-01 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
  | Thu, 2024-02-08 | 1:25pm - 2:25pm | Hao Zhuang  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
  | Thu, 2024-02-15 | 1:25pm - 2:25pm | Roman Krutowski |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
- | **Tu, 2024-02-20** | 1:25pm - 2:25pm | Ko Honda  |  | vincent 215 | 
+ | **Tu, 2024-02-20** | 1:30pm - 2:30pm | Ko Honda  | Higher-dimensional Heegaard Floer homology and Hecke algebras | tba | 
  | Thu, 2024-02-22 | 1:25pm - 2:25pm | Khanh Le  |  | vincent 215 | 
+ | **Fri, 2024-02-23** | 1pm - 2pm | Ko Honda  | The Giroux correspondence in arbitrary dimensions  | tba | 
  | Thu, 2024-02-29 | 1:25pm - 2:25pm | Amanda Hirschi  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
  | Thu, 2024-03-07 | 1:25pm - 2:25pm | spring break |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
  | Thu, 2024-03-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
@@ -32,4 +33,10 @@ author_profile: false
 
   - A fundamental result in 3-dimensional contact topology is the Giroux correspondence between contact structures and open book decompositions. Until recently, the techniques that Giroux used in dimension 3 were not available in higher dimensions; indeed, for reasons I will discuss, contact topology is much more tractable in dimension 3. However, there have been several efforts to improve the situation. In this talk, I will describe joint work with Ko Honda and Yang Huang on extending the Giroux correspondence and its underlying techniques to all dimensions.
 
+- Ko Honda (Tuesday talk)
 
+  - Hecke algebras are ubiquitous in number theory and geometric representation theory. In this talk we describe the appearance of various Hecke algebras such as the affine Hecke algebra and the double affine Hecke algebra (DAHA) in Floer theory, through the higher-dimensional analog of Heegaard Floer homology. This is joint work with Yin Tian and Tianyu Yuan.  (This talk is independent of Talks #2.)
+
+- Ko Honda (Friday talk)
+
+  - Around twenty years ago Emmanuel Giroux formulated the equivalence of contact structures and open book decompositions with Weinstein pages up to stabilization. We establish the Giroux correspondence in full generality using the recent developments in convex hypersurface theory, described in the second talk.  Time permitting, we also explain their relationship with Lefschetz fibrations for Weinstein domains.  This is joint work with Joe Breen and Yang Huang. (This talk is independent of Talks #1.)
