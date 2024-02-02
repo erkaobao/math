@@ -13,9 +13,9 @@ author_profile: false
  | Thu, 2024-02-01 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-02-08 | 1:25pm - 2:25pm | Hao Zhuang  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-02-15 | 1:25pm - 2:25pm | Roman Krutowski |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
- | **Tu, 2024-02-20** | 1:30pm - 2:30pm | Ko Honda  | Higher-dimensional Heegaard Floer homology and Hecke algebras | tba | 
- | Thu, 2024-02-22 | 1:25pm - 2:25pm | Khanh Le  |  | vincent 215 | 
- | **Fri, 2024-02-23** | 1pm - 2pm | Ko Honda  | The Giroux correspondence in arbitrary dimensions  | tba | 
+ | **Tu, 2024-02-20** | 1:30pm - 2:30pm | Ko Honda  | Higher-dimensional Heegaard Floer homology and Hecke algebras | Vincent 20 | 
+ | Thu, 2024-02-22 | 1:25pm - 2:25pm | Khanh Le  |  | Vincent 215 | 
+ | **Fri, 2024-02-23** | 1pm - 2pm | Ko Honda  | The Giroux correspondence in arbitrary dimensions  | Vincet 6 | 
  | Thu, 2024-02-29 | 1:25pm - 2:25pm | Amanda Hirschi  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-07 | 1:25pm - 2:25pm | spring break |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
