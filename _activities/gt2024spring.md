@@ -11,7 +11,7 @@ author_profile: false
 | -- | -- | ---- | -------- | ----- 
  | Thu, 2024-01-25 | 1:25pm - 2:25pm | Joseph Breen | The Giroux correspondence in arbitrary dimensions | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-02-01 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
- | Thu, 2024-02-08 | 1:25pm - 2:25pm | Hao Zhuang  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2024-02-08 | 1:25pm - 2:25pm | Hao Zhuang  | Invariant Morse-Bott-Smale complexes, the Witten deformation and the estimates of eigenvalues | Vincent 215 | 
  | Thu, 2024-02-15 | 1:25pm - 2:25pm | Roman Krutowski |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | **Tu, 2024-02-20** | 1:30pm - 2:30pm | Ko Honda  | Higher-dimensional Heegaard Floer homology and Hecke algebras | Vincent 20 | 
  | Thu, 2024-02-22 | 1:25pm - 2:25pm | Khanh Le  |  | Vincent 215 | 
@@ -40,3 +40,9 @@ author_profile: false
 - Ko Honda (Friday talk)
 
   - Around twenty years ago Emmanuel Giroux formulated the equivalence of contact structures and open book decompositions with Weinstein pages up to stabilization. We establish the Giroux correspondence in full generality using the recent developments in convex hypersurface theory, described in the second talk.  Time permitting, we also explain their relationship with Lefschetz fibrations for Weinstein domains.  This is joint work with Joe Breen and Yang Huang. (This talk is independent of Talks #1.)
+
+- Hao Zhuang
+
+  - In this talk, we will first introduce an invariant Morse-Bott-Smale chain complex for closed $T^l$-manifolds with a special type of $T^l$-invariant Morse-Bott functions. Then, we will establish a chain complex isomorphism between our $T^l$-invariant Morse-Bott-Smale complex and the Witten instanton complex. Finally, if time permits, we will mention the estimates of eigenvalues of the Witten Laplacian, which motivates one of our ongoing projects. 
+
+
