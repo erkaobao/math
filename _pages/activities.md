@@ -14,4 +14,4 @@ author_profile: false
 - [Fall 2021](https://erkaobao.github.io/math/activities/gt2021fall)
 
 ## Yamabe Memorial Symposium
-- 4th to Sunday, October 6th, 2024: Symplectic and Contact Geometry
+- Friday, October 4th to Sunday, October 6th, 2024: Symplectic and Contact Geometry
