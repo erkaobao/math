@@ -12,7 +12,7 @@ author_profile: false
  | Thu, 2024-01-25 | 1:25pm - 2:25pm | Joseph Breen | The Giroux correspondence in arbitrary dimensions | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-02-01 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-02-08 | 1:25pm - 2:25pm | Hao Zhuang  | Invariant Morse-Bott-Smale complexes, the Witten deformation and the estimates of eigenvalues | Vincent 215 | 
- | Thu, 2024-02-15 | 1:25pm - 2:25pm | Roman Krutowski |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2024-02-15 | 1:25pm - 2:25pm | Roman Krutowski | Heegaard Floer symplectic cohomology and generalized Viterbo's isomorphism. | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | **Tu, 2024-02-20** | 1:30pm - 2:30pm | Ko Honda  | Higher-dimensional Heegaard Floer homology and Hecke algebras | Vincent 20 | 
  | Thu, 2024-02-22 | 1:25pm - 2:25pm | Khanh Le  |  | Vincent 215 | 
  | **Fri, 2024-02-23** | 1pm - 2pm | Ko Honda  | The Giroux correspondence in arbitrary dimensions  | Vincet 6 | 
@@ -45,4 +45,7 @@ author_profile: false
 
   - In this talk, we will first introduce an invariant Morse-Bott-Smale chain complex for closed $T^l$-manifolds with a special type of $T^l$-invariant Morse-Bott functions. Then, we will establish a chain complex isomorphism between our $T^l$-invariant Morse-Bott-Smale complex and the Witten instanton complex. Finally, if time permits, we will mention the estimates of eigenvalues of the Witten Laplacian, which motivates one of our ongoing projects. 
 
-
+- Roman Krutowski
+  
+  - I will define Heegaard Floer symplectic cohomology (HFSH), a novel invariant which serves as a closed string analog of the higher-dimensional Heegaard Floer homology. One may view it as a Floer invariant associated with a problem of Hamiltonian motion of multiple identical particles. This invariant can also be regarded as a deformation of a k-th symmetric version of symplectic cohomology, given by counting curves of higher genus. 
+I will also introduce a multiloop Morse complex of a manifold, which is a Morse-theoretic counterpart of HFSH. At last, I will show that HFSH of a cotangent bundle T^*M is isomorphic to the cohomology of the multiloop complex of M. This result generalizes Viterbo's isomorphism theorem to the setting of multiple particles.
