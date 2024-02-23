@@ -16,7 +16,7 @@ author_profile: false
  | **Tu, 2024-02-20** | 1:30pm - 2:30pm | Ko Honda  | Higher-dimensional Heegaard Floer homology and Hecke algebras | Vincent 20 | 
  | Thu, 2024-02-22 | 1:25pm - 2:25pm | Khanh Le  | Arithmeticity of links in S^3 | Vincent 215 | 
  | **Fri, 2024-02-23** | 1pm - 2pm | Ko Honda  | The Giroux correspondence in arbitrary dimensions  | Vincent 6 | 
- | Thu, 2024-02-29 | 1:25pm - 2:25pm | Amanda Hirschi  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2024-02-29 | 1:25pm - 2:25pm | Amanda Hirschi  | From Six to Four | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-07 | 1:25pm - 2:25pm | spring break |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-21 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
@@ -52,4 +52,8 @@ I will also introduce a multiloop Morse complex of a manifold, which is a Morse-
 
 - Khanh Le
   - Arithmetic subgroups of PSL(2,C) provide a large class of hyperbolic 3-manifolds exhibiting a lot of interactions between geometry, topology and number theory. In this talk, I will give examples of arithmetic hyperbolic manifolds in dimension 2 and 3 with the goal to illustrate the connections between geometrical, topological and number theoretical aspects of these manifolds. I will discuss various invariants and techniques that are useful in distinguishing arithmetic and non-arithmetic manifolds. Finally, I will discuss some observations related to the question of arithmeticity of modular knots.
+
+- Amanda Hirschi
+  - In recent work with Luya Wang, we showed that there exist counterexamples to one implication of the Donalson 4-6 question, which inquires about a relation between smooth topology of 4-manifolds and the symplectic geometry of the stabilised 6-manifold.
+In this talk I will discuss upcoming work with Wang on the other implication of the question. Specifically, I will explain how one can show that the Gromov-Witten (and thus Seiberg-Witten) invariants of two symplectic 4-manifolds agree if their stabilisations are deformation equivalent.
 
