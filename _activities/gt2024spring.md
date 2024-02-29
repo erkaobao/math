@@ -5,7 +5,7 @@ permalink: /activities/gt2024spring
 author_profile: false
 ---
 
-## Differential geometry and symplectic topology seminar (Fall 2023)
+## Differential geometry and symplectic topology seminar (Spring 2024)
 
 | date | time | speaker | title | location
 | -- | -- | ---- | -------- | ----- 
