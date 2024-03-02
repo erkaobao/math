@@ -19,7 +19,7 @@ author_profile: false
  | Thu, 2024-02-29 | 1:25pm - 2:25pm | Amanda Hirschi  | From Six to Four | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-07 | 1:25pm - 2:25pm | spring break |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
- | Thu, 2024-03-21 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2024-03-21 | 1:25pm - 2:25pm | Nick Meyer  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-28 | 1:25pm - 2:25pm | Caglar Uyanik |  | vincent 215 | 
  | Thu, 2024-04-04 | 1:25pm - 2:25pm | Shuo Zhang |  | vincent 215 | 
  | Thu, 2024-04-11 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
