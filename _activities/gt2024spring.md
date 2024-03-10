@@ -18,7 +18,7 @@ author_profile: false
  | **Fri, 2024-02-23** | 1pm - 2pm | Ko Honda  | The Giroux correspondence in arbitrary dimensions  | Vincent 6 | 
  | Thu, 2024-02-29 | 1:25pm - 2:25pm | Amanda Hirschi  | From Six to Four | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-07 | 1:25pm - 2:25pm | spring break |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
- | Thu, 2024-03-14 | 1:25pm - 2:25pm | Hang Yuan |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2024-03-14 | 1:25pm - 2:25pm | Hang Yuan | Family Floer SYZ conjecture and examples | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-21 | 1:25pm - 2:25pm | Nick Meyer  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-28 | 1:25pm - 2:25pm | Caglar Uyanik |  | vincent 215 | 
  | Thu, 2024-04-04 | 1:25pm - 2:25pm | Shuo Zhang |  | vincent 215 | 
@@ -56,4 +56,7 @@ I will also introduce a multiloop Morse complex of a manifold, which is a Morse-
 - Amanda Hirschi
   - In recent work with Luya Wang, we showed that there exist counterexamples to one implication of the Donalson 4-6 question, which inquires about a relation between smooth topology of 4-manifolds and the symplectic geometry of the stabilised 6-manifold.
 In this talk I will discuss upcoming work with Wang on the other implication of the question. Specifically, I will explain how one can show that the Gromov-Witten (and thus Seiberg-Witten) invariants of two symplectic 4-manifolds agree if their stabilisations are deformation equivalent.
+
+- Hang Yuan
+  - The Strominger-Yau-Zaslow (SYZ) conjecture proposes a geometric framework that underlies mirror symmetry for Calabi-Yau manifolds. However, it has been mysterious to define 'dual' torus fibrations and comprehend singular fibers within this conjecture. In my talk, I will begin by providing an overview of integrable systems in both symplectic and non-archimedean contexts and propose a toy model of SYZ conjecture. Then, I will explore how to globalize this toy model and establish a mathematically precise statement for the SYZ duality. If time allows, I will also present some concrete examples, such as the conifold, and A_n singularities.
 
