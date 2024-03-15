@@ -19,7 +19,7 @@ author_profile: false
  | Thu, 2024-02-29 | 1:25pm - 2:25pm | Amanda Hirschi  | From Six to Four | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-07 | 1:25pm - 2:25pm | spring break |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-14 | 1:25pm - 2:25pm | Hang Yuan | Family Floer SYZ conjecture and examples | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
- | Thu, 2024-03-21 | 1:25pm - 2:25pm | Nick Meyer  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2024-03-21 | 1:25pm - 2:25pm | Nick Meyer  | Log Transforms, Fibered Knots, and Fibration Extension Theorems | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-28 | 1:25pm - 2:25pm | Caglar Uyanik |  | vincent 215 | 
  | Thu, 2024-04-04 | 1:25pm - 2:25pm | Shuo Zhang |  | vincent 215 | 
  | Thu, 2024-04-11 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
@@ -60,3 +60,6 @@ In this talk I will discuss upcoming work with Wang on the other implication of 
 - Hang Yuan
   - The Strominger-Yau-Zaslow (SYZ) conjecture proposes a geometric framework that underlies mirror symmetry for Calabi-Yau manifolds. However, it has been mysterious to define 'dual' torus fibrations and comprehend singular fibers within this conjecture. In my talk, I will begin by providing an overview of integrable systems in both symplectic and non-archimedean contexts and propose a toy model of SYZ conjecture. Then, I will explore how to globalize this toy model and establish a mathematically precise statement for the SYZ duality. If time allows, I will also present some concrete examples, such as the conifold, and A_n singularities.
 
+- Nick Meyer
+  - In the past 35+ years, many mathematicians have used a variety of cut-and-paste techniques, such as Fintushel-Stern knot surgery, log transforms (aka "torus surgery"), and fiber sums to build a zoo of examples of exotic, simply connected 4-manifolds.
+    In this talk, I show how to construct (and obstruct) non-simply connected (potential) exotica by doing log transforms along $S^1\times K$ in $S^1 \times Y$, where $Y$ is a closed, connected, oriented 3-manifold and $K$ is a fibered knot in $Y$. In particular, I show that for any diffeomorphism $f$ of the 3-torus, the manifold $X_{K, f}$ obtained by doing an f-log transform along $S^1 \times K$ in $S^1\times Y$ is a 3-manifold bundle over the circle. Time permitting, I will also show how to generalize this statement for various other families of gluings.
