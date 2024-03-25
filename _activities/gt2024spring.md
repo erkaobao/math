@@ -20,7 +20,7 @@ author_profile: false
  | Thu, 2024-03-07 | 1:25pm - 2:25pm | spring break |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-14 | 1:25pm - 2:25pm | Hang Yuan | Family Floer SYZ conjecture and examples | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-21 | 1:25pm - 2:25pm | Nick Meyer  | Log Transforms, Fibered Knots, and Fibration Extension Theorems | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
- | Thu, 2024-03-28 | 1:25pm - 2:25pm | Caglar Uyanik |  | vincent 215 | 
+ | Thu, 2024-03-28 | 1:25pm - 2:25pm | Caglar Uyanik | Singularity of measures for Cannon-Thurston maps | vincent 215 | 
  | Thu, 2024-04-04 | 1:25pm - 2:25pm | Shuo Zhang |  | vincent 215 | 
  | Thu, 2024-04-11 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-04-18 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
@@ -63,3 +63,7 @@ In this talk I will discuss upcoming work with Wang on the other implication of 
 - Nick Meyer
   - In the past 35+ years, many mathematicians have used a variety of cut-and-paste techniques, such as Fintushel-Stern knot surgery, log transforms (aka "torus surgery"), and fiber sums to build a zoo of examples of exotic, simply connected 4-manifolds.
     In this talk, I show how to construct (and obstruct) non-simply connected (potential) exotica by doing log transforms along $S^1\times K$ in $S^1 \times Y$, where $Y$ is a closed, connected, oriented 3-manifold and $K$ is a fibered knot in $Y$. In particular, I show that for any diffeomorphism $f$ of the 3-torus, the manifold $X_{K, f}$ obtained by doing an f-log transform along $S^1 \times K$ in $S^1\times Y$ is a 3-manifold bundle over the circle. Time permitting, I will also show how to generalize this statement for various other families of gluings.
+
+- Caglar Uyanik
+  - Cannon and Thurston showed that a hyperbolic 3-manifold that fibers over the circle gives rise to a sphere filling curve.  The universal cover of the fiber surface is quasi-isometric to the hyperbolic plane, whose boundary is a circle, and the universal cover of the 3-manifold is 3-dimensional hyperbolic space, whose boundary is the 2-sphere.  Cannon and Thurston showed that the inclusion map between the universal covers extends to a continuous map between their boundaries, whose image is dense.  In particular, any measure on the circle pushes forward to a measure on the 2-sphere using this map. We compare several natural measures coming from this construction. This is joint work with Gadre, Haettel, Maher and Pfaff.
+
