@@ -22,7 +22,8 @@ author_profile: false
  | Thu, 2024-03-21 | 1:25pm - 2:25pm | Nick Meyer  | Log Transforms, Fibered Knots, and Fibration Extension Theorems | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-28 | 1:25pm - 2:25pm | Caglar Uyanik | Singularity of measures for Cannon-Thurston maps | vincent 215 | 
  | Thu, 2024-04-04 | 1:25pm - 2:25pm | Shuo Zhang |  | vincent 215 | 
- | Thu, 2024-04-11 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
+ | Thu, 2024-04-11 | 1:25pm - 2:25pm | Katherine Maxwell | Extended super Mumford form on the Sato Grassmannian
+ | vincent 215  | 
  | Thu, 2024-04-18 | 1:25pm - 2:25pm | Mikio Furuta |  | vincent 215 | 
  | Thu, 2024-04-25 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
 
@@ -67,3 +68,5 @@ In this talk I will discuss upcoming work with Wang on the other implication of 
 - Caglar Uyanik
   - Cannon and Thurston showed that a hyperbolic 3-manifold that fibers over the circle gives rise to a sphere filling curve.  The universal cover of the fiber surface is quasi-isometric to the hyperbolic plane, whose boundary is a circle, and the universal cover of the 3-manifold is 3-dimensional hyperbolic space, whose boundary is the 2-sphere.  Cannon and Thurston showed that the inclusion map between the universal covers extends to a continuous map between their boundaries, whose image is dense.  In particular, any measure on the circle pushes forward to a measure on the 2-sphere using this map. We compare several natural measures coming from this construction. This is joint work with Gadre, Haettel, Maher and Pfaff.
 
+- Katherine Maxwell
+  - The super Mumford form is a section over the moduli space of super Riemann surfaces, characterized by invariance under the action of the Neveu-Schwarz algebra action. In light of difficulties in performing integrals in superstring theory arising from the super Mumford form, it was suggested in the 80s that the relationship of the moduli space of super Riemann surfaces to the super Sato Grassmannian may be fruitful. Based on joint work with A. Voronov, I will discuss possible approaches to extending the super Mumford form, including our results on the proposed formula by A. Schwarz.
