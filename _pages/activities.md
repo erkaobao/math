@@ -15,3 +15,6 @@ author_profile: false
 
 ## Yamabe Memorial Symposium
 - Friday, October 4th to Sunday, October 6th, 2024: Symplectic and Contact Geometry
+
+## [Rutgers Symplectic Summer School 2024](https://sites.google.com/view/rsss2024/home?authuser=0) 
+- August 19-23, Rutgers-New Brunswick, NJ
