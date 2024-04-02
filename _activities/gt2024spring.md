@@ -21,7 +21,7 @@ author_profile: false
  | Thu, 2024-03-14 | 1:25pm - 2:25pm | Hang Yuan | Family Floer SYZ conjecture and examples | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-21 | 1:25pm - 2:25pm | Nick Meyer  | Log Transforms, Fibered Knots, and Fibration Extension Theorems | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
  | Thu, 2024-03-28 | 1:25pm - 2:25pm | Caglar Uyanik | Singularity of measures for Cannon-Thurston maps | vincent 215 | 
- | Thu, 2024-04-04 | 1:25pm - 2:25pm | Shuo Zhang |  | vincent 215 | 
+ | Thu, 2024-04-04 | 1:25pm - 2:25pm | Shuo Zhang | A long exact sequence on the composition of Dehn twists | vincent 215 | 
  | Thu, 2024-04-11 | 1:25pm - 2:25pm | Katherine Maxwell | Extended super Mumford form on the Sato Grassmannian | vincent 215  | 
  | Thu, 2024-04-18 | 1:25pm - 2:25pm | Mikio Furuta |  | vincent 215 | 
  | Thu, 2024-04-25 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
@@ -69,3 +69,6 @@ In this talk I will discuss upcoming work with Wang on the other implication of 
 
 - Katherine Maxwell
   - The super Mumford form is a section over the moduli space of super Riemann surfaces, characterized by invariance under the action of the Neveu-Schwarz algebra action. In light of difficulties in performing integrals in superstring theory arising from the super Mumford form, it was suggested in the 80s that the relationship of the moduli space of super Riemann surfaces to the super Sato Grassmannian may be fruitful. Based on joint work with A. Voronov, I will discuss possible approaches to extending the super Mumford form, including our results on the proposed formula by A. Schwarz.
+
+- Shuo Zhang
+  - Seidel conjectured that the fix-point-Floer homology of the global monodromy (iterated Dehn twists) of a Lefschetz fibration can be computed from the Lagrangian Floer homologies of the vanishing cycles. In particular there should be a long exact sequence relating them. We construct this long exact sequence by iterating Mak-Wu’s construction of a Lagrangian cobordism of a Lagrangian correspondence associated. Potential applications include homological mirror symmetry for Fano manifolds and dynamics of iterated Dehn twists.
