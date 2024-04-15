@@ -23,7 +23,7 @@ author_profile: false
  | Thu, 2024-03-28 | 1:25pm - 2:25pm | Caglar Uyanik | Singularity of measures for Cannon-Thurston maps | vincent 215 | 
  | Thu, 2024-04-04 | 1:25pm - 2:25pm | Shuo Zhang | A long exact sequence on the composition of Dehn twists | vincent 215 | 
  | Thu, 2024-04-11 | 1:25pm - 2:25pm | Katherine Maxwell | Extended super Mumford form on the Sato Grassmannian | vincent 215  | 
- | Thu, 2024-04-18 | 1:25pm - 2:25pm | Mikio Furuta |  | vincent 215 | 
+ | Thu, 2024-04-18 | 1:25pm - 2:25pm | Mikio Furuta | Index of the Wilson-Dirac operator | vincent 215 | 
  | Thu, 2024-04-25 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) | 
 
 
@@ -72,3 +72,6 @@ In this talk I will discuss upcoming work with Wang on the other implication of 
 
 - Shuo Zhang
   - Seidel conjectured that the fix-point-Floer homology of the global monodromy (iterated Dehn twists) of a Lefschetz fibration can be computed from the Lagrangian Floer homologies of the vanishing cycles. In particular there should be a long exact sequence relating them. We construct this long exact sequence by iterating Mak-Wu’s construction of a Lagrangian cobordism of a Lagrangian correspondence associated. Potential applications include homological mirror symmetry for Fano manifolds and dynamics of iterated Dehn twists.
+
+- Mikio Furuta
+  - To construct a finite dimensional model for Dirac operator, one method is to use finite direct sum of  the eigenspaces. This method is effectively used in some aspects of gauge theory.  Another method is the Finite Element Method. In this latter case  the naive approximation cannot capture the information of the index of the original Dirac operator. In this talk we explain that if we add "Wilson term" to the naive approximation, then it captures the information, at least for the regular lattice approximation of torus in any dimension. For the integer valued index this was known in physics and mathematically established by D.H. Adams around 2000. We give a new approach which is valid for mod 2 index, family index and equivariant index. Joint work with Hidenori Fukaya, Shinichiroh Matsuo, Tetsuya Onogi, Satoshi Yamaguchi and Mayuko Yamashita.
