@@ -39,5 +39,5 @@ We are a community of mathematicians and allies who support diversity, inclusion
 
 ## Contact Us
 
-Have questions or suggestions? We'd love to hear from you! Contact us at [lgbtqmath@example.com](mailto:lgbtqmath@example.com).
+Have questions or suggestions? We'd love to hear from you! Contact us at [lgbtqiainmath@gmail.com](mailto:lgbtqiainmath@gmail.com).
 
