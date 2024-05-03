@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /_teaching/lgbtqia
+permalink: /teaching/lgbtqia
 author_profile: false
 ---
 
