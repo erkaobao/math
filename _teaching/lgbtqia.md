@@ -45,7 +45,7 @@ Stay tuned for upcoming events celebrating LGBTQIA+ individuals in mathematics! 
 
 - [Out in STEM](https://www.oSTEM.org/): A national society dedicated to supporting LGBTQIA+ students and professionals in science, technology, engineering, and mathematics.
 - [Spectra](https://spectrasci.org/): An organization that provides resources and support for LGBTQIA+ individuals in the physical sciences, including mathematics.
-- [LGBTQ+ Mathematicians](https://sites.google.com/view/lgbtqmath/home): A website dedicated to showcasing the contributions of LGBTQ+ individuals in mathematics and providing resources for LGBTQ+ mathematicians.
+
 
 ## Get Involved
 
