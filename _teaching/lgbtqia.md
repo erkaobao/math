@@ -5,7 +5,7 @@ permalink: /teaching/lgbtqia
 author_profile: false
 ---
 
-# LGBTQIA+ in Mathematics
+# LGBTQIA+ in Mathematics at UMN
 
 Welcome to our webpage dedicated to celebrating LGBTQIA+ individuals in the field of mathematics!
 
