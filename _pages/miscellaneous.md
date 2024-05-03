@@ -12,4 +12,4 @@ author_profile: false
 
 ## Links
 - [ Spectra ](http://lgbtmath.org/index.html)
-- [ LGBTQIA+ in math at UMN](https://erkaobao.github.io/math/lgbtqia/)
+- [ LGBTQIA+ in math at UMN](https://erkaobao.github.io/math/_miscellaneous/lgbtqia/)
