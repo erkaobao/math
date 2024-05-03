@@ -37,7 +37,8 @@ We are a community of mathematicians and allies who support diversity, inclusion
 
 ## Events
 
-### REU program summer: 2025 developing symmetrical neural networks to mitigate gender and racial biases (supported by NSF).
+- REU program summer: 2025 developing symmetrical neural networks to mitigate gender and racial biases (supported by NSF).
+
 Stay tuned for upcoming events celebrating LGBTQIA+ individuals in mathematics! Check back regularly for updates on seminars, workshops, and networking opportunities.
 
 ## Resources
