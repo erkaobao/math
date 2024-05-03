@@ -25,6 +25,21 @@ We are a community of mathematicians and allies who support diversity, inclusion
 - **Contributions:** Rivera was a transgender activist and a prominent figure in the LGBTQIA+ rights movement. While not a mathematician by profession, her advocacy work paved the way for greater acceptance and visibility of transgender individuals.
 - **Legacy:** Rivera's bravery and activism inspire us to create a more inclusive and equitable mathematical community.
 
+### [Gian-Carlo Rota](https://en.wikipedia.org/wiki/Gian-Carlo_Rota)
+
+- **Contributions:** Rota was a mathematician known for his work in combinatorics and mathematical logic. He made significant contributions to the understanding of partially ordered sets and the theory of incidence algebras.
+- **Identity:** Rota was openly gay and faced discrimination during his career. Despite this, he made lasting contributions to mathematics and inspired many with his passion for the subject.
+
+### [Mariette DiChristina](https://en.wikipedia.org/wiki/Mariette_DiChristina)
+
+- **Contributions:** DiChristina is a mathematician and editor-in-chief of *Scientific American*, a prominent science magazine. She has worked to promote scientific literacy and communication.
+- **Identity:** DiChristina is an openly lesbian woman and advocates for LGBTQIA+ representation in STEM fields.
+
+## Events
+
+### REU program summer: 2025 developing symmetrical neural networks to mitigate gender and racial biases (supported by NSF).
+Stay tuned for upcoming events celebrating LGBTQIA+ individuals in mathematics! Check back regularly for updates on seminars, workshops, and networking opportunities.
+
 ## Resources
 
 - [Out in STEM](https://www.oSTEM.org/): A national society dedicated to supporting LGBTQIA+ students and professionals in science, technology, engineering, and mathematics.
