@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: rainbow
 title: ""
 permalink: /lgbtqia
 author_profile: false
