@@ -35,6 +35,10 @@ We are a community of mathematicians and allies who support diversity, inclusion
 - **Contributions:** DiChristina is a mathematician and editor-in-chief of *Scientific American*, a prominent science magazine. She has worked to promote scientific literacy and communication.
 - **Identity:** DiChristina is an openly lesbian woman and advocates for LGBTQIA+ representation in STEM fields.
 
+### [Emmy Murphy](https://www.quantamagazine.org/emmy-murphy-is-a-mathematician-who-finds-beauty-in-flexibility-20230327/?utm_source=Quanta+Magazine&utm_campaign=adc101c42e-RSS_Daily_Mathematics&utm_medium=email&utm_term=0_f0cb61321c-adc101c42e-390025113&mc_cid=adc101c42e&mc_eid=79d83add52)
+
+### [Mike Hill](https://blogs.ams.org/inclusionexclusion/2017/10/09/on-performing-queerness-and-mathematics-emily-riehl-interviews-mike-hill/)
+
 ## Events
 
 - REU program summer: 2025 developing symmetrical neural networks to mitigate gender and racial biases (supported by NSF).
