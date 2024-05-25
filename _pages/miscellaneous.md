@@ -13,3 +13,4 @@ author_profile: false
 ## Links
 - [ Spectra ](http://lgbtmath.org/index.html)
 - [ LGBTQIA+ in math at UMN](https://erkaobao.github.io/math/lgbtqia)
+- [_The AMS Claytor-Gilmer Fellowship_](https://www.ams.org/programs/ams-fellowships/claytor-gilmer)
