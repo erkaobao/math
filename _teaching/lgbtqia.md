@@ -37,9 +37,9 @@ We are a community of mathematicians and allies who support diversity, inclusion
 
 ## Articles
 
-### [Emmy Murphy](https://www.quantamagazine.org/emmy-murphy-is-a-mathematician-who-finds-beauty-in-flexibility-20230327/?utm_source=Quanta+Magazine&utm_campaign=adc101c42e-RSS_Daily_Mathematics&utm_medium=email&utm_term=0_f0cb61321c-adc101c42e-390025113&mc_cid=adc101c42e&mc_eid=79d83add52)
+### [Beauty in flexibility](https://www.quantamagazine.org/emmy-murphy-is-a-mathematician-who-finds-beauty-in-flexibility-20230327/?utm_source=Quanta+Magazine&utm_campaign=adc101c42e-RSS_Daily_Mathematics&utm_medium=email&utm_term=0_f0cb61321c-adc101c42e-390025113&mc_cid=adc101c42e&mc_eid=79d83add52)
 
-### [Mike Hill](https://blogs.ams.org/inclusionexclusion/2017/10/09/on-performing-queerness-and-mathematics-emily-riehl-interviews-mike-hill/)
+### [An interview](https://blogs.ams.org/inclusionexclusion/2017/10/09/on-performing-queerness-and-mathematics-emily-riehl-interviews-mike-hill/)
 
 ## Events
 
