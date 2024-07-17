@@ -14,8 +14,9 @@ author_profile: false
 - [Spring 2022](https://erkaobao.github.io/math/activities/gt2022spring)
 - [Fall 2021](https://erkaobao.github.io/math/activities/gt2021fall)
 
-## Yamabe Memorial Symposium
-- Friday, October 4th to Sunday, October 6th, 2024: Symplectic and Contact Geometry
+## 2024 Yamabe Memorial Symposium
+- Friday, October 4th to Sunday, October 6th, 2024: Symplectic and Contact Geometry [link](https://cse.umn.edu/math/yamabe-memorial-symposium)
+- Application deadline for support: August 14th, 2024
 
 ## [Rutgers Symplectic Summer School 2024](https://sites.google.com/view/rsss2024/home?authuser=0) 
 - August 19-23, Rutgers-New Brunswick, NJ
