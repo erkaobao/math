@@ -10,7 +10,7 @@ author_profile: false
 | date | time | speaker | title | location
 | -- | -- | ---- | -------- | ----- 
 | Thu, 2024-09-05 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
-| Thu, 2024-09-12 | 1:25pm - 2:25pm | Xiaolong Li |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+| Thu, 2024-09-12 | 1:25pm - 2:25pm | Xiaolong Li |  | Vincent 215 | 
 | Thu, 2024-09-19 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-09-26 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-10-03 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
