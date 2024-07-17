@@ -5,7 +5,7 @@ permalink: /activities/
 author_profile: false
 ---
 
-## Differential geometry and symplectic topology seminar
+## [Differential geometry and symplectic topology seminar](https://cse.umn.edu/math/yamabe-memorial-symposium)
 - [Fall 2024](https://erkaobao.github.io/math/activities/gt2024fall)
 - [Spring 2024](https://erkaobao.github.io/math/activities/gt2024spring)
 - [Fall 2023](https://erkaobao.github.io/math/activities/gt2023fall)
@@ -15,7 +15,7 @@ author_profile: false
 - [Fall 2021](https://erkaobao.github.io/math/activities/gt2021fall)
 
 ## 2024 Yamabe Memorial Symposium
-- Friday, October 4th to Sunday, October 6th, 2024: Symplectic and Contact Geometry [link](https://cse.umn.edu/math/yamabe-memorial-symposium)
+- Friday, October 4th to Sunday, October 6th, 2024: Symplectic and Contact Geometry
 - Application deadline for support: August 14th, 2024
 
 ## [Rutgers Symplectic Summer School 2024](https://sites.google.com/view/rsss2024/home?authuser=0) 
