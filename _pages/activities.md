@@ -14,7 +14,7 @@ author_profile: false
 - [Spring 2022](https://erkaobao.github.io/math/activities/gt2022spring)
 - [Fall 2021](https://erkaobao.github.io/math/activities/gt2021fall)
 
-## 2024 Yamabe Memorial Symposium
+## [2024 Yamabe Memorial Symposium](https://cse.umn.edu/math/yamabe-memorial-symposium)
 - Friday, October 4th to Sunday, October 6th, 2024: Symplectic and Contact Geometry
 - Application deadline for support: August 14th, 2024
 
