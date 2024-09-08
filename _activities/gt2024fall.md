@@ -11,10 +11,10 @@ author_profile: false
 | -- | -- | ---- | -------- | ----- 
 | Thu, 2024-09-05 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-09-12 | 1:25pm - 2:25pm | Xiaolong Li | New sphere theorems under curvature operator of the second kind | Vincent 215 | 
-| Thu, 2024-09-19 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
-| Thu, 2024-09-26 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+| Thu, 2024-09-19 | 1:25pm - 2:25pm | Rohil Prasad |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+| Thu, 2024-09-26 | 1:25pm - 2:25pm | Soham Chanda |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-10-03 | 1:25pm - 2:25pm | Jie Min |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
-| Thu, 2024-10-10 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+| Thu, 2024-10-10 | 1:25pm - 2:25pm | Shengzhen Ning |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-10-17 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-10-24 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-10-31 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
@@ -23,7 +23,7 @@ author_profile: false
 | Thu, 2024-11-21 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-11-28 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-12-05 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
-| Thu, 2024-12-12 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+| Thu, 2024-12-12 | 1:25pm - 2:25pm | Russell Avdek |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 
 
 ## Abstracts
