@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: false
 ---
 ## Preprints
-
+- [_Morse homology and equivariance_](https://arxiv.org/abs/2409.04694) (with T. Lawson), *preprint*, (2024)
 
 ## Publications
 - [_Coherent orientations in symplectic field theory revisited_](https://arxiv.org/abs/2206.08443), *Mathematische Zeitschrift*, Volume 305, (2023)
