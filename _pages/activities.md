@@ -5,7 +5,7 @@ permalink: /activities/
 author_profile: false
 ---
 
-## [Differential geometry and symplectic topology seminar](https://cse.umn.edu/math/yamabe-memorial-symposium)
+## Differential geometry and symplectic topology seminar
 - [Fall 2024](https://erkaobao.github.io/math/activities/gt2024fall)
 - [Spring 2024](https://erkaobao.github.io/math/activities/gt2024spring)
 - [Fall 2023](https://erkaobao.github.io/math/activities/gt2023fall)
