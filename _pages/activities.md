@@ -17,6 +17,8 @@ author_profile: false
 ## [2024 Yamabe Memorial Symposium](https://cse.umn.edu/math/yamabe-memorial-symposium)
 - Friday, October 4th to Sunday, October 6th, 2024: Symplectic and Contact Geometry
 - Application deadline for support: August 14th, 2024
+- Schedule
+- Talks title and abstracts
 
 ## [Rutgers Symplectic Summer School 2024](https://sites.google.com/view/rsss2024/home?authuser=0) 
 - August 19-23, Rutgers-New Brunswick, NJ
