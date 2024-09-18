@@ -23,7 +23,7 @@ author_profile: false
 - **11:30-1:30**: Lunch Break
 - **1:30-2:30**: Margaret Symington
 - **2:30-3:00**: Break
-- **3:00-4:00**: John Pardon
+- **3:00-4:00**: Daniel Cristofaro-Gardiner
 - **4:15-5:30**: Soccer (in front of the math department)
 - **6:00**: Banquet (Campus Club)
 
@@ -31,4 +31,4 @@ author_profile: false
 - **8:00-9:00**: Breakfast
 - **9:00-10:00**: Yael Karshon
 - **10:00-10:15**: Break
-- **10:15-11:15**: Daniel Cristofaro-Gardiner
+- **10:15-11:15**: John Pardon
