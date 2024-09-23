@@ -12,7 +12,7 @@ author_profile: false
 | Thu, 2024-09-05 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-09-12 | 1:25pm - 2:25pm | Xiaolong Li | New sphere theorems under curvature operator of the second kind | Vincent 215 | 
 | Thu, 2024-09-19 | 1:25pm - 2:25pm | Rohil Prasad | Low-action holomorphic curves and invariant sets  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
-| Thu, 2024-09-26 | 1:25pm - 2:25pm | Soham Chanda |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
+| Thu, 2024-09-26 | 1:25pm - 2:25pm | Soham Chanda | Bohr- Sommerfeld Surgeries on Lagrangians | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-10-03 | 1:25pm - 2:25pm | Jie Min |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-10-10 | 1:25pm - 2:25pm | Shengzhen Ning |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
 | Thu, 2024-10-17 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/99199273342](https://umn.zoom.us/j/99199273342) | 
@@ -35,3 +35,7 @@ author_profile: false
 - Rohil Prasad
 
   - Punctured holomorphic curves have been a key tool in symplectic topology and dynamics since their introduction by Hofer in 1993. I'll describe a new compactness theorem for sequences of punctured holomorphic curves with actions converging to 0 and with bounded topology, without the traditional assumption of bounded Hofer energy. In the limit, one obtains a family of compact invariant subsets of the underlying Hamiltonian flow. Such sequences turn out to be abundant in low-dimensional symplectic dynamics. Dynamical applications include (1) a generalization of the Le Calvez-Yoccoz theorem to higher-genus surfaces and three-manifolds and (2) a generalization of a recent theorem by Fish-Hofer on four-dimensional autonomous Hamiltonian flows. This talk is based on arXiv preprints 2401.14445 (joint with Dan Cristofaro-Gardiner) and 2405.01106.
+
+- Soham Chanda
+  - We introduce a class of surgery operations on Lagrangian submanifolds which switch between two different fillings of Bohr-Sommerfeld Legendrians. We will also discuss the effect of such a surgery operation on the disk potential in the setting of monotone Lagrangians. As an application we will prove that such surgery operations yield exotic monotone Lagrangian tori in projective spaces of dimension 3 and higher.
+
