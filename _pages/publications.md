@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: false
 ---
 ## Preprints
+- [_Computable, obstructed Morse homology for clean intersections_](https://arxiv.org/abs/2409.11565) (with K. Zhu), *preprint*, (2024)
+
 - [_Morse homology and equivariance_](https://arxiv.org/abs/2409.04694) (with T. Lawson), *preprint*, (2024)
 
 ## Publications
