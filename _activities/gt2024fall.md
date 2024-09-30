@@ -13,7 +13,7 @@ author_profile: false
 | Thu, 2024-09-12 | 1:25pm - 2:25pm | Xiaolong Li | New sphere theorems under curvature operator of the second kind | Vincent 215 | 
 | Thu, 2024-09-19 | 1:25pm - 2:25pm | Rohil Prasad | Low-action holomorphic curves and invariant sets  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-09-26 | 1:25pm - 2:25pm | Soham Chanda | Bohr- Sommerfeld Surgeries on Lagrangians | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
-| Thu, 2024-10-03 | 1:25pm - 2:25pm | Jie Min |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| Thu, 2024-10-03 | 1:25pm - 2:25pm | Jie Min | Contact cut graph and Weinstein L-invariant | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-10 | 1:25pm - 2:25pm | Shengzhen Ning |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-17 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-24 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
@@ -38,4 +38,7 @@ author_profile: false
 
 - Soham Chanda
   - We introduce a class of surgery operations on Lagrangian submanifolds which switch between two different fillings of Bohr-Sommerfeld Legendrians. We will also discuss the effect of such a surgery operation on the disk potential in the setting of monotone Lagrangians. As an application we will prove that such surgery operations yield exotic monotone Lagrangian tori in projective spaces of dimension 3 and higher.
+
+- Jie Min
+  - Curves on surfaces have been very effective in understanding topology of 3- and 4-manifolds, for example Heegaard diagrams, Lefschetz fibrations and trisection/multisection diagrams. I will talk about an analogous way to understand contact and symplectic topology in dimension 3 and 4, called the contact cut graph. We show that each path in the contact cut graph corresponds to a Weinstein domain, from which we define a new invariant for Weinstein domains called the Weinstein L-invariant. We also give some examples of L=0 and L arbitrarily large Weinstein domains. This is joint work with N. Castro, G. Islambouli, S. Sakalli, L. Starkston and A. Wu. (arXiv:2408.05340)
 
