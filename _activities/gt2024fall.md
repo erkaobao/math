@@ -37,8 +37,10 @@ author_profile: false
   - Punctured holomorphic curves have been a key tool in symplectic topology and dynamics since their introduction by Hofer in 1993. I'll describe a new compactness theorem for sequences of punctured holomorphic curves with actions converging to 0 and with bounded topology, without the traditional assumption of bounded Hofer energy. In the limit, one obtains a family of compact invariant subsets of the underlying Hamiltonian flow. Such sequences turn out to be abundant in low-dimensional symplectic dynamics. Dynamical applications include (1) a generalization of the Le Calvez-Yoccoz theorem to higher-genus surfaces and three-manifolds and (2) a generalization of a recent theorem by Fish-Hofer on four-dimensional autonomous Hamiltonian flows. This talk is based on arXiv preprints 2401.14445 (joint with Dan Cristofaro-Gardiner) and 2405.01106.
 
 - Soham Chanda
+
   - We introduce a class of surgery operations on Lagrangian submanifolds which switch between two different fillings of Bohr-Sommerfeld Legendrians. We will also discuss the effect of such a surgery operation on the disk potential in the setting of monotone Lagrangians. As an application we will prove that such surgery operations yield exotic monotone Lagrangian tori in projective spaces of dimension 3 and higher.
 
 - Jie Min
+
   - Curves on surfaces have been very effective in understanding topology of 3- and 4-manifolds, for example Heegaard diagrams, Lefschetz fibrations and trisection/multisection diagrams. I will talk about an analogous way to understand contact and symplectic topology in dimension 3 and 4, called the contact cut graph. We show that each path in the contact cut graph corresponds to a Weinstein domain, from which we define a new invariant for Weinstein domains called the Weinstein L-invariant. We also give some examples of L=0 and L arbitrarily large Weinstein domains. This is joint work with N. Castro, G. Islambouli, S. Sakalli, L. Starkston and A. Wu. (arXiv:2408.05340)
 
