@@ -13,7 +13,7 @@ author_profile: false
 | Thu, 2024-09-12 | 1:25pm - 2:25pm | Xiaolong Li | New sphere theorems under curvature operator of the second kind | Vincent 215 | 
 | Thu, 2024-09-19 | 1:25pm - 2:25pm | Rohil Prasad | Low-action holomorphic curves and invariant sets  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-09-26 | 1:25pm - 2:25pm | Soham Chanda | Bohr- Sommerfeld Surgeries on Lagrangians | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
-| Thu, 2024-10-03 | 1:25pm - 2:25pm | Jie Min | Contact cut graph and Weinstein L-invariant | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| Thu, 2024-10-03 | 1:25pm - 2:25pm | Jie Min | Contact cut graph and Weinstein L-invariant | Vincent 215 | 
 | Thu, 2024-10-10 | 1:25pm - 2:25pm | Shengzhen Ning |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-17 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-24 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
