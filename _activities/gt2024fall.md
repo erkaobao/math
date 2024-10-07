@@ -14,7 +14,7 @@ author_profile: false
 | Thu, 2024-09-19 | 1:25pm - 2:25pm | Rohil Prasad | Low-action holomorphic curves and invariant sets  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-09-26 | 1:25pm - 2:25pm | Soham Chanda | Bohr- Sommerfeld Surgeries on Lagrangians | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-03 | 1:25pm - 2:25pm | Jie Min | Contact cut graph and Weinstein L-invariant | Vincent 215 | 
-| Thu, 2024-10-10 | 1:25pm - 2:25pm | Shengzhen Ning |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| Thu, 2024-10-10 | 1:25pm - 2:25pm | Shengzhen Ning | Non-Kahler symplectic structures on Kahler surfaces | Vincent 215 | 
 | Thu, 2024-10-17 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-24 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-31 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
@@ -44,3 +44,7 @@ author_profile: false
 
   - Curves on surfaces have been very effective in understanding topology of 3- and 4-manifolds, for example Heegaard diagrams, Lefschetz fibrations and trisection/multisection diagrams. I will talk about an analogous way to understand contact and symplectic topology in dimension 3 and 4, called the contact cut graph. We show that each path in the contact cut graph corresponds to a Weinstein domain, from which we define a new invariant for Weinstein domains called the Weinstein L-invariant. We also give some examples of L=0 and L arbitrarily large Weinstein domains. This is joint work with N. Castro, G. Islambouli, S. Sakalli, L. Starkston and A. Wu. (arXiv:2408.05340)
 
+- Shengzhen Ning
+
+  - Since Thurston’s first example of a non-Kahler symplectic 4-manifold, people have gradually realized that the world of Kahler manifolds only occupies a tiny part of the symplectic world. However one can still ask, for a Kahler manifold, can we find some other symplectic forms different from the Kahler form and not compatible with any complex structures? Following the work by Cascini and Panov, I will talk about a new example which is the blowup of Enriques surface (arXiv:2407.10217).
+ 
