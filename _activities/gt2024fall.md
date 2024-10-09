@@ -15,7 +15,7 @@ author_profile: false
 | Thu, 2024-09-26 | 1:25pm - 2:25pm | Soham Chanda | Bohr- Sommerfeld Surgeries on Lagrangians | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-03 | 1:25pm - 2:25pm | Jie Min | Contact cut graph and Weinstein L-invariant | Vincent 215 | 
 | Thu, 2024-10-10 | 1:25pm - 2:25pm | Shengzhen Ning | Non-Kahler symplectic structures on Kahler surfaces | Vincent 215 | 
-| Thu, 2024-10-17 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| Thu, 2024-10-17 | 1:25pm - 2:25pm | Siyang Liu | Symplectic Topology of Hyperplane Arrangements | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-24 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-31 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-07 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
@@ -47,4 +47,10 @@ author_profile: false
 - Shengzhen Ning
 
   - Since Thurston’s first example of a non-Kahler symplectic 4-manifold, people have gradually realized that the world of Kahler manifolds only occupies a tiny part of the symplectic world. However one can still ask, for a Kahler manifold, can we find some other symplectic forms different from the Kahler form and not compatible with any complex structures? Following the work by Cascini and Panov, I will talk about a new example which is the blowup of Enriques surface (arXiv:2407.10217).
+
+
+- Siyang Liu
+
+  - In this talk, I'll explain our recent work studying the symplectic topology of complements of complexified hyperplane arrangements. When hyperplanes intersect transversely, we proved that symplectic handles can be found essentially from the intersection points of the hyperplanes. If time permits, I'll also discuss the strategy of extending the result to general hyperplane arrangements. This is based on the recent joint work with Sukjoo Lee, Yin Li and Cheuk Yu Mak and work in preparation with Sheel Ganatra, Wenyuan Li and Peng Zhou.
  
+
