@@ -22,7 +22,7 @@ author_profile: false
 | Thu, 2024-11-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-21 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-28 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
-| Thu, 2024-12-05 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| Thu, 2024-12-05 | 1:25pm - 2:25pm | Zhengyi Zhou |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-12-12 | 1:25pm - 2:25pm | Russell Avdek |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 
 
