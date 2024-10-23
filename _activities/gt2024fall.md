@@ -17,7 +17,7 @@ author_profile: false
 | Thu, 2024-10-10 | 1:25pm - 2:25pm | Shengzhen Ning | Non-Kahler symplectic structures on Kahler surfaces | Vincent 215 | 
 | Thu, 2024-10-17 | 1:25pm - 2:25pm | Siyang Liu | Symplectic Topology of Hyperplane Arrangements | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-24 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
-| Thu, 2024-10-31 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| Thu, 2024-10-31 | 1:25pm - 2:25pm | Lenhard Ng | Legendrian links and Lagrangian cobordisms | Vincent 215 | 
 | Thu, 2024-11-07 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-21 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
@@ -52,5 +52,9 @@ author_profile: false
 - Siyang Liu
 
   - In this talk, I'll explain our recent work studying the symplectic topology of complements of complexified hyperplane arrangements. When hyperplanes intersect transversely, we proved that symplectic handles can be found essentially from the intersection points of the hyperplanes. If time permits, I'll also discuss the strategy of extending the result to general hyperplane arrangements. This is based on the recent joint work with Sukjoo Lee, Yin Li and Cheuk Yu Mak and work in preparation with Sheel Ganatra, Wenyuan Li and Peng Zhou.
+ 
+- Lenhard Ng
+
+  - Lagrangian surfaces and Legendrian links play a crucial role in the modern study of the topology of symplectic 4-manifolds and contact 3-manifolds. Given two Legendrian links in a contact 3-manifold, one can ask whether there is an exact Lagrangian cobordism between them: this is a type of Lagrangian surface bounded by the two links in the symplectization of the contact manifold. In this talk, we’ll discuss what’s known about this surprisingly subtle question, from constructions of cobordisms to obstructions from topology and Floer theory.
  
 
