@@ -18,10 +18,10 @@ author_profile: false
 | Thu, 2024-10-17 | 1:25pm - 2:25pm | Siyang Liu | Symplectic Topology of Hyperplane Arrangements | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-24 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-31 | 1:25pm - 2:25pm | Lenhard Ng | Legendrian links and Lagrangian cobordisms | Vincent 215 | 
-| Thu, 2024-11-07 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| Thu, 2024-11-07 | 1:25pm - 2:25pm | Habib Alizadeh |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-21 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
-| Thu, 2024-11-28 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| Thu, 2024-11-28 | 1:25pm - 2:25pm | Xinle Dai |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-12-05 | 1:25pm - 2:25pm | Zhengyi Zhou |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-12-12 | 1:25pm - 2:25pm | Russell Avdek |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 
