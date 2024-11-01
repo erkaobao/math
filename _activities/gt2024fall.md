@@ -18,7 +18,7 @@ author_profile: false
 | Thu, 2024-10-17 | 1:25pm - 2:25pm | Siyang Liu | Symplectic Topology of Hyperplane Arrangements | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-24 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-10-31 | 1:25pm - 2:25pm | Lenhard Ng | Legendrian links and Lagrangian cobordisms | Vincent 215 | 
-| Thu, 2024-11-07 | 1:25pm - 2:25pm | Habib Alizadeh |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| Thu, 2024-11-07 | 1:25pm - 2:25pm | Habib Alizadeh | Lagrangian spectral estimators and fragmentation in dimension four | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-21 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-28 | 1:25pm - 2:25pm | Xinle Dai |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
@@ -56,5 +56,9 @@ author_profile: false
 - Lenhard Ng
 
   - Lagrangian surfaces and Legendrian links play a crucial role in the modern study of the topology of symplectic 4-manifolds and contact 3-manifolds. Given two Legendrian links in a contact 3-manifold, one can ask whether there is an exact Lagrangian cobordism between them: this is a type of Lagrangian surface bounded by the two links in the symplectization of the contact manifold. In this talk, we’ll discuss what’s known about this surprisingly subtle question, from constructions of cobordisms to obstructions from topology and Floer theory.
- 
+
+- Habib Alizadeh
+
+  - We first shortly introduce the Polterovich-Shelukhin Lagrangian spectral estimators [PS23] defined on the space of Hamiltonian functions on a product of two spheres. One objective of the talk will be to prove C^0-continuity of PS-spectral estimators for which we shall use fragmentation. Continuity of these spectral estimators have interesting applications among which is the proof of the long-standing simplicity conjecture which was first proved in [CGHS24]. In the second part of the talk, we explain how one can use pseudo-holomorphic curves in dimension four to prove fragmentation type results and we show its application to continuity of PS-spectral estimators. Finally, we mention some applications to the Hofer geometry of four-dimensional polydisks.
+
 
