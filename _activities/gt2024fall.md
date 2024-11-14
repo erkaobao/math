@@ -20,7 +20,7 @@ author_profile: false
 | Thu, 2024-10-31 | 1:25pm - 2:25pm | Lenhard Ng | Legendrian links and Lagrangian cobordisms | Vincent 215 | 
 | Thu, 2024-11-07 | 1:25pm - 2:25pm | Habib Alizadeh | Lagrangian spectral estimators and fragmentation in dimension four | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
-| Thu, 2024-11-21 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| Thu, 2024-11-21 | 1:25pm - 2:25pm | Charles Daly | Projective Rigidity of Once-punctured Torus Bundles | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-28 | 1:25pm - 2:25pm | Xinle Dai |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-12-05 | 1:25pm - 2:25pm | Zhengyi Zhou |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-12-12 | 1:25pm - 2:25pm | Russell Avdek |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
@@ -61,4 +61,6 @@ author_profile: false
 
   - We first shortly introduce the Polterovich-Shelukhin Lagrangian spectral estimators [PS23] defined on the space of Hamiltonian functions on a product of two spheres. One objective of the talk will be to prove C^0-continuity of PS-spectral estimators for which we shall use fragmentation. Continuity of these spectral estimators have interesting applications among which is the proof of the long-standing simplicity conjecture which was first proved in [CGHS24]. In the second part of the talk, we explain how one can use pseudo-holomorphic curves in dimension four to prove fragmentation type results and we show its application to continuity of PS-spectral estimators. Finally, we mention some applications to the Hofer geometry of four-dimensional polydisks.
 
-
+- Charles Daly
+  
+  - In this talk we'll provide some background in the deformation theory of representations of hyperbolic 3-manifolds M into PSO(3,1) < PGL(4,R).  We review some of the main results and address Weil's Infinitesimal Rigidity Theorem and how (twisted) cohomology groups appear in this theory.  We'll explain how a certain group action makes an appearance in the context of when M is a once-punctured torus bundle and how to relate it to the notion of `infinitesimal projective rigidity rel cusp(s).
