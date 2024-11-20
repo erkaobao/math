@@ -190,6 +190,9 @@ collections:
   activities:
     output: true
     permalink: /:collection/:path/
+  reu:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
