@@ -11,7 +11,7 @@ author_profile: false
 
 The **University of Minnesota Research Experience for Undergraduates (REU)** is a six-week immersive program running from **May 27 to July 4, 2025**. This program provides an exceptional opportunity for undergraduate students to engage in cutting-edge research in **machine learning**, with a focus on:
 
-- Developing **equivariant neural networks** to address partial symmetries.
+- Developing **equivariant neural networks** to allow **partial symmetries**.
 - Applying these methods to recommendation systems aimed at mitigating **gender and racial biases**.
 
 Participants will work closely with me and graduate student mentors, fostering a collaborative and supportive research environment. Students will be provided with office space in the **School of Mathematics**, ensuring daily access to their mentors and resources.
