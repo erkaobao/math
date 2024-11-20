@@ -5,11 +5,11 @@ permalink: /reu/2025_summer
 author_profile: false
 ---
 
-# University of Minnesota Complex Systems REU
+# University of Minnesota Equivariant Neural Network REU
 
 ## Program Overview
 
-The **University of Minnesota Research Experience for Undergraduates (REU)** is a six-week immersive program running from **May 27 to July 4, 2025**. This program provides an exceptional opportunity for undergraduate students to engage in cutting-edge research in **machine learning**, with a focus on:
+The **University of Minnesota Equivariant Neural Network Research Experience for Undergraduates (REU)** is a six-week immersive program running from **May 27 to July 4, 2025**. This program provides an exceptional opportunity for undergraduate students to engage in cutting-edge research in **machine learning**, with a focus on:
 
 - Developing **equivariant neural networks** to allow **partial symmetries**.
 - Applying these methods to recommendation systems aimed at mitigating **gender and racial biases**.
