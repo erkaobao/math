@@ -46,7 +46,6 @@ Applicants should submit the following materials:
 
 To complete your application, submit the following items online:
 - **Statement of Interest** in the program.
-- **List of Math Courses Taken**.
 - **One reference letter**, submitted directly by the reference writer.
 
 ---
