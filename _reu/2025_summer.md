@@ -9,7 +9,7 @@ author_profile: false
 
 ## Program Overview
 
-The **University of Minnesota Complex Systems Research Experience for Undergraduates (REU)** is a six-week immersive program running from **May 27 to July 4, 2025**. This program provides an exceptional opportunity for undergraduate students to engage in cutting-edge research in **machine learning**, with a focus on:
+The **University of Minnesota Research Experience for Undergraduates (REU)** is a six-week immersive program running from **May 27 to July 4, 2025**. This program provides an exceptional opportunity for undergraduate students to engage in cutting-edge research in **machine learning**, with a focus on:
 
 - Developing **equivariant neural networks** to address partial symmetries.
 - Applying these methods to recommendation systems aimed at mitigating **gender and racial biases**.
