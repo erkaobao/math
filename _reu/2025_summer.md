@@ -44,9 +44,7 @@ Applicants should submit the following materials:
 
 ## Application Submission
 
-To complete your application, submit the following items online:
-- **Statement of Interest** in the program.
-- **One reference letter**, submitted directly by the reference writer.
+To complete your application, submit the following items online.
 
 ---
 
