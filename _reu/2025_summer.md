@@ -16,7 +16,6 @@ The **University of Minnesota Equivariant Neural Network Research Experience for
 
 Participants will collaborate with program faculty and graduate student mentors in a dynamic and supportive environment. Dedicated office space in the **School of Mathematics** will be provided, ensuring daily access to mentors and essential resources.
 
----
 
 ## Program Benefits
 
@@ -26,7 +25,6 @@ Participants will collaborate with program faculty and graduate student mentors 
   - Covered living expenses and meals for non-local participants.  
 - **Inclusivity**: Applicants from underrepresented groups, including women and minorities, are strongly encouraged to apply.
 
----
 
 ## Eligibility
 
@@ -38,13 +36,11 @@ We strongly encourage applications from:
 - Women, minorities, and individuals with disabilities.  
 - Students who may not have access to research opportunities elsewhere.  
 
----
 
 ## Application Deadline
 
 All application materials must be submitted by **February 9, 2024**.
 
----
 
 ## Applicant Requirements
 
@@ -53,7 +49,6 @@ We are looking for candidates with the following qualifications:
 - Ability to read and understand **Python code**.  
 - (Preferred) Experience with **TensorFlow**.  
 
----
 
 ## Required Documents
 
@@ -62,12 +57,10 @@ Applicants should prepare and submit the following:
 - One **reference letter** (to be submitted online by the reference writer via the application site).  
 - An **unofficial transcript** listing all relevant coursework.  
 
----
 
 ## Application Link
 
 [Apply Online Here](https://www.mathprograms.org/db/programs/1702)
 
----
 
 We look forward to reviewing your application and welcoming you to the University of Minnesota this summer!
