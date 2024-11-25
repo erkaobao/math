@@ -9,44 +9,65 @@ author_profile: false
 
 ## Program Overview
 
-The **University of Minnesota Equivariant Neural Network Research Experience for Undergraduates (REU)** is a six-week immersive program running from **May 27 to July 4, 2025**. This program provides an exceptional opportunity for undergraduate students to engage in cutting-edge research in **machine learning**, with a focus on:
+The **University of Minnesota Equivariant Neural Network Research Experience for Undergraduates (REU)** is a six-week intensive research program held from **May 27 to July 4, 2025**. This program offers undergraduate students the chance to explore innovative research in **machine learning**, with a particular emphasis on:
 
-- Developing **equivariant neural networks** to allow **partial symmetries**.
-- Applying these methods to recommendation systems aimed at mitigating **gender and racial biases**.
+- Designing **equivariant neural networks** to handle **partial symmetries**.
+- Utilizing these methods in **recommendation systems** to address **gender and racial biases**.
 
-Participants will work closely with me and graduate student mentors, fostering a collaborative and supportive research environment. Students will be provided with office space in the **School of Mathematics**, ensuring daily access to their mentors and resources.
-
-## Program Benefits
-
-- **Stipend**: $3,600 for the program duration.
-- **Travel and Living Support**:  Up to $600 for transportation expenses for non-locals. The program will also provide living expenses and meals for non-locals. 
-- **Inclusivity**: Women and underrepresented minorities are highly encouraged to apply.
-
-**Eligibility**: Undergraduates (college and university students) pursuing an associate or bachelor's degree and who are U.S. citizens, permanent residents or U.S. nationals are eligible to apply. Members of underrepresented groups (women, minorities, persons with disabilities), as well as students who may not otherwise have research opportunities, are strongly encouraged to apply. 
-
-## Application Deadline
-
-Applications must be submitted by **February 9, 2024**.
-
-## Applicant Requirements
-
-We are seeking candidates with the following qualifications:
-- Familiarity with the very **basic group theory**.
-- Ability to read and understand **Python code**.
-- (Preferred) Experience with **TensorFlow**.
-
-## Required Documents
-
-Applicants should submit the following materials:
-- Statement of Interest in the Program
-- One reference letter (to be submitted online by the reference writers on this site)
-- A transcript listing all relevant course information (unofficial transcript is sufficient)
-
-## Application Submission
-
-To complete your application, submit the following items online.
+Participants will collaborate with program faculty and graduate student mentors in a dynamic and supportive environment. Dedicated office space in the **School of Mathematics** will be provided, ensuring daily access to mentors and essential resources.
 
 ---
 
-We look forward to receiving your application!
+## Program Benefits
 
+- **Stipend**: $3,600 for the program duration.  
+- **Travel and Living Support**:  
+  - Up to $600 for transportation costs for non-local participants.  
+  - Covered living expenses and meals for non-local participants.  
+- **Inclusivity**: Applicants from underrepresented groups, including women and minorities, are strongly encouraged to apply.
+
+---
+
+## Eligibility
+
+The program is open to undergraduate students who meet the following criteria:  
+- Pursuing an associate or bachelor's degree.  
+- U.S. citizens, permanent residents, or U.S. nationals.  
+
+We strongly encourage applications from:  
+- Women, minorities, and individuals with disabilities.  
+- Students who may not have access to research opportunities elsewhere.  
+
+---
+
+## Application Deadline
+
+All application materials must be submitted by **February 9, 2024**.
+
+---
+
+## Applicant Requirements
+
+We are looking for candidates with the following qualifications:  
+- Familiarity with **basic group theory**.  
+- Ability to read and understand **Python code**.  
+- (Preferred) Experience with **TensorFlow**.  
+
+---
+
+## Required Documents
+
+Applicants should prepare and submit the following:  
+- A **Statement of Interest** in the program.  
+- One **reference letter** (to be submitted online by the reference writer via the application site).  
+- An **unofficial transcript** listing all relevant coursework.  
+
+---
+
+## Application Link
+
+[Apply Online Here](https://www.mathprograms.org/db/programs/1702)
+
+---
+
+We look forward to reviewing your application and welcoming you to the University of Minnesota this summer!
