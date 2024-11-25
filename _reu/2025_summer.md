@@ -19,10 +19,10 @@ Participants will work closely with me and graduate student mentors, fostering a
 ## Program Benefits
 
 - **Stipend**: $3,600 for the program duration.
-- **Travel and Living Support**: Up to $2,400 for related expenses.
+- **Travel and Living Support**:  Up to $600 for transportation expenses for non-locals. The program will also provide living expenses and meals for non-locals. 
 - **Inclusivity**: Women and underrepresented minorities are highly encouraged to apply.
 
-**Eligibility**: Students must be **U.S. citizens** or **permanent residents** to receive funding.
+**Eligibility**: Undergraduates (college and university students) pursuing an associate or bachelor's degree and who are U.S. citizens, permanent residents or U.S. nationals are eligible to apply. Members of underrepresented groups (women, minorities, persons with disabilities), as well as students who may not otherwise have research opportunities, are strongly encouraged to apply. 
 
 ## Application Deadline
 
@@ -31,16 +31,16 @@ Applications must be submitted by **February 9, 2024**.
 ## Applicant Requirements
 
 We are seeking candidates with the following qualifications:
-- Familiarity with **basic group theory**.
+- Familiarity with the very **basic group theory**.
 - Ability to read and understand **Python code**.
 - (Preferred) Experience with **TensorFlow**.
 
 ## Required Documents
 
 Applicants should submit the following materials:
-- **Two letters of recommendation**.
-- **Statement of interest** outlining your enthusiasm for the program and relevant background.
-- **Transcript** (unofficial is sufficient) detailing all relevant coursework.
+- Statement of Interest in the Program
+- One reference letter (to be submitted online by the reference writers on this site)
+- A transcript listing all relevant course information (unofficial transcript is sufficient)
 
 ## Application Submission
 
