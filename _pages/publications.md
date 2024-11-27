@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: false
 ---
 ## Preprints
-- [_Equivariant Morse Homology for Reflection Actions via Broken Trajectories_](https://arXiv:2411.16924) (with T. Lawson and L. Liu), *preprint*, (2024)
+- [_Equivariant Morse Homology for Reflection Actions via Broken Trajectories_]((https://arxiv.org/abs/2411.16924) (with T. Lawson and L. Liu), *preprint*, (2024)
 
 - [_Computable, obstructed Morse homology for clean intersections_](https://arxiv.org/abs/2409.11565) (with K. Zhu), *preprint*, (2024)
 
