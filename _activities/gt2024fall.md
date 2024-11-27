@@ -21,8 +21,8 @@ author_profile: false
 | Thu, 2024-11-07 | 1:25pm - 2:25pm | Habib Alizadeh | Lagrangian spectral estimators and fragmentation in dimension four | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-14 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-21 | 1:25pm - 2:25pm | Charles Daly | Projective Rigidity of Once-punctured Torus Bundles | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
-| Thu, 2024-11-28 | 1:25pm - 2:25pm | Xinle Dai |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
-| Thu, 2024-12-05 | 1:25pm - 2:25pm | Zhengyi Zhou |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| Thu, 2024-11-28 | 1:25pm - 2:25pm | Thanksgiving |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| **Tu, 2024-12-03** | 1:25pm - 2:25pm | Zhengyi Zhou | Kahler compactification of C^n and Reeb dynamics | Vincent 215 | 
 | Thu, 2024-12-12 | 1:25pm - 2:25pm | Russell Avdek |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 
 
@@ -64,3 +64,8 @@ author_profile: false
 - Charles Daly
   
   - In this talk we'll provide some background in the deformation theory of representations of hyperbolic 3-manifolds M into PSO(3,1) < PGL(4,R).  We review some of the main results and address Weil's Infinitesimal Rigidity Theorem and how (twisted) cohomology groups appear in this theory.  We'll explain how a certain group action makes an appearance in the context of when M is a once-punctured torus bundle and how to relate it to the notion of `infinitesimal projective rigidity rel cusp(s).
+
+- Zhengyi Zhou
+
+  - We will present two results in complex geometry: (1) A Kahler compactification of C^n with a smooth divisor complement must be P^n, which confirms a conjecture of Brenton and Morrow(1978) under the Kahler assumption; (2) Any complete asymptotically conical Calabi-Yau metric on C^3 with a smooth link must be flat, confirming a modified version of Tian's conjecture regarding the recognition of the flat metric among Calabi-Yau metrics in dimension 3. Both proofs rely on relating the minimal discrepancy number of a Fano cone singularity to its Reeb dynamics of the conic contact form. This is a joint work with Chi Li.
+
