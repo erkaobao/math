@@ -23,7 +23,6 @@ author_profile: false
 | Thu, 2024-11-21 | 1:25pm - 2:25pm | Charles Daly | Projective Rigidity of Once-punctured Torus Bundles | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2024-11-28 | 1:25pm - 2:25pm | Thanksgiving |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | **Tu, 2024-12-03** | 1:25pm - 2:25pm | Zhengyi Zhou | Kahler compactification of C^n and Reeb dynamics | Vincent 215 | 
-| Thu, 2024-12-12 | 1:25pm - 2:25pm | Russell Avdek |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 
 
 ## Abstracts
