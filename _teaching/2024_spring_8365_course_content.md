@@ -7,7 +7,7 @@ author_profile: false
 
 # Math 8365 Spring 2025
 
-## Contents
+## Contents (tentative)
 
 ### 1 Smooth Manifolds
 - 1.1 Smooth manifolds
@@ -21,7 +21,7 @@ author_profile: false
 - Appendix 1.1: How to prove the inverse function and implicit function theorems
 - Appendix 1.2: Partitions of unity
 
----
+
 
 ### 2 Matrices and Lie Groups
 - 2.1 The general linear group
@@ -34,7 +34,6 @@ author_profile: false
 #### Appendix
 - Appendix 2.1: The transition functions for the Grassmannians
 
----
 
 ### 3 Introduction to Vector Bundles
 - 3.1 The definition
@@ -47,7 +46,7 @@ author_profile: false
 - 3.8 Sections of vector bundles
 - 3.9 Sections of \( TM \) and \( T^*M \)
 
----
+
 
 ### 4 Algebra of Vector Bundles
 - 4.1 Subbundles
@@ -58,7 +57,7 @@ author_profile: false
 - 4.6 The direct sum
 - 4.7 Tensor powers
 
----
+
 
 ### 5 Maps and Vector Bundles
 - 5.1 The pull-back construction
@@ -69,7 +68,7 @@ author_profile: false
 - 5.6 The exponential map and right/left invariance on \( GL(n; \mathbb{C}) \) and its subgroups
 - 5.7 Immersion, submersion and transversality
 
----
+
 
 ### 6 Vector Bundles with \( \mathbb{C}^n \) as Fiber
 - 6.1 Definitions
@@ -84,7 +83,7 @@ author_profile: false
 - 6.10 Algebraic operations
 - 6.11 Pull-back
 
----
+
 
 ### 7 Metrics on Vector Bundles
 - 7.1 Metrics and transition functions for real vector bundles
@@ -92,7 +91,7 @@ author_profile: false
 - 7.3 Metrics, algebra and maps
 - 7.4 Metrics on \( TM \)
 
----
+
 
 ### 8 Geodesics
 - 8.1 Riemannian metrics and distance
@@ -106,7 +105,7 @@ author_profile: false
 #### Appendix
 - Appendix 8.1: The proof of the vector field theorem
 
----
+
 
 ### 9 Properties of Geodesics
 - 9.1 The maximal extension of a geodesic
@@ -130,7 +129,7 @@ author_profile: false
 #### Appendix
 - Appendix 10.1: Proof of Proposition 10.1
 
----
+
 
 ### 11 Covariant Derivatives and Connections
 - 11.1 Covariant derivatives
@@ -142,7 +141,7 @@ author_profile: false
 - 11.7 An application to the classification of principal \( G \)-bundles up to isomorphism
 - 11.8 Connections, covariant derivatives and pull-back bundles
 
----
+
 
 ### 12 Covariant Derivatives, Connections, and Curvature
 - 12.1 Exterior derivative
@@ -154,7 +153,7 @@ author_profile: false
 - 12.7 Connections and curvature
 - 12.8 The horizontal subbundle revisited
 
----
+
 
 ### 13 Flat Connections and Holonomy
 - 13.1 Flat connections
@@ -171,7 +170,7 @@ author_profile: false
 - Appendix 13.1: Smoothing maps
 - Appendix 13.2: The proof of the Frobenius theorem
 
----
+
 
 ### 14 Curvature Polynomials and Characteristic Classes
 - 14.1 The Bianchi Identity
