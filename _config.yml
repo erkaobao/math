@@ -193,7 +193,9 @@ collections:
   reu:
     output: true
     permalink: /:collection/:path/
-
+  graduate students:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
