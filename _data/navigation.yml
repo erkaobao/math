@@ -15,12 +15,16 @@ main:
   - title: "Activities"
     url: /activities/    
 
+  - title: "Graduate Students"
+    url: /graduate_students/ 
+    
   - title: "REU"
     url: /reu/    
     
   - title: "Miscellaneous"
     url: /miscellaneous/ 
 
+    
   # - title: "Portfolio"
   #   url: /portfolio/
         
