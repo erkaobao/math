@@ -21,8 +21,6 @@ author_profile: false
 - Appendix 1.1: How to prove the inverse function and implicit function theorems
 - Appendix 1.2: Partitions of unity
 
-
-
 ### 2 Matrices and Lie Groups
 - 2.1 The general linear group
 - 2.2 Lie groups
@@ -33,7 +31,6 @@ author_profile: false
 
 #### Appendix
 - Appendix 2.1: The transition functions for the Grassmannians
-
 
 ### 3 Introduction to Vector Bundles
 - 3.1 The definition
@@ -46,8 +43,6 @@ author_profile: false
 - 3.8 Sections of vector bundles
 - 3.9 Sections of $TM$ and $T^*M$
 
-
-
 ### 4 Algebra of Vector Bundles
 - 4.1 Subbundles
 - 4.2 Quotient bundles
@@ -57,8 +52,6 @@ author_profile: false
 - 4.6 The direct sum
 - 4.7 Tensor powers
 
-
-
 ### 5 Maps and Vector Bundles
 - 5.1 The pull-back construction
 - 5.2 Pull-backs and Grassmannians
@@ -67,8 +60,6 @@ author_profile: false
 - 5.5 The exponential map on a matrix group
 - 5.6 The exponential map and right/left invariance on $GL(n; \mathbb{C})$ and its subgroups
 - 5.7 Immersion, submersion and transversality
-
-
 
 ### 6 Vector Bundles with $\mathbb{C}^n$ as Fiber
 - 6.1 Definitions
@@ -83,107 +74,78 @@ author_profile: false
 - 6.10 Algebraic operations
 - 6.11 Pull-back
 
-
-
 ### 7 Metrics on Vector Bundles
 - 7.1 Metrics and transition functions for real vector bundles
 - 7.2 Metrics and transition functions for complex vector bundles
 - 7.3 Metrics, algebra and maps
 - 7.4 Metrics on $TM$
 
-
-
-### 8 Geodesics
-- 8.1 Riemannian metrics and distance
-- 8.2 Length minimizing curves
-- 8.3 The existence of geodesics
-- 8.4 First examples
-- 8.5 Geodesics on $SO(n)$
-- 8.6 Geodesics on $U(n)$ and $SU(n)$
-- 8.7 Geodesics and matrix groups
-
-#### Appendix
-- Appendix 8.1: The proof of the vector field theorem
-
-
-
-### 9 Properties of Geodesics
-- 9.1 The maximal extension of a geodesic
-- 9.2 The exponential map
-- 9.3 Gaussian coordinates
-- 9.4 The proof of the geodesic theorem
-
----
-
-### 10 Principal Bundles
-- 10.1 The definition
-- 10.2 A cocycle definition
-- 10.3 Principal bundles constructed from vector bundles
-- 10.4 Quotients of Lie groups by subgroups
-- 10.5 Examples of Lie group quotients
-- 10.6 Cocycle construction examples
-- 10.7 Pull-backs of principal bundles
-- 10.8 Reducible principal bundles
-- 10.9 Associated vector bundles
+### 8 Principal Bundles
+- 8.1 The definition
+- 8.2 A cocycle definition
+- 8.3 Principal bundles constructed from vector bundles
+- 8.4 Quotients of Lie groups by subgroups
+- 8.5 Examples of Lie group quotients
+- 8.6 Cocycle construction examples
+- 8.7 Pull-backs of principal bundles
+- 8.8 Reducible principal bundles
+- 8.9 Associated vector bundles
 
 #### Appendix
-- Appendix 10.1: Proof of Proposition 10.1
+- Appendix 8.1: Proof of Proposition 8.1
 
+### 9 Some Riemannian Geometry
+- 9.1 Covariant derivatives on TM
+- 9.2 Riemannian Curvatures
+- 9.3 Geodesics
 
+### 10 Covariant Derivatives and Connections
+- 10.1 Covariant derivatives
+- 10.2 The space of covariant derivatives
+- 10.3 Another construction of covariant derivatives
+- 10.4 Principal bundles and connections
+- 10.5 Connections and covariant derivatives
+- 10.6 Horizontal lifts
+- 10.7 An application to the classification of principal $G$-bundles up to isomorphism
+- 10.8 Connections, covariant derivatives and pull-back bundles
 
-### 11 Covariant Derivatives and Connections
-- 11.1 Covariant derivatives
-- 11.2 The space of covariant derivatives
-- 11.3 Another construction of covariant derivatives
-- 11.4 Principal bundles and connections
-- 11.5 Connections and covariant derivatives
-- 11.6 Horizontal lifts
-- 11.7 An application to the classification of principal $G$-bundles up to isomorphism
-- 11.8 Connections, covariant derivatives and pull-back bundles
+### 11 Covariant Derivatives, Connections, and Curvature
+- 11.1 Exterior derivative
+- 11.2 Closed forms, exact forms, diffeomorphisms, and De Rham cohomology
+- 11.3 Lie derivative
+- 11.4 Curvature and covariant derivatives
+- 11.5 An example
+- 11.6 Curvature and commutators
+- 11.7 Connections and curvature
+- 11.8 The horizontal subbundle revisited
 
-
-
-### 12 Covariant Derivatives, Connections, and Curvature
-- 12.1 Exterior derivative
-- 12.2 Closed forms, exact forms, diffeomorphisms, and De Rham cohomology
-- 12.3 Lie derivative
-- 12.4 Curvature and covariant derivatives
-- 12.5 An example
-- 12.6 Curvature and commutators
-- 12.7 Connections and curvature
-- 12.8 The horizontal subbundle revisited
-
-
-
-### 13 Flat Connections and Holonomy
-- 13.1 Flat connections
-- 13.2 Flat connections on bundles over the circle
-- 13.3 Foliations
-- 13.4 Automorphisms of a principal bundle
-- 13.5 The fundamental group
-- 13.6 The flat connections on bundles over $M$
-- 13.7 The universal covering space
-- 13.8 Holonomy and curvature
-- 13.9 Proof of the classification theorem for flat connections
-
-#### Appendices
-- Appendix 13.1: Smoothing maps
-- Appendix 13.2: The proof of the Frobenius theorem
-
-
-
-### 14 Curvature Polynomials and Characteristic Classes
-- 14.1 The Bianchi Identity
-- 14.2 Characteristic forms
-- 14.3 Characteristic classes: Part 1
-- 14.4 Characteristic classes: Part 2
-- 14.5 Characteristic classes for complex vector bundles and the Chern classes
-- 14.6 Characteristic classes for real vector bundles and the Pontryagin classes
-- 14.7 Examples of bundles with nonzero Chern classes
-- 14.8 The degree of the map $g \to g^m$ from $SU(2)$ to itself
-- 14.9 A Chern–Simons form
+### 12 Flat Connections and Holonomy
+- 12.1 Flat connections
+- 12.2 Flat connections on bundles over the circle
+- 12.3 Foliations
+- 12.4 Automorphisms of a principal bundle
+- 12.5 The fundamental group
+- 12.6 The flat connections on bundles over $M$
+- 12.7 The universal covering space
+- 12.8 Holonomy and curvature
+- 12.9 Proof of the classification theorem for flat connections
 
 #### Appendices
-- Appendix 14.1: The ad-invariant functions on $M(n; \mathbb{C})$
-- Appendix 14.2: Integration on manifolds
-- Appendix 14.3: The degree of a map
+- Appendix 12.1: Smoothing maps
+- Appendix 12.2: The proof of the Frobenius theorem
+
+### 13 Curvature Polynomials and Characteristic Classes
+- 13.1 The Bianchi Identity
+- 13.2 Characteristic forms
+- 13.3 Characteristic classes: Part 1
+- 13.4 Characteristic classes: Part 2
+- 13.5 Characteristic classes for complex vector bundles and the Chern classes
+- 13.6 Characteristic classes for real vector bundles and the Pontryagin classes
+- 13.7 Examples of bundles with nonzero Chern classes
+- 13.8 The degree of the map $g \to g^m$ from $SU(2)$ to itself
+- 13.9 A Chern–Simons form
+
+#### Appendices
+- Appendix 13.1: The ad-invariant functions on $M(n; \mathbb{C})$
+- Appendix 13.2: Integration on manifolds
+- Appendix 13.3: The degree of a map
