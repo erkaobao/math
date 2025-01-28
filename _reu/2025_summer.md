@@ -12,7 +12,7 @@ author_profile: false
 The **University of Minnesota Equivariant Neural Network Research Experience for Undergraduates (REU)** is a six-week intensive research program held from **May 27 to July 3, 2025**. This program offers undergraduate students the chance to explore innovative research in **machine learning**, with a particular emphasis on:
 
 - Designing **equivariant neural networks** to handle **partial symmetries**.
-- Utilizing these methods in **recommendation systems** to address **gender and racial biases**.
+- Utilizing these methods for real life applications.
 
 Participants will collaborate with program faculty and graduate student mentors in a dynamic and supportive environment. Dedicated office space in the **School of Mathematics** will be provided, ensuring daily access to mentors and essential resources.
 
