@@ -14,7 +14,7 @@ author_profile: false
  | Thu, 2025-03-27 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
  | Thu, 2025-04-03 | 1:25pm - 2:25pm | Yu-Shen Lin | Reconstruction of Special Lagrangians from the Adiabatic Limit | Vincent 211 | 
  | Thu, 2025-04-10 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
- | Thu, 2025-04-17 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+ | Thu, 2025-04-17 | 1:25pm - 2:25pm | Shengzhen Ning | Symplectic log Kodaira dimension −∞, affine-ruledness and unicuspidal rational curves | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
  | Thu, 2025-04-24 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
  | Thu, 2025-05-01 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
  | Thu, 2025-05-08 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
@@ -35,5 +35,9 @@ author_profile: false
 - Yu-Shen Lin
 
   - Special Lagrangians are an important class of minimal submanifolds, introduced by Harvey-Lawson. However, there are very few examples of them. It is well-known folklore conjecture that holomorphic curves in Calabi-Yau manifolds with collapsing special Lagrangian fibrations converge to tropical curves. Such conjecture motivates the development of tropical geometry. In this talk, we will consider the special Lagrangians in compact Calabi-Yau manifolds with collapsing holomorphic fibrations. Under this setting, one might expect that the special Lagrangians also converge to some graphs in the base. Indeed, we will construct special Lagrangians from certain geodesic intervals or loops in this talk. Such construction is a tip of the iceberg of the conjecture of Donaldson-Scaduto. This is a joint work with Shih-Kai Chiu.
- 
+
+
+- Shengzhen Ning
+
+  - A classical theorem of Liu-Ohta-Ono asserts that any symplectic 4-manifold with negative pairing between the symplectic form and canonical class must be rational or ruled. This result is a symplectic reminiscence of the more classical characterization of complex surfaces with Kodaira dimension −∞. In this talk, we will discuss the generalization of Liu-Ohta-Ono's theorem to the relative setting by considering symplectic divisors whose adjoint class has negative pairing with canonical class. In parallel to the theorem of Fujita-Miyanishi-Sugie-Russell in the algebraic context, we show that the complement of such divisors is foliated by a certain family of unicuspidal rational curves, thereby admitting the affine-ruled structure. This is based on joint work with Tian-Jun Li.
  
