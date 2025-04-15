@@ -14,7 +14,7 @@ author_profile: false
  | Thu, 2025-03-27 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
  | Thu, 2025-04-03 | 1:25pm - 2:25pm | Yu-Shen Lin | Reconstruction of Special Lagrangians from the Adiabatic Limit | Vincent 211 | 
  | Thu, 2025-04-10 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
- | Thu, 2025-04-17 | 1:25pm - 2:25pm | Shengzhen Ning | Symplectic log Kodaira dimension -infty, affine-ruledness and unicuspidal rational curves | Vincent 211 | 
+ | Thu, 2025-04-17 | 1:25pm - 2:25pm | Shengzhen Ning | Symplectic log Kodaira dimension −∞, affine-ruledness and unicuspidal rational curves | Vincent 211 | 
  | Thu, 2025-04-24 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
  | Thu, 2025-05-01 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
  | Thu, 2025-05-08 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
