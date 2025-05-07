@@ -56,3 +56,9 @@ This guide walks you through setting up a SageMaker notebook instance using cred
    ```python
    import sys
    print(sys.executable)  # The path before `/bin/python` is the env name.
+
+## Step 6: Install tensorflow
+1. Open a terminal in JupyterLab
+2. run ``conda env list`` to verify the enviroment
+3. run ``source ~/.bashrc`` and ``conda activate your_env_name``  # Replace with your environment name
+4. run ``pip install tensorflow`` There is also a GPU version.
