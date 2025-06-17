@@ -23,19 +23,12 @@ Participants will collaborate with program faculty and graduate student mentors 
 - **Travel and Living Support**:  
   - Up to $600 for transportation costs for non-local participants.  
   - Covered living expenses and meals for non-local participants.  
-- **Inclusivity**: Applicants from underrepresented groups, including women and minorities, are strongly encouraged to apply.
-
 
 ## Eligibility
 
 The program is open to undergraduate students who meet the following criteria:  
 - Pursuing an associate or bachelor's degree.  
 - U.S. citizens, permanent residents, or U.S. nationals.  
-
-We strongly encourage applications from:  
-- Women, minorities, and individuals with disabilities.  
-- Students who may not have access to research opportunities elsewhere.  
-
 
 ## Application Deadline
 
