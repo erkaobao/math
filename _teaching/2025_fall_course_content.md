@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /teaching/2025_spring_8365_course_content
+permalink: /teaching/2025_fall_5615h_course_content
 author_profile: false
 ---
 
@@ -32,32 +32,32 @@ author_profile: false
 ---
 
 1. Monotone and Cauchy Sequences (Sec. 10)  
-2. Subsequences (Sec. 11)  
-
----
-
-1. \(\limsup\) and \(\liminf\) (Sec. 12)  
 2. **Midterm 1**  
 
 ---
 
-1. Series (Sec. 14)  
-2. Alternating Series and Integral Tests (Sec. 15)  
+1. Subsequences (Sec. 11)  
+2. Series (Sec. 14)  
 
 ---
 
-1. Continuous Functions (Sec. 17)  
-2. Properties of Continuous Functions (Sec. 18)  
+1. Alternating Series and Integral Tests (Sec. 15)  
+2. Continuous Functions (Sec. 17)  
 
 ---
 
-1. Uniform Continuity (Sec. 19)  
-2. Limits of Functions (Sec. 20)  
+1. Properties of Continuous Functions (Sec. 18)  
+2. Uniform Continuity (Sec. 19)  
 
 ---
 
-1. Power Series (Sec. 23)  
-2. Uniform Convergence (Sec. 24)  
+1. Limits of Functions (Sec. 20)  
+2. Power Series (Sec. 23)  
+
+---
+
+1. Uniform Convergence (Sec. 24)  
+2. **Midterm 2**  
 
 ---
 
@@ -66,22 +66,21 @@ author_profile: false
 
 ---
 
-1. **Midterm 2**  
-2. *Weierstrass’s Approximation Theorem* (Sec. 27)  
+1. *Weierstrass’s Approximation Theorem* (Sec. 27)  
+2. Basic Properties of the Derivative (Sec. 28)  
 
 ---
 
-1. Basic Properties of the Derivative (Sec. 28)  
-2. The Mean Value Theorem (Sec. 29)  
+1. The Mean Value Theorem (Sec. 29)  
+2. Taylor’s Theorem (Sec. 31)  
 
 ---
 
-1. Taylor’s Theorem (Sec. 31)  
-2. The Riemann Integral (Sec. 32)  
+1. The Riemann Integral (Sec. 32)  
+2. Properties of the Riemann Integral (Sec. 33)  
 
 ---
 
-1. Properties of the Riemann Integral (Sec. 33)  
-2. Fundamental Theorem of Calculus (Sec. 34)  
+1. Fundamental Theorem of Calculus (Sec. 34)  
 
 ---
