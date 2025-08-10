@@ -83,4 +83,3 @@ author_profile: false
 
 1. Fundamental Theorem of Calculus (Sec. 34)  
 
----
