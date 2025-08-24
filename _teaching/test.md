@@ -8,7 +8,6 @@ author_profile: false
 <ul>
   {% for file in site.static_files %}
     {% if file.path contains '/test/' and file.extname == '.pdf' %}
-      <li><a href="{{ site.baseurl }}{{ file.path }}">{{ file.name }}</a></li>
-    {% endif %}
+    <li><a href="{{ file.path | relative_url }}">{{ file.name }}</a></li>    {% endif %}
   {% endfor %}
 </ul>
