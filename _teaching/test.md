@@ -1,4 +1,11 @@
 ---
+layout: archive
+title: "PDF Library"
+permalink: /teaching/2025_fall_5615h_notes
+author_profile: false
+---
+
+---
 layout: default
 title: "PDF Library"
 ---
