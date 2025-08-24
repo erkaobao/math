@@ -7,7 +7,7 @@ author_profile: false
 
 <ul>
   {% for file in site.static_files %}
-    {% if file.path contains '/test/' and file.extname == '.pdf' %}
+    {% if file.path contains '/files/2025fall5615h/' and file.extname == '.pdf' %}
     <li><a href="{{ '/math' | append: file.path }}">{{ file.name }}</a></li>
     {% endif %}
   {% endfor %}
