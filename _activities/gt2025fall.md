@@ -19,7 +19,7 @@ author_profile: false
 | Thu, 2025-10-23 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
 | Thu, 2025-10-30 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
 | Thu, 2025-11-06 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
-| Thu, 2025-11-13 | 1:25pm - 2:25pm |  Nicklas Day      |       | in person |
+| Thu, 2025-11-13 | 1:25pm - 2:25pm |  Nicklas Day      |  Smith Hall room 231     | in person |
 | Thu, 2025-11-20 | 1:25pm - 2:25pm |  Nancy Eagles |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
 | Thu, 2025-11-27 | 1:25pm - 2:25pm | Thanksgiving  |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
 | Thu, 2025-12-04 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
