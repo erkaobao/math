@@ -9,20 +9,20 @@ author_profile: false
 
 | date           | time            | speaker       | title | location |
 | -------------- | --------------- | ------------- | ----- | -------- |
-| Thu, 2025-09-04 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
-| Thu, 2025-09-11 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
-| Thu, 2025-09-18 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
-| Thu, 2025-09-25 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
-| Thu, 2025-10-02 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
+| Thu, 2025-09-04 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2025-09-11 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2025-09-18 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2025-09-25 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2025-10-02 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2025-10-09 | 1:25pm - 2:25pm | Julian Chaidez | Pseudo-Anosov Reeb flows and cylindrical contact homology   | in person |
 | Thu, 2025-10-16 | 1:25pm - 2:25pm |      Peter Olver         |    Convergence of Normal Forms of Submanifolds for Lie Pseudo-group Actions   | Vincent Hall 215 |
-| Thu, 2025-10-23 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
-| Thu, 2025-10-30 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
-| Thu, 2025-11-06 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
+| Thu, 2025-10-23 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2025-10-30 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2025-11-06 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2025-11-13 | 1:25pm - 2:25pm |  Nicklas Day      |      |  Smith Hall room 231 |
-| Thu, 2025-11-20 | 1:25pm - 2:25pm |  Nancy Mae Eagles |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
-| Thu, 2025-11-27 | 1:25pm - 2:25pm | Thanksgiving  |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
-| Thu, 2025-12-04 | 1:25pm - 2:25pm |               |       | [Zoom link](https://umn.zoom.us/j/92113794726?pwd=QWkyTHU2c1gxSDE4VWp0aWlFSWlOUT09) |
+| Thu, 2025-11-20 | 1:25pm - 2:25pm |  Nancy Mae Eagles |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2025-11-27 | 1:25pm - 2:25pm | Thanksgiving  |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2025-12-04 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 
 ## Abstracts
 
