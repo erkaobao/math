@@ -14,7 +14,7 @@ author_profile: false
 | Thu, 2025-09-18 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2025-09-25 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2025-10-02 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
-| Thu, 2025-10-09 | 1:25pm - 2:25pm | Julian Chaidez | Pseudo-Anosov Reeb flows and cylindrical contact homology   | in person |
+| Thu, 2025-10-09 | 1:25pm - 2:25pm | Julian Chaidez | Pseudo-Anosov Reeb flows and cylindrical contact homology   | Vincent Hall 215 |
 | Thu, 2025-10-16 | 1:25pm - 2:25pm |      Peter Olver         |    Convergence of Normal Forms of Submanifolds for Lie Pseudo-group Actions   | Vincent Hall 215 |
 | Thu, 2025-10-23 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2025-10-30 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
