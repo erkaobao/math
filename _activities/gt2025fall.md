@@ -17,7 +17,8 @@ author_profile: false
 | Thu, 2025-10-09 | 1:25pm - 2:25pm | Julian Chaidez | Pseudo-Anosov Reeb flows and cylindrical contact homology   | Vincent Hall 215 |
 | Thu, 2025-10-16 | 1:25pm - 2:25pm |      Peter Olver         |    Convergence of Normal Forms of Submanifolds for Lie Pseudo-group Actions   | Vincent Hall 215 |
 | Thu, 2025-10-23 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
-| Thu, 2025-10-30 | 1:25pm - 2:25pm |     Yuan Yao  |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2025-10-30 | 1:25pm - 2:25pm |     Yuan Yao  |   Symplectic packings in higher dimensions.
+    |Vincent Hall 215|
 | Thu, 2025-11-06 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2025-11-13 | 1:25pm - 2:25pm |  Nicklas Day      |  Local Geometry of Distributions: Symplectification, Cartan Prolongation, and Maximality of Class
     |  Smith Hall room 231 |
@@ -38,3 +39,7 @@ author_profile: false
 - Nicklas Day
 
   - In 1970, N. Tanaka gave a method for assigning a canonical frame to distribution with a constant Tanaka symbol. In 2009, B. Doubrov and I. Zelenko utilized a symplectification procedure to obtain a canonical frame for distributions independent of their Tanaka symbol, but an additional condition called "maximality of class" was required of the distribution. In a work with I. Zelenko, we recently proved that all rank 2 distributions with 5-dimensional cube are of maximal class at a generic point; this allowed us to assign a canonical frame at a generic point to every rank 2 distribution which is not Goursat. In the rank 2 case, I will give an interpretation of the symplectification procedure in terms of a classical construction called Cartan prolongation. Time permitting, I will also sketch what is known about a collection of fundamental invariants called harmonic invariants in the case of rank 2 distributions in dimensions 6 and 7 along with differential relations called syzygies satisfied by these invariants.
+
+- Yuan Yao
+
+  - The problem of symplectically packing k symplectic balls into a larger one has been solved in dimension four, i.e. there is now a combinatorial criteria of when this is possible. However, not much is known about symplectic packing problems in higher dimensions. We take a step in this direction in dimension six, by considering a “stabilized” packing problem, i.e. we consider symplectically packing a disjoint union of  four dimensional balls times a closed Riemann surface into a bigger ball times the same Riemann surface. We show this is possible if and only if the corresponding four dimensional ball packing is possible. The proof is a mixture of geometric constructions, pseudo-holomorphic curves, and h-principles. This is based on work with Kyler Siegel.
