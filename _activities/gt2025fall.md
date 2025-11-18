@@ -20,7 +20,7 @@ author_profile: false
 | Thu, 2025-10-30 | 1:25pm - 2:25pm |     Yuan Yao  |   Symplectic packings in higher dimensions |Vincent Hall 215|
 | Thu, 2025-11-06 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2025-11-13 | 1:25pm - 2:25pm |  Nicklas Day      |  Local Geometry of Distributions: Symplectification, Cartan Prolongation, and Maximality of Class |  Smith Hall room 231 |
-| Thu, 2025-11-20 | 1:25pm - 2:25pm |  Nancy Mae Eagles |   Generalizations of the Chekanov Eliashberg DGA    |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2025-11-20 | 1:25pm - 2:25pm |  Nancy Mae Eagles |   Generalizations of the Chekanov Eliashberg DGA |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2025-11-27 | 1:25pm - 2:25pm | Thanksgiving  |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2025-12-04 | 1:25pm - 2:25pm |               |       |[https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 
