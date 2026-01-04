@@ -5,7 +5,7 @@ permalink: /teaching/2025_fall_5615h_course_content
 author_profile: false
 ---
 
-# Math 8365 Spring 2025
+# Math 8365
 
 ## Contents (tentative)
 
