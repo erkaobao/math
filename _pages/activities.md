@@ -6,6 +6,7 @@ author_profile: false
 ---
 
 ## Differential geometry and symplectic topology seminar
+- [Spring 2025](https://erkaobao.github.io/math/activities/gt2026spring)
 - [Fall 2025](https://erkaobao.github.io/math/activities/gt2025fall)
 - [Spring 2025](https://erkaobao.github.io/math/activities/gt2025spring)
 - [Fall 2024](https://erkaobao.github.io/math/activities/gt2024fall)
