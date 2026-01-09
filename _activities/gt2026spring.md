@@ -9,7 +9,7 @@ author_profile: false
 
 | date | time | speaker | title | location
 | -- | -- | ---- | -------- | ----- 
-| Thu, 2026-01-22 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
+| Thu, 2026-01-22 | 1:25pm - 2:25pm | Zijun Li |  | tba | 
 | Thu, 2026-01-29 | 1:25pm - 2:25pm | Steven Lu  |  | tba | 
 | Thu, 2026-02-05 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2026-02-12 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
