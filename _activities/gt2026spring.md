@@ -1,7 +1,7 @@
 ---
 layout: default2
 title: ""
-permalink: /activities/gt2025spring
+permalink: /activities/gt2026spring
 author_profile: false
 ---
 
