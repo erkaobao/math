@@ -15,10 +15,10 @@ author_profile: false
 | Thu, 2026-02-12 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2026-02-19 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2026-02-26 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
-| Thu, 2026-02-27 | 1:25pm - 2:25pm | Jun Zhang  |  | tba | 
+| Fri, 2026-02-27 | 1:25pm - 2:25pm | Jun Zhang  |  | tba | 
 | Thu, 2026-03-05 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2026-03-12 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
-| Thu, 2026-03-17 | 1:25pm - 2:25pm | Cheuk Yu Mak |  | tba | 
+| Tue, 2026-03-17 | 1:25pm - 2:25pm | Cheuk Yu Mak |  | tba | 
 | Thu, 2026-03-19 | 1:25pm - 2:25pm | Weiming Chen |  | tba | 
 | Thu, 2026-03-26 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2026-04-02 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
