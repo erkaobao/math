@@ -11,7 +11,7 @@ author_profile: false
 | -- | -- | ---- | -------- | ----- 
 | Thu, 2026-01-22 | 1:25pm - 2:25pm | Zijun Li |  | vincent 215 | 
 | Thu, 2026-01-29 | 1:25pm - 2:25pm |  |  |  | 
-| Thu, 2026-02-05 | 1:25pm - 2:25pm | Lina |  | vincent 215 | 
+| Thu, 2026-02-05 | 1:25pm - 2:25pm | Lina Liu |  | vincent 215 | 
 | Thu, 2026-02-12 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2026-02-19 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
 | Thu, 2026-02-26 | 1:25pm - 2:25pm |  |  | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) | 
