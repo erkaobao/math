@@ -34,4 +34,3 @@ author_profile: false
 
   - Orbifold (co)homology has been a hot topic in the last handful of years. A longstanding issue of defining Morse-Smale pairs (f,g) on an orbifold has now been resolved. This was done by applying the stabilization technique of Bao-Lawson onto the setting of orbifold Morse theory. This allows us to define Morse homology for effective compact orbifolds over integers.
 
-
