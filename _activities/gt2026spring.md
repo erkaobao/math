@@ -20,11 +20,11 @@ author_profile: false
 | Thu, 2026-03-12 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Tue, 2026-03-17 | 1:25pm - 2:25pm | Cheuk Yu Mak | | vincent 215 |
 | Thu, 2026-03-19 | 1:25pm - 2:25pm | Weiming Chen | | vincent 215 |
-| Thu, 2026-03-26 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2026-03-26 | 1:25pm - 2:25pm | Feng Zhu | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-04-02 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-04-09 | 1:25pm - 2:25pm | Tedi Draghici | | vincent 215 |
-| Thu, 2026-04-16 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
-| Thu, 2026-04-23 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2026-04-16 | 1:25pm - 2:25pm | |Caglar Uyanik | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2026-04-23 | 1:25pm - 2:25pm | Xinle Clair Dai| | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-04-30 | 1:25pm - 2:25pm | Siu-Cheong Lau | | vincent 215 |
 | Thu, 2026-05-07 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 
