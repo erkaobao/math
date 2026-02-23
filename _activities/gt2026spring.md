@@ -15,7 +15,7 @@ author_profile: false
 | Thu, 2026-02-12 | 1:25pm - 2:25pm | Honghao Jing | SYZ mirror symmetry for non-Fano Hirzebruch surfaces | vincent 215 |
 | Thu, 2026-02-19 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-02-26 | 1:25pm - 2:25pm | Zijun Li | Legendrian links and their immersed fillings | vincent 215 |
-| Fri, 2026-02-27 | 1:25pm - 2:25pm | Jun Zhang | | vincent 215 |
+| Fri, 2026-02-27 | 1:25pm - 2:25pm | Jun Zhang | Contact Hamiltonian Floer homology and Its applications | vincent 215 |
 | Thu, 2026-03-05 | 1:25pm - 2:25pm | Boyu Zhang| | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-03-12 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Tue, 2026-03-17 | 1:25pm - 2:25pm | Cheuk Yu Mak | | vincent 215 |
@@ -40,3 +40,5 @@ author_profile: false
 - Zijun Li
   - Legendrian links are a special class of links in R^3 that arise naturally in the study of particle motion. Consider a particle moving periodically along the real line. To analyze its motion, we can record its time x, velocity y, and displacement z and plot the tuples (x,y,z) in R^3. The resulting plot is a knot in R^3 satisfying the condition that the velocity coordinate is equal to the derivative of the displacement coordinate with respect to the time coordinate.  Such a knot is called a Legendrian knot. If we consider n particles moving periodically on the real line, this construction produces a Legendrian link with n components. In this talk, I will discuss algebraic invariants of Legendrian links, immersed exact Lagrangian surfaces in R^4 with boundary on Legendrian links, and connections between them. Time permitting, I will also talk about how computing algebraic invariants of Legendrian links is related to gradient flow trees.
 
+- Jun Zhang
+  - In this talk, we will introduce a contact-geometric analogue of Hamiltonian Floer theory, based on the maximum principle established by Merry and Uljarević. This Floer theory can be regarded as an intermediate step leading to Viterbo’s symplectic homology, but it is built upon a general contact Hamiltonian dynamics that extends beyond classical Reeb dynamics. Various rigidity phenomena in contact geometry can be captured through quantitative invariants derived from this Floer theory. In particular, we will show how it can be used to detect a contact big fiber—a result parallel to the celebrated rigidity phenomenon discovered by Entov and Polterovich in symplectic geometry. We will also demonstrate how a Givental-type nonlinear Maslov index, constructed from this Floer theory, leads to orderability for a new class of contact manifolds. This talk is based on joint works with Djordjević, Uljarević, Cant, and Kilgore in two separate projects.
