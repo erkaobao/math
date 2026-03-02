@@ -16,7 +16,7 @@ author_profile: false
 | Thu, 2026-02-19 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-02-26 | 1:25pm - 2:25pm | Zijun Li | Legendrian links and their immersed fillings | vincent 215 |
 | Fri, 2026-02-27 | 1:25pm - 2:25pm | Jun Zhang | Contact Hamiltonian Floer homology and Its applications | vincent 215 |
-| Thu, 2026-03-05 | 1:25pm - 2:25pm | Boyu Zhang| | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2026-03-05 | 1:25pm - 2:25pm | Boyu Zhang| Dax invariants, light bulbs, and isotopies of symplectic structures | vincent 215 |
 | Thu, 2026-03-12 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Tue, 2026-03-17 | 1:25pm - 2:25pm | Cheuk Yu Mak | | vincent 215 |
 | Thu, 2026-03-19 | 1:25pm - 2:25pm | Weiming Chen | | vincent 215 |
@@ -24,7 +24,7 @@ author_profile: false
 | Thu, 2026-04-02 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-04-09 | 1:25pm - 2:25pm | Tedi Draghici | | vincent 215 |
 | Thu, 2026-04-16 | 1:25pm - 2:25pm | Caglar Uyanik| | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
-| Thu, 2026-04-23 | 1:25pm - 2:25pm | Xinle Clair Dai| | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2026-04-23 | 1:25pm - 2:25pm | Xinle Clair Dai| | vincent 215 |
 | Thu, 2026-04-30 | 1:25pm - 2:25pm | Siu-Cheong Lau | | vincent 215 |
 | Thu, 2026-05-07 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 
@@ -42,3 +42,7 @@ author_profile: false
 
 - Jun Zhang
   - In this talk, we will introduce a contact-geometric analogue of Hamiltonian Floer theory, based on the maximum principle established by Merry and Uljarević. This Floer theory can be regarded as an intermediate step leading to Viterbo’s symplectic homology, but it is built upon a general contact Hamiltonian dynamics that extends beyond classical Reeb dynamics. Various rigidity phenomena in contact geometry can be captured through quantitative invariants derived from this Floer theory. In particular, we will show how it can be used to detect a contact big fiber—a result parallel to the celebrated rigidity phenomenon discovered by Entov and Polterovich in symplectic geometry. We will also demonstrate how a Givental-type nonlinear Maslov index, constructed from this Floer theory, leads to orderability for a new class of contact manifolds. This talk is based on joint works with Djordjević, Uljarević, Cant, and Kilgore in two separate projects.
+
+- Boyu Zhang
+  - In this talk, I will present several results about isotopy problems in dimension 4.  First, we give a classification of the isotopy classes of embeddings of $\Sigma$ in $\Sigma\times S^2$ that are geometrically dual to $\{pt\}\times S^2$, where $\Sigma$ is a closed oriented surface with a positive genus, and show that there exist infinitely many such embeddings that are homotopic to each other but mutually non-isotopic. This answers a question of Gabai. Second, we show that the space of symplectic forms on an irrational ruled surface homologous to a fixed symplectic form has infinitely many connected components. This gives the first such example among closed 4-manifolds and answers a question of McDuff-Salamon.  We also show that symplectic forms on a closed 4-manifold with a fixed cohomology class do not admit the h-principle, which answers a question of Cieliebak-Eliashberg-Mishachev.  The proofs are based on a generalization of the Dax invariant to embedded closed surfaces.  This is joint work with Jianfeng Lin, Weiwei Wu, and Yi Xie. 
+ 
