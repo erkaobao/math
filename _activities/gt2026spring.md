@@ -17,12 +17,12 @@ author_profile: false
 | Thu, 2026-02-26 | 1:25pm - 2:25pm | Zijun Li | Legendrian links and their immersed fillings | vincent 215 |
 | Fri, 2026-02-27 | 1:25pm - 2:25pm | Jun Zhang | Contact Hamiltonian Floer homology and Its applications | vincent 215 |
 | Thu, 2026-03-05 | 1:25pm - 2:25pm | Boyu Zhang| Dax invariants, light bulbs, and isotopies of symplectic structures | vincent 215 |
-| Thu, 2026-03-12 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2026-03-12 | 1:25pm - 2:25pm | spring break | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Tue, 2026-03-17 | 1:25pm - 2:25pm | Cheuk Yu Mak | | vincent 215 |
 | Thu, 2026-03-19 | 1:25pm - 2:25pm | Weiming Chen | | vincent 215 |
 | Thu, 2026-03-26 | 1:25pm - 2:25pm | Feng Zhu | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-04-02 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
-| Thu, 2026-04-09 | 1:25pm - 2:25pm | Tedi Draghici | | vincent 215 |
+| Thu, 2026-04-09 | 1:25pm - 2:25pm | Tedi Draghici | Almost Hermitian 4-manifolds with Kahler-like Riemannian curvature | vincent 215 |
 | Thu, 2026-04-16 | 1:25pm - 2:25pm | Caglar Uyanik| | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-04-23 | 1:25pm - 2:25pm | Xinle Clair Dai| | vincent 215 |
 | Thu, 2026-04-30 | 1:25pm - 2:25pm | Siu-Cheong Lau | | vincent 215 |
@@ -45,4 +45,7 @@ author_profile: false
 
 - Boyu Zhang
   - In this talk, I will present several results about isotopy problems in dimension 4.  First, we give a classification of the isotopy classes of embeddings of $\Sigma$ in $\Sigma\times S^2$ that are geometrically dual to $\{pt\}\times S^2$, where $\Sigma$ is a closed oriented surface with a positive genus, and show that there exist infinitely many such embeddings that are homotopic to each other but mutually non-isotopic. This answers a question of Gabai. Second, we show that the space of symplectic forms on an irrational ruled surface homologous to a fixed symplectic form has infinitely many connected components. This gives the first such example among closed 4-manifolds and answers a question of McDuff-Salamon.  We also show that symplectic forms on a closed 4-manifold with a fixed cohomology class do not admit the h-principle, which answers a question of Cieliebak-Eliashberg-Mishachev.  The proofs are based on a generalization of the Dax invariant to embedded closed surfaces.  This is joint work with Jianfeng Lin, Weiwei Wu, and Yi Xie. 
+ 
+- Tedi Draghici
+  - I will present a mixture of old and new results regarding classes of almost Hermitian 4-manifolds whose Riemannian curvature tensor satisfies certain identities of Alfred Gray. Some old and new open questions will be presented as well. The talk is based on older works with Vestislav Apostolov and John Armstrong, but also on a very recent work with Ethan Addison and Mehdi Lejmi.
  
