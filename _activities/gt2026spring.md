@@ -18,8 +18,8 @@ author_profile: false
 | Fri, 2026-02-27 | 1:25pm - 2:25pm | Jun Zhang | Contact Hamiltonian Floer homology and Its applications | vincent 215 |
 | Thu, 2026-03-05 | 1:25pm - 2:25pm | Boyu Zhang| Dax invariants, light bulbs, and isotopies of symplectic structures | vincent 215 |
 | Thu, 2026-03-12 | 1:25pm - 2:25pm | spring break | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
-| Tue, 2026-03-17 | 1:25pm - 2:25pm | Cheuk Yu Mak | | vincent 215 |
-| Thu, 2026-03-19 | 1:25pm - 2:25pm | Weiming Chen | | vincent 215 |
+| Tue, 2026-03-17 | 1:25pm - 2:25pm | Cheuk Yu Mak | Lagrangian torus fibration on Calabi-Yau hypersurfaces | vincent 215 |
+| Thu, 2026-03-19 | 1:25pm - 2:25pm | Weiming Chen | On the maximal number of symplectic (-2)-spheres | vincent 215 |
 | Thu, 2026-03-26 | 1:25pm - 2:25pm | Feng Zhu | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-04-02 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-04-09 | 1:25pm - 2:25pm | Tedi Draghici | Almost Hermitian 4-manifolds with Kahler-like Riemannian curvature | vincent 215 |
@@ -49,3 +49,9 @@ author_profile: false
 - Tedi Draghici
   - I will present a mixture of old and new results regarding classes of almost Hermitian 4-manifolds whose Riemannian curvature tensor satisfies certain identities of Alfred Gray. Some old and new open questions will be presented as well. The talk is based on older works with Vestislav Apostolov and John Armstrong, but also on a very recent work with Ethan Addison and Mehdi Lejmi.
  
+- Weiming Chen
+  - A very old question in algebraic geometry asks what is the maximal number of nodes in a degree d hypersurface in CP^3. More generally, one asks what is the upper bound on the number of disjoint (-2)-curves in an algebraic surface. We consider the symplectic analog of this question and discuss some partial results. The symplectic version also offers a new perspective and a possible new approach involving Lagrangian geometry and Floer theory. This is work in progress.
+
+- Cheuk Yu Mak
+  - In joint work with Matessi-Ruddat-Zharkov, we prove the existence of Lagrangian torus fibrations on Calabi-Yau hypersurfaces in toric Fano manifolds given by a reflexive polytope. The result is motivated by the Strominger-Yau-Zaslow conjecture, which predicts the existence of these fibrations on Calabi-Yau manifolds near large complex structure limits. In this talk, I will outline the main setup of the construction. The idea is to replace the ordinary algebraic equation with a new one involving "ironing coefficients" and a convex (but not strictly convex!) potential, which breaks the manifold into local models. Over these models, we apply the Liouville flow technique in the style of Evans-Mauri.
+
