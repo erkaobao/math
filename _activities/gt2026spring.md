@@ -20,7 +20,7 @@ author_profile: false
 | Thu, 2026-03-12 | 1:25pm - 2:25pm | spring break | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Tue, 2026-03-17 | 1:25pm - 2:25pm | Cheuk Yu Mak | Lagrangian torus fibration on Calabi-Yau hypersurfaces | vincent 215 |
 | Thu, 2026-03-19 | 1:25pm - 2:25pm | Weimin Chen | On the maximal number of symplectic (-2)-spheres | vincent 215 |
-| Thu, 2026-03-26 | 1:25pm - 2:25pm | Feng Zhu | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2026-03-26 | 1:25pm - 2:25pm | Feng Zhu | Patterson--Sullivan theory for transverse groups and beyond | vincent 215 |
 | Thu, 2026-04-02 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-04-09 | 1:25pm - 2:25pm | Tedi Draghici | Almost Hermitian 4-manifolds with Kahler-like Riemannian curvature | vincent 215 |
 | Thu, 2026-04-16 | 1:25pm - 2:25pm | Caglar Uyanik| | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
@@ -55,3 +55,9 @@ author_profile: false
 - Cheuk Yu Mak
   - In joint work with Matessi-Ruddat-Zharkov, we prove the existence of Lagrangian torus fibrations on Calabi-Yau hypersurfaces in toric Fano manifolds given by a reflexive polytope. The result is motivated by the Strominger-Yau-Zaslow conjecture, which predicts the existence of these fibrations on Calabi-Yau manifolds near large complex structure limits. In this talk, I will outline the main setup of the construction. The idea is to replace the ordinary algebraic equation with a new one involving "ironing coefficients" and a convex (but not strictly convex!) potential, which breaks the manifold into local models. Over these models, we apply the Liouville flow technique in the style of Evans-Mauri.
 
+- Feng Zhu
+  - In this talk I will discuss a general theory of Patterson-Sullivan (PS) measures associated to coarse cocycles of convergence groups.  Under some natural geometric assumptions on the coarse cocycle/s, we prove existence, uniqueness, ergodicity, and counting results.
+
+    This framework includes, among other examples, PS measures on the Gromov boundary of a hyperbolic metric space, hitting measures of random walks on hyperbolic groups, as well as PS measures on flag manifolds associated to Anosov (or more generally transverse) subgroups of semisimple Lie groups.
+
+    This is joint work with Pierre-Louis Blayac, Richard Canary, Tengren Zhang, and Andrew Zimmer.
