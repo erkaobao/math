@@ -25,7 +25,7 @@ author_profile: false
 | Thu, 2026-04-09 | 1:25pm - 2:25pm | Tedi Draghici | Almost Hermitian 4-manifolds with Kahler-like Riemannian curvature | vincent 215 |
 | Thu, 2026-04-16 | 1:25pm - 2:25pm | Caglar Uyanik| Surfaces in hyperbolic 3-manifolds and boundary maps | vincent 215 |
 | Thu, 2026-04-23 | 1:25pm - 2:25pm | Xinle Clair Dai| | vincent 215 |
-| Thu, 2026-04-28 | 1:25pm - 2:25pm | Ely Kerman | | vincent 215 |
+| Thu, 2026-04-28 | 1:25pm - 2:25pm | Ely Kerman | New intersection results for Lagrangian tori returning to the symplectic cylinder | vincent 215 |
 | Thu, 2026-04-30 | 1:25pm - 2:25pm | Siu-Cheong Lau | | vincent 215 |
 | Thu, 2026-05-07 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 
@@ -65,4 +65,8 @@ author_profile: false
 
 - Caglar Uyanik
   - A celebrated theorem of Thurston asserts that a 3-manifold that fibers over the circle with fibers closed hyperbolic surfaces admit a hyperbolic metric if and only if the monodromy is pseudo-Anosov. The surface subgroup is exponentially distorted in the 3-manifold group. I will talk about how this distortion manifests itself by looking at the induced map on the boundary at infinities.
+
+
+- Ely Kerman
+  - Let  $L(r, s)$ be a standard Lagrangian product torus in the 4-dimensional symplectic cylinder of capacity 1. Let $\phi$ be a Hamiltonian diffeomorphism of $\mathbb{R}^4$ that maps $L(r,s)$ back into the cylinder. In this talk I will describe some new constraints on the image $\phi(L(r,s))$ . These include some new Lagrangian intersection results and yield new computations of the shape invariant defined by  Hind and Zhang.  This is joint work with Richard Hind (https://arxiv.org/abs/2602.10291).
 
