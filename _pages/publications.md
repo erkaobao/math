@@ -9,7 +9,7 @@ author_profile: false
 
 - [_Equivariant neural networks and equivarification_](https://arxiv.org/abs/1906.07172) (with J. Lu, L. Song, N. Hart-Hodgson, W. Parson, and Y. Zhou), *preprint*, (2025)
 
-- [_Invariant and Coinvariant Morse Homologies for Orbifolds_](https://arxiv.org/abs/2511.17811) (with L. Liu), *preprint*, (2025)
+- [_Invariant and Coinvariant Morse Homologies for Orbifolds_](https://arxiv.org/abs/2511.17811) (with L. Liu), accepted by IMRN, (2025)
 
 - [_Equivariant Morse Homology for Reflection Actions via Broken Trajectories_](https://arxiv.org/abs/2411.16924) (with T. Lawson and L. Liu), *preprint*, (2024)
 
