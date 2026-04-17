@@ -26,7 +26,7 @@ author_profile: false
 | Thu, 2026-04-16 | 1:25pm - 2:25pm | Caglar Uyanik| Surfaces in hyperbolic 3-manifolds and boundary maps | vincent 215 |
 | Thu, 2026-04-23 | 1:25pm - 2:25pm | Xinle Clair Dai| | vincent 215 |
 | Thu, 2026-04-28 | 1:25pm - 2:25pm | Ely Kerman | New intersection results for Lagrangian tori returning to the symplectic cylinder | vincent 215 |
-| Thu, 2026-04-30 | 1:25pm - 2:25pm | Siu-Cheong Lau | | vincent 215 |
+| Thu, 2026-04-30 | 1:25pm - 2:25pm | Siu-Cheong Lau | Teleman's conjecture via equivariant quotient correspondence and degeneration formula | vincent 215 |
 | Thu, 2026-05-07 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 
 
@@ -70,3 +70,12 @@ author_profile: false
 - Ely Kerman
   - Let  $L(r, s)$ be a standard Lagrangian product torus in the 4-dimensional symplectic cylinder of capacity 1. Let $\phi$ be a Hamiltonian diffeomorphism of $\mathbb{R}^4$ that maps $L(r,s)$ back into the cylinder. In this talk I will describe some new constraints on the image $\phi(L(r,s))$ . These include some new Lagrangian intersection results and yield new computations of the shape invariant defined by  Hind and Zhang.  This is joint work with Richard Hind (https://arxiv.org/abs/2602.10291).
 
+- Siu-Cheong Lau
+  - Teleman conjectured that the mirror of a Hamiltonian action on a
+symplectic manifold is a holomorphic fibration.  In this talk, I will
+explain this from the perspective of equivariant Lagrangian Floer theory
+and correspondence for symplectic quotients. Quantum corrections are
+captured by the Floer theoretical obstruction of Lagrangian
+correspondence, which can be computed by a proposed degeneration formula
+in the case G = U(1). This is a joint work with Nai-Chung Conan Leung
+and Yan-Lung Leon Li.
