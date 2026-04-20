@@ -24,6 +24,7 @@ author_profile: false
 | Thu, 2026-04-02 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-04-09 | 1:25pm - 2:25pm | Tedi Draghici | Almost Hermitian 4-manifolds with Kahler-like Riemannian curvature | vincent 215 |
 | Thu, 2026-04-16 | 1:25pm - 2:25pm | Caglar Uyanik| Surfaces in hyperbolic 3-manifolds and boundary maps | vincent 215 |
+| Thu, 2026-04-21 | 1:25pm - 2:25pm | Guangbo Xu| Reduced Gromov-Witten invariants in all genera | vincent 215 |
 | Thu, 2026-04-23 | 1:25pm - 2:25pm | Xinle Clair Dai| | vincent 215 |
 | Thu, 2026-04-28 | 1:25pm - 2:25pm | Ely Kerman | New intersection results for Lagrangian tori returning to the symplectic cylinder | vincent 215 |
 | Thu, 2026-04-30 | 1:25pm - 2:25pm | Siu-Cheong Lau | Teleman's conjecture via equivariant quotient correspondence and degeneration formula | vincent 215 |
@@ -79,3 +80,9 @@ captured by the Floer theoretical obstruction of Lagrangian
 correspondence, which can be computed by a proposed degeneration formula
 in the case G = U(1). This is a joint work with Nai-Chung Conan Leung
 and Yan-Lung Leon Li.
+
+- Guangbo Xu
+  - Gromov-Witten invariants in genus g(>0) overcount genus g holomorphic maps as certain configurations with ghost components have nontrivial contributions. The reduced Gromov-Witten invariants give a true count of smooth genus g holomorphic maps (including multiple covers), which is only defined in genus 1 by Zinger in symplectic geometry. Recently Ekholm-Shende defined their ``bare curve counts'' in higher genus in Calabi-Yau threefolds using similar ideas. Both Zinger and Ekholm-Shende need to establish (via analysis) a delicate refinement of Gromov compactness. I will explain how to use a topological method to obtain reduced Gromov-Witten invariants in all genera for general closed symplectic manifolds, which is based on a new transversality result on stratified (virtual) manifolds.
+
+-  Xinle Clair Dai
+  - tbd
