@@ -87,4 +87,3 @@ and Yan-Lung Leon Li.
 -  Xinle Clair Dai
   - Symmetric products of Riemann surfaces play a crucial role in symplectic geometry and low-dimensional topology. They are essential ingredients for defining Heegaard Floer homology and serve as important examples of Liouville manifolds when the surfaces are open. In this talk, I will discuss my work on the symplectic topology of these spaces through Liouville sectorial methods, along with examples and applications of this decomposition construction to homological mirror symmetry.
 
-
