@@ -25,7 +25,7 @@ author_profile: false
 | Thu, 2026-04-09 | 1:25pm - 2:25pm | Tedi Draghici | Almost Hermitian 4-manifolds with Kahler-like Riemannian curvature | vincent 215 |
 | Thu, 2026-04-16 | 1:25pm - 2:25pm | Caglar Uyanik| Surfaces in hyperbolic 3-manifolds and boundary maps | vincent 215 |
 | Thu, 2026-04-21 | 1:25pm - 2:25pm | Guangbo Xu| Reduced Gromov-Witten invariants in all genera | vincent 215 |
-| Thu, 2026-04-23 | 1:25pm - 2:25pm | Xinle Clair Dai| | vincent 215 |
+| Thu, 2026-04-23 | 1:25pm - 2:25pm | Xinle Clair Dai|Sectorial Decompositions of Symmetric Products and Homological Mirror Symmetry | vincent 215 |
 | Thu, 2026-04-28 | 1:25pm - 2:25pm | Ely Kerman | New intersection results for Lagrangian tori returning to the symplectic cylinder | vincent 215 |
 | Thu, 2026-04-30 | 1:25pm - 2:25pm | Siu-Cheong Lau | Teleman's conjecture via equivariant quotient correspondence and degeneration formula | vincent 215 |
 | Thu, 2026-05-07 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
@@ -85,4 +85,6 @@ and Yan-Lung Leon Li.
   - Gromov-Witten invariants in genus g(>0) overcount genus g holomorphic maps as certain configurations with ghost components have nontrivial contributions. The reduced Gromov-Witten invariants give a true count of smooth genus g holomorphic maps (including multiple covers), which is only defined in genus 1 by Zinger in symplectic geometry. Recently Ekholm-Shende defined their ``bare curve counts'' in higher genus in Calabi-Yau threefolds using similar ideas. Both Zinger and Ekholm-Shende need to establish (via analysis) a delicate refinement of Gromov compactness. I will explain how to use a topological method to obtain reduced Gromov-Witten invariants in all genera for general closed symplectic manifolds, which is based on a new transversality result on stratified (virtual) manifolds.
 
 -  Xinle Clair Dai
-  - tbd
+  - Symmetric products of Riemann surfaces play a crucial role in symplectic geometry and low-dimensional topology. They are essential ingredients for defining Heegaard Floer homology and serve as important examples of Liouville manifolds when the surfaces are open. In this talk, I will discuss my work on the symplectic topology of these spaces through Liouville sectorial methods, along with examples and applications of this decomposition construction to homological mirror symmetry.
+
+
