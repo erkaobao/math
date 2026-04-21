@@ -24,7 +24,7 @@ author_profile: false
 | Thu, 2026-04-02 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-04-09 | 1:25pm - 2:25pm | Tedi Draghici | Almost Hermitian 4-manifolds with Kahler-like Riemannian curvature | vincent 215 |
 | Thu, 2026-04-16 | 1:25pm - 2:25pm | Caglar Uyanik| Surfaces in hyperbolic 3-manifolds and boundary maps | vincent 215 |
-| Thu, 2026-04-21 | 1:25pm - 2:25pm | Guangbo Xu| Reduced Gromov-Witten invariants in all genera | vincent 215 |
+| Thu, 2026-04-21 | 1:25pm - 2:25pm | Guangbo Xu| Reduced Gromov-Witten invariants in all genera | vincent 203B |
 | Thu, 2026-04-23 | 1:25pm - 2:25pm | Xinle Clair Dai|Sectorial Decompositions of Symmetric Products and Homological Mirror Symmetry | vincent 215 |
 | Thu, 2026-04-28 | 1:25pm - 2:25pm | Ely Kerman | New intersection results for Lagrangian tori returning to the symplectic cylinder | vincent 215 |
 | Thu, 2026-04-30 | 1:25pm - 2:25pm | Siu-Cheong Lau | Teleman's conjecture via equivariant quotient correspondence and degeneration formula | vincent 215 |
