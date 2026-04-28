@@ -16,7 +16,7 @@ author_profile: false
 - [_Morse homology and equivariance_](https://arxiv.org/abs/2409.04694) (with T. Lawson), *preprint*, (2024)
 
 ## Publications
-- [_Equivariant Morse Homology for Reflection Actions via Broken Trajectories_](https://arxiv.org/abs/2411.16924) (with T. Lawson and L. Liu), Vol. 2026, Issue 9, (2026)
+- [_Equivariant Morse Homology for Reflection Actions via Broken Trajectories_](https://arxiv.org/abs/2411.16924) (with T. Lawson and L. Liu), *IMRN*, Vol. 2026, Issue 9, (2026)
 
 - [_Coherent orientations in symplectic field theory revisited_](https://arxiv.org/abs/2206.08443), *Mathematische Zeitschrift*, Volume 305, (2023)
 
