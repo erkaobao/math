@@ -9,15 +9,15 @@ author_profile: false
 
 - [_Equivariant neural networks and equivarification_](https://arxiv.org/abs/1906.07172) (with J. Lu, L. Song, N. Hart-Hodgson, W. Parson, and Y. Zhou), *preprint*, (2025)
 
-- [_Invariant and Coinvariant Morse Homologies for Orbifolds_](https://arxiv.org/abs/2511.17811) (with L. Liu), accepted by IMRN, (2025)
-
-- [_Equivariant Morse Homology for Reflection Actions via Broken Trajectories_](https://arxiv.org/abs/2411.16924) (with T. Lawson and L. Liu), *preprint*, (2024)
+- [_Invariant and Coinvariant Morse Homologies for Orbifolds_](https://arxiv.org/abs/2511.17811) (with L. Liu), *preprint*, (2025)
 
 - [_Computable, obstructed Morse homology for clean intersections_](https://arxiv.org/abs/2409.11565) (with K. Zhu), *preprint*, (2024)
 
 - [_Morse homology and equivariance_](https://arxiv.org/abs/2409.04694) (with T. Lawson), *preprint*, (2024)
 
 ## Publications
+- [_Equivariant Morse Homology for Reflection Actions via Broken Trajectories_](https://arxiv.org/abs/2411.16924) (with T. Lawson and L. Liu), Vol. 2026, Issue 9, (2026)
+
 - [_Coherent orientations in symplectic field theory revisited_](https://arxiv.org/abs/2206.08443), *Mathematische Zeitschrift*, Volume 305, (2023)
 
 - [_Semi-global Kuranishi charts and the definition of contact homology_](https://arxiv.org/abs/1512.00580) (with K. Honda), *Advances in Mathematics*, Volume 414, (2023)
