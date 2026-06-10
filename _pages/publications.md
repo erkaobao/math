@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: false
 ---
 ## Preprints
+- [_From Morse Trees to J-Holomorphic Discs -- Rigid Y-Graphs_](http://arxiv.org/abs/2606.09054) (with K. Zhu), *preprint*, (2026)
+
 - [_Equivariant Morse-Bott cohomology through stabilization_](https://arxiv.org/abs/2601.16119) (with R. Huq and S. Ning), *preprint*, (2026)
 
 - [_Equivariant neural networks and equivarification_](https://arxiv.org/abs/1906.07172) (with J. Lu, L. Song, N. Hart-Hodgson, W. Parson, and Y. Zhou), *preprint*, (2025)
