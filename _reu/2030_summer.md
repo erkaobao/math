@@ -1,11 +1,11 @@
 ---
 layout: archive
 title: ""
-permalink: /reu/2029_summer
+permalink: /reu/2030_summer
 author_profile: false
 ---
 
-# University of Minnesota REU: Summer 2029 — Hyperparameter Tuning and Catastrophe Theory
+# University of Minnesota REU: Summer 2030 — Hyperparameter Tuning and Catastrophe Theory
 
 > 🚧 This page is under construction. Dates, funding details, and application information are to be determined.
 
@@ -13,7 +13,7 @@ author_profile: false
 
 ## Program Overview
 
-The **University of Minnesota REU on Hyperparameter Tuning and Catastrophe Theory** is a planned six-week undergraduate research program for **Summer 2029**. The program will focus on:
+The **University of Minnesota REU on Hyperparameter Tuning and Catastrophe Theory** is a planned six-week undergraduate research program for **Summer 2030**. The program will focus on:
 
 - The mathematical structure behind **hyperparameter optimization** in machine learning.
 - The use of **singularity theory** to model and understand **catastrophic changes** in performance landscapes.
