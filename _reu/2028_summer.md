@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /reu/2027_summer
+permalink: /reu/2028_summer
 author_profile: false
 ---
 
@@ -11,7 +11,7 @@ author_profile: false
 
 ## Program Overview
 
-The **University of Minnesota REU on Image Classification through 3D Reconstruction and Equivariant Neural Network** is a six-week undergraduate research program planned for **Summer 2027**. The program focuses on:
+The **University of Minnesota REU on Image Classification through 3D Reconstruction and Equivariant Neural Network** is a six-week undergraduate research program planned for **Summer 2028**. The program focuses on:
 
 - **image classification** via **3D reconstruction** and **equivariant neural networks** problems.
 
