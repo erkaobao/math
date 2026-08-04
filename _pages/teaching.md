@@ -6,7 +6,7 @@ author_profile: false
 ---
 
 - 2026 Fall
-  - [Math 2142](https://erkaobao.github.io/math/teaching/2026_fall_5345h)
+  - [Math 5345H](https://erkaobao.github.io/math/teaching/2026_fall_5345h)
   - [Math 8302](https://erkaobao.github.io/math/teaching/2026_fall_8302)
 
 - 2026 Spring
