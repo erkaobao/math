@@ -4,6 +4,11 @@ title: ""
 permalink: /teaching/
 author_profile: false
 ---
+
+- 2026 Fall
+  - [Math 2142](https://erkaobao.github.io/math/teaching/2026_fall_5345h)
+  - [Math 8302](https://erkaobao.github.io/math/teaching/2026_fall_8302)
+
 - 2026 Spring
   - [Math 2142](https://erkaobao.github.io/math/teaching/2026_spring_2142)
   - [Math 8365](https://erkaobao.github.io/math/teaching/2026_spring_8365)
