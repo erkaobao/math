@@ -1,0 +1,119 @@
+name: Build 5345H Lecture Notes
+
+on:
+  push:
+    paths:
+      - '_notes_src/5345h_notes.tex'
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install LaTeXML
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y latexml
+
+      - name: Split and convert lecture notes
+        run: |
+          python3 - <<'PYEOF'
+          import re, os, subprocess, textwrap
+
+          src = open('_notes_src/5345h_notes.tex', encoding='utf-8').read()
+
+          # Split preamble (everything before \begin{document}) from body
+          doc_start = src.index(r'\begin{document}')
+          preamble = src[:doc_start + len(r'\begin{document}')]
+          body = src[doc_start + len(r'\begin{document}'):]
+
+          # Find week markers: %%%WEEK N | Title
+          marker_re = re.compile(r'%%%WEEK\s+(\d+)\s*\|([^\n]*)', re.MULTILINE)
+          markers = list(marker_re.finditer(body))
+
+          os.makedirs('_teaching', exist_ok=True)
+          os.makedirs('/tmp/latexml_work', exist_ok=True)
+
+          for i, m in enumerate(markers):
+              week_num = int(m.group(1))
+              week_title = m.group(2).strip()
+              chunk_start = m.end()
+              chunk_end = markers[i + 1].start() if i + 1 < len(markers) else len(body)
+              week_body = body[chunk_start:chunk_end].strip()
+
+              tex_path = f'/tmp/latexml_work/week_{week_num}.tex'
+              xml_path = f'/tmp/latexml_work/week_{week_num}.xml'
+              html_path = f'/tmp/latexml_work/week_{week_num}.html'
+
+              # Write standalone .tex for this week
+              with open(tex_path, 'w', encoding='utf-8') as f:
+                  f.write(preamble + '\n')
+                  f.write(week_body + '\n')
+                  f.write(r'\end{document}' + '\n')
+
+              # latexml: tex -> xml
+              r = subprocess.run(
+                  ['latexml', '--dest=' + xml_path, tex_path],
+                  capture_output=True, text=True
+              )
+              if r.returncode != 0:
+                  print(f'latexml failed for week {week_num}:\n{r.stderr}')
+                  continue
+
+              # latexmlpost: xml -> html (MathML, no external CSS)
+              r = subprocess.run(
+                  ['latexmlpost',
+                   '--dest=' + html_path,
+                   '--format=html5',
+                   '--pmml',          # Presentation MathML
+                   '--nodefaultresources',
+                   xml_path],
+                  capture_output=True, text=True
+              )
+              if r.returncode != 0:
+                  print(f'latexmlpost failed for week {week_num}:\n{r.stderr}')
+                  continue
+
+              # Extract just the <body> content from the generated HTML
+              html_full = open(html_path, encoding='utf-8').read()
+              body_match = re.search(r'<body[^>]*>(.*?)</body>', html_full, re.DOTALL)
+              body_html = body_match.group(1).strip() if body_match else html_full
+
+              # Write Jekyll page
+              out_path = f'_teaching/5345h_fall2026_week_{week_num}.md'
+              front_matter = textwrap.dedent(f"""\
+                  ---
+                  layout: archive
+                  title: "MATH 5345H — Week {week_num}: {week_title}"
+                  permalink: /teaching/5345h_fall2026_week_{week_num}
+                  author_profile: false
+                  ---
+
+                  <p><a href="{{{{ '/teaching/2026_fall_5345h_lecture_notes' | relative_url }}}}">← Back to Lecture Notes</a></p>
+
+                  """)
+              with open(out_path, 'w', encoding='utf-8') as f:
+                  f.write(front_matter)
+                  f.write(body_html)
+                  f.write('\n')
+
+              print(f'Week {week_num}: {week_title} -> {out_path}')
+
+          PYEOF
+
+      - name: Commit generated pages
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _teaching/5345h_fall2026_week_*.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-generate 5345H weekly lecture note pages [skip ci]"
+            git push
+          fi
