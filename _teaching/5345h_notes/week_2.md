@@ -1,14 +1,14 @@
 ---
 layout: archive
-title: "MATH 5345H ---
- Week 2: Cartesian products; finite, countable, and uncountable sets"
+title: "MATH 5345H --- Week 2: Cartesian products; finite, countable, and uncountable sets"
 permalink: /teaching/5345h_notes/week_2
 author_profile: false
 render_with_liquid: false
 ---
-{% raw %}
+
 <p><a href="https://erkaobao.github.io/math/teaching/2026_fall_5345h_lecture_notes">&#8592; Back to Lecture Notes</a></p>
 
+{% raw %}
 <div class="ltx_page_main">
 <div class="ltx_page_content">
 <article class="ltx_document">
@@ -55,9 +55,9 @@ finite case <math id="S0.I1.i2.p1.m3" class="ltx_Math" alttext="A_{1}\cap\cdots\
 
 <tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
 <td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
-<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex1.m1" class="ltx_math_unparsed" alttext="\prod_{\alpha\in J}A_{\alpha}=\Bigl{\{}\,x\colon J\to\bigcup_{\alpha\in J}A_{%
-\alpha}\ \Bigm{|}\ x(\alpha)\in A_{\alpha}\ \forall\alpha\,\Bigr{\}},\qquad X^%
-{J}=\prod_{\alpha\in J}X." display="block"><mrow><munder><mo movablelimits="false">∏</mo><mrow><mi>α</mi><mo>∈</mo><mi>J</mi></mrow></munder><msub><mi>A</mi><mi>α</mi></msub><mo>=</mo><mrow><mo maxsize="160%" minsize="160%" rspace="0.170em">{</mo><mi>x</mi><mo lspace="0.278em" rspace="0.278em">:</mo><mi>J</mi><mo rspace="0.111em" stretchy="false">→</mo><munder><mo movablelimits="false">⋃</mo><mrow><mi>α</mi><mo>∈</mo><mi>J</mi></mrow></munder><msub><mi>A</mi><mi>α</mi></msub><mo lspace="0.278em" rspace="0.278em">∣</mo><mi>x</mi><mrow><mo stretchy="false">(</mo><mi>α</mi><mo stretchy="false">)</mo></mrow><mo>∈</mo><msub><mi>A</mi><mi>α</mi></msub><mo lspace="0.167em" rspace="0.167em">∀</mo><mi>α</mi><mo lspace="0.170em" maxsize="160%" minsize="160%">}</mo></mrow><mo rspace="2.167em">,</mo><msup><mi>X</mi><mi>J</mi></msup><mo rspace="0.111em">=</mo><munder><mo movablelimits="false">∏</mo><mrow><mi>α</mi><mo>∈</mo><mi>J</mi></mrow></munder><mi>X</mi><mo lspace="0em">.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.Ex1.m1" class="ltx_Math" alttext="\prod_{\alpha\in J}A_{\alpha}=\Bigl{\{}\,x\colon J\to\bigcup_{\alpha\in J}A_{%
+\alpha}\mid x(\alpha)\in A_{\alpha}\ \forall\alpha\,\Bigr{\}},\qquad X^{J}=%
+\prod_{\alpha\in J}X." display="block"><mrow><mrow><mrow><mrow><munder><mo movablelimits="false">∏</mo><mrow><mi>α</mi><mo>∈</mo><mi>J</mi></mrow></munder><msub><mi>A</mi><mi>α</mi></msub></mrow><mo>=</mo><mrow><mo maxsize="160%" minsize="160%" rspace="0.170em">{</mo><mi>x</mi><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mi>J</mi><mo rspace="0.111em" stretchy="false">→</mo><mrow><mrow><munder><mo movablelimits="false">⋃</mo><mrow><mi>α</mi><mo>∈</mo><mi>J</mi></mrow></munder><msub><mi>A</mi><mi>α</mi></msub></mrow><mo>∣</mo><mrow><mi>x</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mi>α</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo>∈</mo><mrow><msub><mi>A</mi><mi>α</mi></msub><mo lspace="0.167em">⁢</mo><mrow><mo rspace="0.167em">∀</mo><mi>α</mi></mrow></mrow></mrow><mo lspace="0.170em" maxsize="160%" minsize="160%">}</mo></mrow></mrow><mo rspace="2.167em">,</mo><mrow><msup><mi>X</mi><mi>J</mi></msup><mo rspace="0.111em">=</mo><mrow><munder><mo movablelimits="false">∏</mo><mrow><mi>α</mi><mo>∈</mo><mi>J</mi></mrow></munder><mi>X</mi></mrow></mrow></mrow><mo lspace="0em">.</mo></mrow></math></td>
 <td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
 </tr></tbody>
 </table>
@@ -169,10 +169,7 @@ if <math id="S0.I2.i7.p1.m3" class="ltx_Math" alttext="A\subsetneq\{1,\dots,n\}"
 </article>
 </div>
 <footer class="ltx_page_footer">
-<div class="ltx_page_logo">Generated  on Mon Sep  7 03:58:53 2026 by <a href="http://dlmf.nist.gov/LaTeXML/" class="ltx_LaTeXML_logo"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="Mascot Sammy"></a>
+<div class="ltx_page_logo">Generated  on Mon Sep  7 18:47:21 2026 by <a href="http://dlmf.nist.gov/LaTeXML/" class="ltx_LaTeXML_logo"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="Mascot Sammy"></a>
 </div></footer>
 </div>
-
-
-
 {% endraw %}
