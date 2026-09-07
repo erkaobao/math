@@ -100,8 +100,9 @@ jobs:
                   """)
               with open(out_path, 'w', encoding='utf-8') as f:
                   f.write(front_matter)
+                  f.write('{% raw %}\n')
                   f.write(body_html)
-                  f.write('\n')
+                  f.write('\n{% endraw %}\n')
 
               print(f'Week {week_num}: {week_title} -> {out_path}')
 
