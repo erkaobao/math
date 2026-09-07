@@ -1,138 +1,1593 @@
-% ============================================================
-%  MATH 5345H Fall 2026 — Combined Lecture Notes
-%  Replace this file with your actual lecture notes.
+% ======================================================================
+%  Topology -- Blackboard Notes
+%  Condensed lecturing script, after J. R. Munkres, "Topology"
+%  Source: lecture notes for MAT3500/4500 (J. Rognes)
 %
-%  WEEK BOUNDARY MARKERS (required by the build script):
-%    %%%WEEK N | Short title
-%  Place this comment on its own line immediately before the
-%  first content of week N.  Everything above \begin{document}
-%  is the shared preamble and is prepended to every weekly file.
-% ============================================================
+%  This file is a LECTURING AID, not a text for students.
+%  Upright text = write it on the board.  Grey italic = say it, don't write.
+% ======================================================================
 
-\documentclass{article}
-\usepackage{amsmath, amsthm, amssymb}
-\usepackage{hyperref}
+\documentclass[12pt,a4paper]{article}
 
-\newtheorem{theorem}{Theorem}
-\newtheorem{lemma}[theorem]{Lemma}
-\newtheorem{proposition}[theorem]{Proposition}
-\newtheorem{corollary}[theorem]{Corollary}
-\newtheorem{definition}[theorem]{Definition}
-\newtheorem{example}[theorem]{Example}
-\newtheorem{remark}[theorem]{Remark}
+\usepackage[margin=2.3cm,top=2.5cm,bottom=2.3cm]{geometry}
+% Use Latin Modern if available (nicer PDF); fall back to Computer Modern.
+\IfFileExists{lmodern.sty}{\usepackage[T1]{fontenc}\usepackage{lmodern}}{}
+\usepackage{amsmath,amssymb,amsthm,mathrsfs}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage[expansion=false]{microtype}
+\usepackage[hidelinks]{hyperref}
 
-\title{MATH 5345H: Honors Introduction to Topology\\Fall 2026}
-\author{Erkao Bao}
-\date{}
+% ---------------- colours ----------------
+\definecolor{cue}{gray}{0.45}
+\definecolor{prf}{gray}{0.24}
+\definecolor{hdr}{rgb}{0.10,0.22,0.45}
+
+% ---------------- spacing ----------------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\raggedbottom
+\emergencystretch=2em
+\linespread{1.25}                  % airier lines
+\setlength{\abovedisplayskip}{12pt}
+\setlength{\belowdisplayskip}{12pt}
+\setlength{\abovedisplayshortskip}{7pt}
+\setlength{\belowdisplayshortskip}{10pt}
+
+% ---------------- headers ----------------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyhead[L]{\small\textcolor{hdr}{\nouppercase{\leftmark}}}
+\fancyhead[R]{\small\textcolor{hdr}{\nouppercase{\rightmark}}}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+\renewcommand{\subsectionmark}[1]{\markright{#1}}
+
+% ---------------- headings ----------------
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\Large\bfseries\color{hdr}}{\thesection}{0.65em}{}
+  [\vspace{-7pt}{\color{hdr}\rule{\textwidth}{0.7pt}}]
+\titleformat{\subsection}{\normalfont\large\bfseries\color{hdr}}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{32pt plus 8pt minus 4pt}{15pt}
+\titlespacing*{\subsection}{0pt}{24pt plus 6pt minus 3pt}{10pt}
+
+% ---------------- item labels ----------------
+\newcommand{\Dfn}{\textbf{Def.}~}
+\newcommand{\Thm}{\textbf{Thm.}~}
+\newcommand{\Lem}{\textbf{Lem.}~}
+\newcommand{\Prp}{\textbf{Prop.}~}
+\newcommand{\Cor}{\textbf{Cor.}~}
+\newcommand{\Exa}{\textbf{Ex.}~}
+\newcommand{\Rmk}{\textbf{Rmk.}~}
+\newcommand{\Ntn}{\textbf{Notation.}~}
+\newcommand{\Warn}{\textbf{Caution.}~}
+\newcommand{\Key}{$\bigstar$~}                  % central result
+\newcommand{\Mk}[1]{{\footnotesize\textcolor{cue}{[Mk #1]}}}  % Munkres cross-ref
+
+% Proof sketch: labelled, indented. Enough to reconstruct the argument
+% at the board; not meant to be transcribed word for word.
+\newcommand{\Pf}[1]{%
+  \par\addvspace{7pt}\nopagebreak
+  \begingroup
+    \advance\leftskip by 1.6em
+    \parindent=0pt \small\color{prf}%
+    \textbf{\textit{Proof.}}\enspace #1\par
+  \endgroup
+  \addvspace{9pt}}
+
+% Aside for the lecturer: commentary, emphasis, warnings about what to stress.
+\newcommand{\Cue}[1]{%
+  \par\addvspace{7pt}\nopagebreak
+  \begingroup
+    \advance\leftskip by 1.6em
+    \parindent=0pt \small\color{cue}%
+    \textbf{\textit{Note.}}\enspace \textit{#1}\par
+  \endgroup
+  \addvspace{9pt}}
+
+% ---------------- lists ----------------
+\newenvironment{BL}%
+  {\begin{itemize}[leftmargin=1.4em,labelsep=0.55em,itemsep=11pt,topsep=11pt,parsep=0pt]}%
+  {\end{itemize}}
+\newenvironment{SB}%
+  {\begin{itemize}[label=--,leftmargin=1.3em,labelsep=0.45em,itemsep=6pt,topsep=7pt,parsep=0pt]}%
+  {\end{itemize}}
+\newenvironment{NL}%
+  {\begin{enumerate}[label=(\arabic*),leftmargin=2em,labelsep=0.45em,itemsep=6pt,topsep=7pt,parsep=0pt]}%
+  {\end{enumerate}}
+
+% ---------------- math shorthands ----------------
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\CX}{\mathbb{C}}
+\newcommand{\Zh}{\widehat{\ZZ}}
+\newcommand{\cT}{\mathcal{T}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\Pow}{\mathcal{P}}
+\newcommand{\Map}{\mathscr{C}}
+\newcommand{\sm}{\smallsetminus}
+\DeclareMathOperator{\Cl}{Cl}
+\DeclareMathOperator{\Int}{Int}
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\id}{id}
+\renewcommand{\iff}{\Leftrightarrow}
+\newcommand{\imp}{\Rightarrow}
+\newcommand{\To}{\longrightarrow}
+\newcommand{\Tdisc}{\cT_{\mathrm{disc}}}
+\newcommand{\Ttriv}{\cT_{\mathrm{triv}}}
+\newcommand{\Tcof}{\cT_{\mathrm{cof}}}
 
 \begin{document}
-\maketitle
 
-%%%WEEK 1 | Course overview; sets, functions, relations
+% ======================================================================
+\begin{center}
+{\LARGE\bfseries\color{hdr} Topology --- Notes}\\[3pt]
+{\normalsize after J.\,R.\ Munkres, \emph{Topology}\quad$\cdot$\quad lecturing script, not a text}
+\end{center}
+\vspace{2pt}
+\hrule
+\vspace{4pt}
 
-\section*{Week 1 — Course Overview and Foundations}
+{\small
+\textbf{How to read this.}\quad
+Upright bullets are \textbf{board content} --- definitions, statements and examples to copy
+verbatim.
+Indented \textbf{\textit{Proof.}} blocks are sketches: the skeleton of the argument, to be
+developed at the board rather than transcribed.
+\textbf{\textit{Note.}} blocks are asides for the lecturer --- what to emphasise, what to warn
+against.
+$\bigstar$ marks the results the rest of the course leans on.
+\Mk{\S n} points into Munkres.
+Section numbers match the full lecture notes.
+}
 
-% Replace the placeholder text below with your actual Week 1 notes.
+\vspace{4pt}
+\hrule
+\vspace{6pt}
 
-\begin{definition}
-A \emph{set} is a collection of distinct objects, called \emph{elements}.
-\end{definition}
+% ======================================================================
+%%%WEEK 1 | Sets, functions, relations, and the standard number systems
+\section*{Introduction}
+\markboth{Introduction}{}
+\vspace{-16pt}{\color{hdr}\rule{\textwidth}{0.7pt}}
 
-%%%WEEK 2 | Cartesian products; countable and uncountable sets
+\begin{BL}
+\item \textbf{What topology is.} From Greek \emph{topos} (place) and \emph{logos}
+      (discourse, reason): the study of continuous functions, also called \emph{maps}.
+\item \textbf{The problem.} To make sense of ``$f\colon X\to Y$ is continuous'' we need extra
+      data: continuity says that if $x,y\in X$ are \emph{close}, then $f(x),f(y)$ are close.
+      So $X$ and $Y$ each need a notion of closeness.
+\item \textbf{First answer: metrics.} Assign a distance $d(x,y)$; call $x,y$ close when
+      $d(x,y)$ is small. This gives a \emph{metric space} $(X,d)$.
+\Cue{A bare set carries no information about two elements beyond whether they are equal.
+A metric gives it a shape --- which is why we then say \emph{space} rather than set, and
+\emph{point} rather than element.}
+\item \textbf{Why that is not enough.} Metric spaces are special. \emph{Pointwise convergence}
+      of real functions ($f_n\to g$ iff $f_n(t)\to g(t)$ for each $t$) is a useful notion of
+      closeness, but no metric on the set of real functions expresses it.
+\item \Key\textbf{Second answer: open sets.} Instead of distances between points, specify which
+      subsets $U\subset X$ are \emph{open}. Read this as:
+  \begin{SB}
+  \item if $x$ lies in $U$ and $U$ is open, then every $y$ sufficiently close to $x$ also
+        lies in $U$.
+  \end{SB}
+  The collection of all open subsets is the \emph{topology} $\cT$ on $X$.
+\item \textbf{Consequence for the course.} This approach handles not just elements and
+      functions but subsets and collections of subsets --- hence we begin with a summary of
+      set theory.
+\item \Key\textbf{The payoff.} For topological spaces the definition of continuity is simply:
+  \begin{SB}
+  \item for each open $V\subset Y$, the preimage $f^{-1}(V)$ is open in $X$.
+  \end{SB}
+  Compare the $(\varepsilon,\delta)$ definition for metric spaces: for each $x\in X$ and each
+  $\varepsilon>0$ there is $\delta>0$ such that $d(x,y)<\delta$ implies
+  $d(f(x),f(y))<\varepsilon$.
+\item \textbf{On the abstraction.} The definition of a topological space looks harder than the
+      subsequent definition of a continuous map. Same pattern as linear algebra: ``$f$ is
+      linear if $f(\lambda x+\mu y)=\lambda f(x)+\mu f(y)$'' is simple, but presupposes the
+      abstract definition of a real vector space, which in turn presupposes the nine-odd field
+      axioms for $\RR$.
+\Cue{Moral: axiomatisations of the most fundamental objects are general enough to be hard to
+grasp at once. It is the \emph{relations} between them --- continuous maps, linear
+transformations --- that are concrete. Say this early; it defuses a lot of anxiety.}
+\item \textbf{Programme.} After spaces and maps we study the properties such spaces may have:
+  \begin{SB}
+  \item \emph{connected} --- not a disjoint union of subspaces;
+  \item \emph{compact} --- not too many open subsets globally;
+  \item \emph{Hausdorff} --- enough open subsets locally.
+  \end{SB}
+  Then the consequences: general forms of the intermediate value theorem, existence of maximal
+  values, uniqueness of limits, and more.
+\item \Ntn These notes follow J.\,R.\ Munkres, \emph{Topology}; the $\S$-signs refer to
+      sections of that book. Course MAT3500/4500, University of Oslo.
+\end{BL}
 
-\section*{Week 2 — Cartesian Products and Cardinality}
+\textbf{Where this leads (worth 5 minutes at the first lecture).}
 
-% Replace with actual Week 2 notes.
+\begin{BL}
+\item \textbf{Classification of surfaces.} Two facts determine a connected compact
+      $2$-manifold up to topological equivalence: whether it can be oriented, and how many
+      handles it has. The number of handles is the \emph{genus} $g$:
+      sphere $g=0$, torus $g=1$, two-handled surface $g=2$.
+\item \textbf{Gauss--Bonnet} --- local geometry against global topology. For a surface $F$ with
+      a Riemannian metric,
+  \[ \int_F K\,dA \;=\; 2\pi\cdot\chi, \qquad \chi=2-2g. \]
+  Check on the sphere of radius $r$: curvature $1/r^2$ everywhere, area $4\pi r^2$, product
+  $4\pi=2\pi\cdot2$, and indeed $\chi(S^2)=2$. \Mk{course MAT4510}
+\item \textbf{Topology and rational points.} For curves over $\CX$:
+      $x^2+y^2=1$ is a sphere and has infinitely many rational solutions;
+      $x^5+y^2=1$ has genus $2$ and only finitely many.
+      Conjectured by Mordell, proved by Faltings (1983): a rationally defined algebraic curve
+      of genus $>1$ has only finitely many rational points.
+\Cue{A topological condition forcing an arithmetic conclusion. Good advertisement for the
+subject. \Mk{courses in algebraic geometry}}
+\end{BL}
 
-\begin{definition}
-Given sets $A$ and $B$, the \emph{Cartesian product} $A \times B$ is the set of all ordered pairs $(a,b)$ with $a \in A$ and $b \in B$.
-\end{definition}
+% ======================================================================
+\section{Set Theory and Logic}
 
-%%%WEEK 3 | Topological spaces; bases and subbases
+\subsection{(\S1) Fundamental concepts}
 
-\section*{Week 3 — Topological Spaces}
+\begin{BL}
+\item \Ntn $x\in A$, $x\notin A$.\quad
+      $D=\{0,1,\dots,9\}$,\; $P=\{n\in\NN\mid n\text{ prime}\}$,\; $S=\{n^2\mid n\in\NN\}$.
+\item \Warn $x\neq\{x\}$.\quad $\emptyset=\{\,\}$ has no elements.
+\item \Dfn $A\subset B$ iff $(x\in A)\imp(x\in B)$.\quad
+      $A=B$ iff $A\subset B$ and $B\subset A$.\quad
+      $A\subsetneq B$: proper.
+\item \Dfn $A\cap B=\{x\mid x\in A\text{ and }x\in B\}$,\quad
+      $A\cup B=\{x\mid x\in A\text{ or }x\in B\}$ (inclusive or).
+\item \textbf{Distributive laws.}
+      \(A\cap(B\cup C)=(A\cap B)\cup(A\cap C)\),\quad
+      \(A\cup(B\cap C)=(A\cup B)\cap(A\cup C)\).
+\item \Dfn $A-B=\{x\in A\mid x\notin B\}$ --- the complement of $B$ in $A$.
+\item \Key\textbf{De Morgan.}
+      \(A-(B\cup C)=(A-B)\cap(A-C)\),\quad
+      \(A-(B\cap C)=(A-B)\cup(A-C)\).
+\Cue{Used constantly later: it is what converts the union/intersection axioms for open sets
+into the intersection/union statements for closed sets.}
+\item \Ntn Informal listings such as $P=\{2,3,5,\dots\}$ and $S=\{1,4,9,\dots\}$ are used when
+      the pattern is clear from context.
+\item \Dfn A set whose elements are sets is called a \emph{collection} (or family),
+      written $\cA,\cB,\dots$
+      For a given $A$, the \emph{power set} is $\Pow(A)=\{B\mid B\subset A\}$.
+      E.g.\ $\Pow(\{a,b\})=\{\emptyset,\{a\},\{b\},\{a,b\}\}$, with four elements.
+\item \Exa \textbf{(Students and courses --- a collection to keep in mind.)}
+      $S=\{s\mid s$ a student$\}$, $C=\{c\mid c$ a course$\}$,
+      $E_c=\{s\in S\mid s$ enrolled in $c\}$, and $\mathscr{E}=\{E_c\mid c\in C\}$.
+      Elements of $\mathscr{E}$ are sets of students.
+\Cue{Note $E_c=E_d$ can happen for $c\neq d$ (both empty). Worth pointing out before indexed
+families in \S5, where exactly this failure of injectivity is allowed.}
+\item \Dfn For a collection $\cA$:
+      \(\bigcap_{A\in\cA}A=\{x\mid x\in A\ \forall A\in\cA\}\),\quad
+      \(\bigcup_{A\in\cA}A=\{x\mid x\in A\text{ for some }A\in\cA\}\).
+\item \Warn $\bigcup_{A\in\emptyset}A=\emptyset$, but $\bigcap_{A\in\emptyset}A$ needs an
+      ambient universal set $U$; then it is $U$.
+\item \Exa With that collection: $\bigcap_{E_c\in\mathscr{E}}E_c$ = students enrolled in
+      \emph{every} course (probably empty); $\bigcup_{E_c\in\mathscr{E}}E_c$ = the active
+      students; $S-\bigcup E_c$ = the inactive ones.
+\item \Dfn $A\times B=\{(x,y)\mid x\in A,\ y\in B\}$;\quad
+      $(x,y)=(x',y')$ iff $x=x'$ and $y=y'$.
+      Distinguish the ordered pair $(x,y)$ from the set $\{x,y\}$.
+      (If wanted: define $(x,y)=\{\{x\},\{x,y\}\}$.)
+\Cue{$\RR^2=\RR\times\RR$ read as horizontal and vertical coordinates is Descartes' analytic
+geometry, as against Euclid's synthetic approach.}
+\end{BL}
 
-% Replace with actual Week 3 notes.
+\subsection{(\S2) Functions}
 
-\begin{definition}
-A \emph{topological space} is a set $X$ together with a collection $\mathcal{T}$ of subsets of $X$, called \emph{open sets}, satisfying:
-\begin{enumerate}
-  \item $\emptyset \in \mathcal{T}$ and $X \in \mathcal{T}$.
-  \item Arbitrary unions of members of $\mathcal{T}$ belong to $\mathcal{T}$.
-  \item Finite intersections of members of $\mathcal{T}$ belong to $\mathcal{T}$.
-\end{enumerate}
-\end{definition}
+\begin{BL}
+\item \Dfn $f\colon A\to B$: to each $x\in A$ a unique $f(x)\in B$.
+      $A$ = domain, $B$ = range (codomain).
+\item \Exa The rule may be given by a procedure, e.g.\ for $x\in\NN$
+      \[ f(x)=\begin{cases}3x+1 & x\text{ odd}\\ x/2 & x\text{ even,}\end{cases} \]
+      but no such assumption is made in general.
+\item \Dfn Graph $\Gamma_f=\{(x,f(x))\}\subset A\times B$.
+      Characterised by: for each $x\in A$ exactly one $y$ with $(x,y)\in\Gamma$.
+\Cue{So a function may be \emph{defined} as a triple $(A,B,\Gamma)$ --- domain and codomain are
+part of the data, not just the rule.}
+\item \Dfn Image $f(A)=\{f(x)\mid x\in A\}\subset B$.\quad
+      Restriction $f|S\colon S\to B$.\quad
+      Corestriction $A\to T$, defined only when $f(A)\subset T$.
+\item \Dfn \emph{injective}: $f(x)=f(y)\imp x=y$.\quad
+      \emph{surjective}: $f(A)=B$.\quad
+      \emph{bijective}: both; then $f^{-1}\colon B\to A$ exists, with
+      $f^{-1}(y)=x$ exactly when $y=f(x)$.
+\item \Rmk $\Gamma_{f^{-1}}=\{(y,x)\in B\times A\mid(x,y)\in\Gamma_f\}$: the graph of $f^{-1}$
+      is the graph of $f$ with the two factors interchanged.
+\item \Rmk If $f|S$ is injective and $T=f(S)$, the resulting $g\colon S\to T$ is a bijection
+      with an inverse $g^{-1}\colon T\to S$, even when $f$ itself is not invertible.
+\item \Dfn $(g\circ f)(x)=g(f(x))$. Unital, associative, \emph{not} commutative.
+      $(g\circ f)^{-1}=f^{-1}\circ g^{-1}$.
+\item \Dfn \emph{Inclusion} $i\colon S\to A$, $i(x)=x$ for $x\in S$. Not the identity unless
+      $S=A$. Then $f\circ i=f|S$.
+\item \Rmk Dually, for $T\subset B$ with $f(A)\subset T$ and $j\colon T\to B$ the inclusion,
+      the corestriction $g\colon A\to T$ is characterised by $j\circ g=f$.
+\item \Dfn Induced maps on power sets:
+      \(f\colon\Pow(A)\to\Pow(B)\),\quad \(f^{-1}\colon\Pow(B)\to\Pow(A)\).
+\Cue{Same symbol, different domain --- flag the abuse of notation once and move on.}
+\end{BL}
 
-%%%WEEK 4 | Order topology; product topology; subspaces
+\textbf{Images vs.\ preimages} --- the asymmetry to put on the board:
 
-\section*{Week 4 — Order and Product Topologies}
+\begin{BL}
+\item \textbf{Images} (only partly well behaved). For $S,T\subset A$:
+  \begin{SB}
+  \item $S\subset T\imp f(S)\subset f(T)$
+  \item $f(S\cup T)=f(S)\cup f(T)$
+  \item $f(S\cap T)\subset f(S)\cap f(T)$ \quad --- equality if $f$ injective
+  \item $f(T)-f(S)\subset f(T-S)$ \quad --- equality if $f$ injective
+  \end{SB}
+\item \Key\textbf{Preimages} (all four are equalities). For $S,T\subset B$:
+  \begin{SB}
+  \item $S\subset T\imp f^{-1}(S)\subset f^{-1}(T)$
+  \item $f^{-1}(S\cup T)=f^{-1}(S)\cup f^{-1}(T)$
+  \item $f^{-1}(S\cap T)=f^{-1}(S)\cap f^{-1}(T)$
+  \item $f^{-1}(S-T)=f^{-1}(S)-f^{-1}(T)$
+  \end{SB}
+\item \textbf{Round trips.} $S\subset f^{-1}(f(S))$ and $f(f^{-1}(T))\subset T$.
+\Cue{This table is the whole reason continuity will be defined by preimages, not images.
+Point forward to it now; refer back in \S18.}
+\end{BL}
 
-% Replace with actual Week 4 notes.
+%%%WEEK 2 | Cartesian products; finite, countable, and uncountable sets
+\subsection{(\S5) Cartesian products}
 
-%%%WEEK 5 | Continuity; homeomorphisms; arbitrary products
+\begin{BL}
+\item \Dfn \emph{Indexing function} for $\cA$: a surjection $f\colon J\to\cA$;
+      write $A_\alpha=f(\alpha)$, family $\{A_\alpha\}_{\alpha\in J}$.
+      Not assumed injective: $A_\alpha=A_\beta$ is allowed for $\alpha\neq\beta$.
+\item \Ntn $\bigcap_{\alpha\in J}A_\alpha$, $\bigcup_{\alpha\in J}A_\alpha$;
+      finite case $A_1\cap\cdots\cap A_n$.
+\item \Dfn $n$-tuple $=$ function $x\colon\{1,\dots,n\}\to X$, written $(x_1,\dots,x_n)$;
+      \(\prod_{i=1}^{n}A_i\); \; $X^n$.
+\item \Dfn sequence $=$ function $x\colon\NN\to X$, written $(x_i)_{i=1}^{\infty}$
+      (also called an \emph{$\omega$-tuple});
+      \;$\prod_{i=1}^{\infty}A_i=A_1\times A_2\times\cdots$;\; $X^\omega$.
+\item \Key\Dfn General product. $J$-tuple $=$ function $x\colon J\to X$, $x_\alpha=x(\alpha)$.
+  \[
+    \prod_{\alpha\in J}A_\alpha
+      =\Bigl\{\,x\colon J\to\bigcup_{\alpha\in J}A_\alpha \ \Bigm|\ x(\alpha)\in A_\alpha\ \forall\alpha\,\Bigr\},
+    \qquad X^J=\prod_{\alpha\in J}X .
+  \]
+\Cue{Stress: a point of an infinite product is a \emph{function}. Everything about product
+topologies later reads more easily from this description.}
+\end{BL}
 
-\section*{Week 5 — Continuity and Homeomorphisms}
+\subsection{(\S6) Finite sets}
 
-% Replace with actual Week 5 notes.
+\begin{BL}
+\item \Dfn Section of $\NN$: $\{1,2,\dots,n\}$;\ for $n=0$ this is $\emptyset$.
+\item \Lem $\{1,\dots,m\}\hookrightarrow\{1,\dots,n\}$ injective $\imp m\le n$.
+\Pf{Induction on $n$: delete $f(m)=k$, use a bijection $\{1,\dots,n\}-\{k\}\to\{1,\dots,n-1\}$.}
+\item \Cor Hence there is \emph{no} injective $\{1,\dots,m\}\to\{1,\dots,n\}$ when $m>n$.
+      (Pigeonhole.)
+\item \Prp A bijection $\{1,\dots,m\}\to\{1,\dots,n\}$ forces $m=n$.
+      \Pf{Apply the lemma to $f$ and to $f^{-1}$.}
+\item \Cor Hence there is \emph{no} bijection $\{1,\dots,m\}\to\{1,\dots,n\}$ when $m\neq n$.
+\item \Dfn $A$ is \emph{finite of cardinality $n$} if there is a bijection $A\to\{1,\dots,n\}$.
+      Cardinality is well defined.
+      \Exa $\emptyset$ has cardinality $0$; singletons have cardinality $1$.
+\item \Lem $A\subset\{1,\dots,n\}$ is finite, of cardinality $\le n$;
+      if $A\subsetneq\{1,\dots,n\}$ the cardinality is $<n$.
+\item \Key\Thm A finite set admits no bijection with a proper subset of itself.
+\item \Cor $\NN$ is not finite: $f(x)=x+1$ is a bijection of $\NN$ with the proper subset
+      $\NN-\{1\}$.
+\item \Cor Any subset $B$ of a finite set $A$ is finite; if $B\subsetneq A$ then
+      $\mathrm{card}(B)<\mathrm{card}(A)$.
+\item \Prp TFAE: (1) $A$ finite; (2) some $\{1,\dots,n\}\twoheadrightarrow A$;
+      (3) some $A\hookrightarrow\{1,\dots,n\}$.
+\Pf{$(2)\imp(3)$: send $x$ to $\min g^{-1}(x)$.}
+\item \Prp Finite unions and finite products of finite sets are finite.
+\end{BL}
 
-%%%WEEK 6 | Metric topologies; metrizability; sequences
+% ======================================================================
+%%%WEEK 3 | Topological spaces and standard examples
+\section{Topological Spaces and Continuous Functions}
 
-\section*{Week 6 — Metric Topologies}
+\subsection{(\S12) Topological spaces}
 
-% Replace with actual Week 6 notes.
+\begin{BL}
+\item \Key\Dfn A \emph{topology} on a set $X$ is a collection $\cT$ of subsets with
+  \begin{NL}
+  \item $\emptyset\in\cT$ and $X\in\cT$;
+  \item $\{U_\alpha\}_{\alpha\in J}\subset\cT\ \imp\ \bigcup_{\alpha\in J}U_\alpha\in\cT$
+        \hfill (\emph{arbitrary} unions)
+  \item $U_1,\dots,U_n\in\cT\ \imp\ U_1\cap\cdots\cap U_n\in\cT$
+        \hfill (\emph{finite} intersections)
+  \end{NL}
+  $(X,\cT)$ is a \emph{topological space}; the $U\in\cT$ are the \emph{open} sets.
+\Cue{For (3) it is enough to check $n=2$; induct. The asymmetry between (2) and (3) is the whole
+subject --- infinite intersections of open sets need not be open: $\bigcap_n(-1/n,1/n)=\{0\}$.}
+\item \Dfn \emph{Discrete} $\Tdisc=\Pow(X)$ (every subset open).\quad
+      \emph{Trivial} $\Ttriv=\{\emptyset,X\}$.
+\item \Exa $X=\{a,b\}$: exactly four topologies ---
+      $\Ttriv$, \; $\cT_a=\{\emptyset,\{a\},X\}$, \; $\cT_b=\{\emptyset,\{b\},X\}$, \; $\Tdisc$.
+      The middle two are the \emph{Sierpi\'nski} topologies.
+\Cue{In $(X,\cT_a)$: $a$ is separated from $b$, but every open set containing $b$ contains $a$.
+So $a$ is ``arbitrarily close'' to $b$ without $b$ being close to $a$. No metric does this.}
+\item \Exa $X=\{a,b,c\}$: there are $29$ topologies. Nine of them, the rest obtained by
+      permuting $a,b,c$:
+  \begin{SB}
+  \item $\{\emptyset,X\}$
+  \item $\{\emptyset,\{a\},X\}$
+  \item $\{\emptyset,\{a,b\},X\}$
+  \item $\{\emptyset,\{a\},\{a,b\},X\}$
+  \item $\{\emptyset,\{a,b\},\{c\},X\}$
+  \item $\{\emptyset,\{a\},\{b\},\{a,b\},X\}$
+  \item $\{\emptyset,\{a\},\{a,b\},\{a,c\},X\}$
+  \item $\{\emptyset,\{a\},\{c\},\{a,b\},\{a,c\},X\}$
+  \item $\Pow(X)$, the discrete topology (8 elements)
+  \end{SB}
+\item \Exa \emph{Not} topologies on $\{a,b,c\}$:
+      $\{\{a\},\{c\},\{a,b\},\{a,c\}\}$ (misses $\emptyset,X$);
+      $\{\emptyset,\{a\},\{b\},X\}$ (no union);
+      $\{\emptyset,\{a,b\},\{a,c\},X\}$ (no intersection).
+\item \Dfn $\cT$ is \emph{coarser} than $\cT'$ ($\cT'$ \emph{finer}) if $\cT\subset\cT'$.
+      Always $\Ttriv\subset\cT\subset\Tdisc$.
+\Cue{A partial order, not a total one: neither Sierpi\'nski topology refines the other.}
+\item \Dfn \emph{Cofinite} topology: $\Tcof=\{U\subset X\mid X-U\text{ finite}\}\cup\{\emptyset\}$.
+      It is a topology.
+\Pf{(2): if some $U_\beta\neq\emptyset$ then $X-\bigcup U_\alpha\subset X-U_\beta$ is finite.
+(3): De Morgan turns $X-\bigcap U_i$ into a finite union of finite sets.}
+\item \Rmk $X$ finite $\imp\Tcof=\Tdisc$;\; $X$ infinite $\imp\Tcof\subsetneq\Tdisc$
+      (singletons are not cofinite).
+      On $\NN$: $\Ttriv\subsetneq\Tcof\subsetneq\Tdisc$.
+\item \Dfn A \emph{metric} on $X$ is $d\colon X\times X\to\RR$ with
+  \begin{NL}
+  \item $d(x,y)\ge0$, with $d(x,y)=0\iff x=y$;
+  \item $d(x,y)=d(y,x)$;
+  \item $d(x,z)\le d(x,y)+d(y,z)$.
+  \end{NL}
+  $\varepsilon$-ball: $B_d(x,\varepsilon)=\{y\mid d(x,y)<\varepsilon\}$.
+\item \Key\Dfn \emph{Metric topology} $\cT_d$:
+      $U$ open $\iff$ for each $x\in U$ there is $\varepsilon>0$ with $B_d(x,\varepsilon)\subset U$.
+      This is a topology.
+\Pf{(3) is where finiteness enters: take $\varepsilon=\min\{\varepsilon_1,\dots,\varepsilon_n\}>0$.
+An infinite family would give $\inf=0$.}
+\end{BL}
 
-%%%WEEK 7 | Quotient topology; connectedness
+\subsection{(\S13) Basis for a topology}
 
-\section*{Week 7 — Quotient Topology and Connectedness}
+\begin{BL}
+\item \Key\Dfn $\cB$, a collection of subsets of $X$, is a \emph{basis} if
+  \begin{NL}
+  \item each $x\in X$ lies in some $B\in\cB$;
+  \item $x\in B_1\cap B_2$ $\imp$ there is $B_3\in\cB$ with $x\in B_3\subset B_1\cap B_2$.
+  \end{NL}
+\item \Dfn Topology \emph{generated} by $\cB$:
+      \(U\in\cT\iff\forall x\in U\ \exists B\in\cB:\ x\in B\subset U.\)
+      This is a topology.
+\item \Exa Open discs in $\RR^2$;\; open rectangles $(a,b)\times(c,d)$;\;
+      singletons $\{x\}$ (generating $\Tdisc$).
+\Pf{For rectangles, $B_1\cap B_2$ is again a basis element or empty --- condition (2) is free.
+For discs it needs the triangle inequality.}
+\item \Lem Let $\cB$ be a basis for $\cT$. Then (1) each $B\in\cB$ is open;
+      (2) every open $U$ is a union of basis elements: $U=\bigcup_{x\in U}B_x$.
+\Cue{The gluing trick --- assemble local choices $B_x$ into one global object. It recurs
+throughout the course; name it now.}
+\item \Key\Lem \textbf{(Recognition criterion.)} Let $\cC$ be a collection of open sets in
+      $(X,\cT)$ such that for every open $U$ and every $x\in U$ there is $C\in\cC$ with
+      $x\in C\subset U$. Then $\cC$ is a basis for $\cT$.
+\Cue{The workhorse for identifying bases. Use it for products, subspaces, metric subspaces.}
+\item \Key\Lem \textbf{(Comparison.)} $\cB,\cB'$ bases for $\cT,\cT'$. TFAE:
+  \begin{NL}
+  \item $\cT\subset\cT'$;
+  \item for each $B\in\cB$ and $x\in B$ there is $B'\in\cB'$ with $x\in B'\subset B$.
+  \end{NL}
+\item \Warn $\cT\subset\cT'$ does \emph{not} require $\cB\subset\cB'$ --- only that
+      $\cB'$ has \emph{smaller} sets near each point.
+\item \Cor $\cB$ and $\cB'$ generate the \emph{same} topology $\iff$ both conditions hold:
+      for each $x\in B\in\cB$ there is $B'\in\cB'$ with $x\in B'\subset B$,
+      \emph{and} for each $x\in B'\in\cB'$ there is $B\in\cB$ with $x\in B\subset B'$.
+\item \Exa Discs and rectangles generate the same topology on $\RR^2$, namely the metric
+      topology.
+\item \Dfn Standard topology on $\RR$: basis $\{(a,b)\mid a<b\}$; equals $\cT_d$ for $d(x,y)=|y-x|$.
+\item \Dfn \emph{Lower limit} topology $\cT_\ell$ on $\RR$: basis $\{[a,b)\mid a<b\}$;
+      write $\RR_\ell$.
+\item \Lem $\cT_d\subsetneq\cT_\ell$.
+\Pf{$\subset$: given $x\in(a,b)$ take $[x,b)$. Strict: no $(c,d)$ sits inside $[a,b)$ around
+$x=a$, since $(c+a)/2$ escapes.}
+\item \Dfn A \emph{subbasis} $\cS$ is a collection of subsets with $\bigcup_{S\in\cS}S=X$.
+      Its associated basis is
+      $\cB=\{S_1\cap\cdots\cap S_n\mid S_i\in\cS,\ n\ge1\}$;
+      the topology generated by $\cS$ is the one generated by $\cB$. Always $\cS\subset\cB\subset\cT$.
+\Pf{$\cB$ satisfies the basis axioms: (2) holds because $B_1\cap B_2$ is again a finite
+intersection of subbasis elements. The bound $n\ge1$ avoids the empty intersection.}
+\end{BL}
 
-% Replace with actual Week 7 notes.
+%%%WEEK 4 | The order topology and the finite product topology
+\subsection{(\S15) The product topology on \texorpdfstring{$X\times Y$}{X x Y}}
 
-%%%WEEK 8 | Path components; compactness
+\begin{BL}
+\item \Key\Dfn Product topology on $X\times Y$: generated by the basis
+  \[ \cB=\{\,U\times V\mid U\text{ open in }X,\ V\text{ open in }Y\,\}. \]
+\Pf{Basis axiom (2) from $(U_1\times V_1)\cap(U_2\times V_2)=(U_1\cap U_2)\times(V_1\cap V_2)$.
+Note a \emph{union} of two rectangles is generally not a rectangle --- open sets are unions
+of basis elements, not basis elements.}
+\item \Thm If $\cB$ is a basis for $X$ and $\cC$ for $Y$, then
+      $\cD=\{B\times C\mid B\in\cB,\ C\in\cC\}$ is a basis for the product topology.
+\Pf{Recognition criterion: given $(x,y)\in W$, shrink twice --- first to $U\times V$, then to
+$B\times C$.}
+\item \Exa Open rectangles form a basis for $\RR\times\RR$; this is the Euclidean topology.
+\item \Dfn Projections $\pi_1(x,y)=x$, $\pi_2(x,y)=y$.
+\item \Lem $\pi_1^{-1}(U)=U\times Y$ and $\pi_2^{-1}(V)=X\times V$;\quad
+      $(U\times Y)\cap(X\times V)=U\times V$.
+\item \Key\Lem Hence
+      \(\cS=\{\pi_1^{-1}(U)\}\cup\{\pi_2^{-1}(V)\}\)
+      is a subbasis for the product topology.
+\Cue{This is the form that generalises to infinite products; the rectangle picture does not.}
+\end{BL}
 
-\section*{Week 8 — Compactness}
+\subsection{(\S16) The subspace topology}
 
-% Replace with actual Week 8 notes.
+\begin{BL}
+\item \Key\Dfn For $Y\subset X$: \; $\cT_Y=\{Y\cap U\mid U\in\cT\}$. A topology on $Y$;
+      $(Y,\cT_Y)$ is a \emph{subspace}.
+\Pf{All three axioms come from distributivity:
+$\bigcup(Y\cap U_\alpha)=Y\cap\bigcup U_\alpha$, likewise for finite $\cap$.}
+\item \Warn ``$V$ is open'' is ambiguous when $V\subset Y\subset X$. Always say
+      \emph{open in $Y$} or \emph{open in $X$}.
+\item \Lem $\cB$ a basis for $X$ $\imp$ $\cB_Y=\{Y\cap B\}$ is a basis for $\cT_Y$.
+\item \Exa $X=\RR$, $A=[0,1)$: subspace basis consists of $[0,b)$ and $(a,b)$, $0<a<b\le1$.
+      So $[0,\tfrac12)$ \emph{is} open in $A$.
+\item \Exa $(X,d)$ metric, $Y\subset X$ with $d'=d|_{Y\times Y}$. Then
+      $B_{d'}(x,\varepsilon)=Y\cap B_d(x,\varepsilon)$ and $\cT_{d'}=(\cT_d)_Y$:
+      the subspace metric induces the subspace topology.
+\item \Lem $Y$ open in $X$ $\imp$ ($V\subset Y$ open in $Y$ $\iff$ open in $X$).
+\item \Key\Thm $A\subset X$, $B\subset Y$ subspaces. On $A\times B$ the product topology
+      $=$ the subspace topology from $X\times Y$.
+\Pf{$(A\cap U)\times(B\cap V)=(A\times B)\cap(U\times V)$ --- the two bases coincide, not merely
+generate the same topology.}
+\end{BL}
 
-%%%WEEK 9 | Heine-Borel; limit point and sequential compactness
+\subsection{(\S17) Closed sets and limit points}
 
-\section*{Week 9 — Compactness in Euclidean Space}
+\begin{BL}
+\item \Dfn $A\subset X$ is \emph{closed} iff $X-A$ is open.
+\item \Exa $[a,b]$ closed in $\RR$.\quad Discrete: all subsets closed.\quad
+      Trivial: only $\emptyset,X$.\quad Cofinite: the finite sets, and $X$.
+\item \Key\Thm In any $X$: (1) $\emptyset,X$ closed; (2) \emph{arbitrary} intersections of
+      closed sets are closed; (3) \emph{finite} unions of closed sets are closed.
+\Pf{Pure De Morgan --- the quantifiers swap. One may equally define a topology by declaring
+the closed sets and imposing these three.}
+\item \Warn Not a dichotomy: sets may be both open and closed (clopen), or neither.
+\item \Warn As with ``open'', the phrase ``$A$ is closed'' is ambiguous when
+      $A\subset Y\subset X$. Say \emph{closed in $Y$} (i.e.\ $Y-A$ open in $Y$) or
+      \emph{closed in $X$}.
+\item \Thm $Y\subset X$ subspace, $A\subset Y$. Then $A$ closed in $Y$
+      $\iff$ $A=Y\cap B$ for some $B$ closed in $X$.
+\item \Lem $Y$ closed in $X$ $\imp$ ($A\subset Y$ closed in $Y$ $\iff$ closed in $X$).
+\item \Key\Dfn $\Cl A=\bar A=\bigcap\{K\text{ closed}\mid A\subset K\}$;\quad
+      $\Int A=\bigcup\{U\text{ open}\mid U\subset A\}$.
+\item \Lem $\bar A$ closed, $A\subset\bar A$, and $A\subset K$ closed $\imp\bar A\subset K$.
+      Dually $\Int A$ open, $\Int A\subset A$, and $U\subset A$ open $\imp U\subset\Int A$.
+\item \Exa $A=[a,b)\subset\RR$: $\bar A=[a,b]$, $\Int A=(a,b)$.
+\item \Exa Discrete: $\Int A=A=\bar A$. Trivial, $A$ proper nonempty: $\Int A=\emptyset$, $\bar A=X$.
+      Sierpi\'nski $\cT_a$: $\Cl\{a\}=X$ but $\Cl\{b\}=\{b\}$.
+\item \Lem $X-\bar A=\Int(X-A)$ \quad and \quad $X-\Int A=\overline{X-A}$.
+\item \Exa $A=\QQ\subset\RR$: $\bar A=\RR$, $\Int A=\emptyset$ (and same for $\RR-\QQ$).
+\item \Key\Thm \textbf{(Closure in a subspace.)} $A\subset Y\subset X$. The closure of $A$
+      in $Y$ equals $Y\cap\bar A$, where $\bar A$ is the closure in $X$.
+\item \Exa $X=\RR$, $Y=\QQ$, $A=\QQ\cap[0,\pi)$. Closure in $\RR$ is $[0,\pi]$;
+      closure in $\QQ$ is $A$ itself. So $A$ is closed in $\QQ$.
+\item \Dfn $U$ is a \emph{neighborhood} of $x$ if $x\in U$ and $U$ is open.
+      $A$ \emph{meets} $B$ if $A\cap B\neq\emptyset$.
+\item \Key\Thm $x\in\bar A\iff$ every neighborhood of $x$ meets $A$.
+      It suffices to test basis elements containing $x$.
+\Pf{Contrapositive of $x\in\Int(X-A)$; negate twice on the board and the statement falls out.}
+\item \Exa $A=\{1/n\mid n\in\NN\}\subset\RR$: every basis element $(a,b)\ni0$ contains
+      $(-\varepsilon,\varepsilon)$, hence $1/n$ for $n>1/\varepsilon$. So $0\in\bar A$ and
+      $\bar A=\{0\}\cup A$.
+\Pf{$\bar A$ is closed because its complement is the union of the open sets $(-\infty,0)$,
+$\bigl(1/(n+1),1/n\bigr)$ for $n\in\NN$, and $(1,\infty)$.}
+\item \Dfn $x$ is a \emph{limit point} of $A$ if every neighborhood of $x$ meets $A-\{x\}$;
+      equivalently $x\in\overline{A-\{x\}}$. Derived set $A'$.
+\item \Exa $A=\{1/n\mid n\in\NN\}\subset\RR$: $A'=\{0\}$, $\bar A=A\cup\{0\}$.
+\item \Key\Thm $\bar A=A\cup A'$.\quad \Cor $A$ closed $\iff A'\subset A$.
+\item \Dfn $x_n\to y$: every neighborhood of $y$ contains $x_n$ for all $n\ge N$, some $N$.
+      Enough to test basis elements.
+\item \Warn \Exa Sierpi\'nski $\{a,b\}$ with $\cT_a$: the constant sequence $(a,a,\dots)$
+      converges to \emph{both} $a$ and $b$. Limits need not be unique.
+\item \Key\Dfn $X$ is \emph{Hausdorff} if for all $x\neq y$ there are neighborhoods
+      $U\ni x$, $V\ni y$ with $U\cap V=\emptyset$.
+\item \Exa $\{a,b\}$ discrete \emph{is} Hausdorff: $\{a\},\{b\}$ are disjoint neighborhoods.
+      $\{a,b\}$ with $\cT_a$ is \emph{not}: the only neighborhood of $b$ is $X$, which meets
+      every neighborhood of $a$.
+\item \Lem Every metric space is Hausdorff \Pf{take $\varepsilon=d(x,y)/2$ and use the triangle
+inequality.}
+\item \Rmk Hausdorff is inherited by finer topologies --- ``enough open sets locally''.
+\item \Key\Thm $X$ Hausdorff $\imp$ every convergent sequence has exactly one limit; write
+      $y=\lim_{n\to\infty}x_n$.
+\Pf{If $x_n\to y$ and $x_n\to z$ with $y\neq z$, then $x_n\in U\cap V=\emptyset$ for large $n$.}
+\item \Thm $X$ Hausdorff $\imp$ every finite subset is closed.
+      \Pf{Enough for $\{x\}$: any $y\neq x$ has $V\ni y$ missing $x$.}
+\item \Thm $X$ Hausdorff, $A\subset X$: $x\in A'$ $\iff$ every neighborhood of $x$ meets $A$
+      in infinitely many points.
+\item \Lem $X,Y$ Hausdorff $\imp X\times Y$ Hausdorff.
+\end{BL}
 
-% Replace with actual Week 9 notes.
+%%%WEEK 5 | Continuity, homeomorphisms, and the pasting lemma
+\subsection{(\S18) Continuous functions}
 
-%%%WEEK 10 | Local compactness; countability and separation axioms
+\begin{BL}
+\item \Key\Dfn $f\colon X\to Y$ is \emph{continuous} if $f^{-1}(V)$ is open in $X$ for every
+      open $V\subset Y$. A continuous function is called a \emph{map}.
+\Cue{Refer back to \S2: preimages respect $\cup$, $\cap$, $-$. Images do not. That is the
+entire reason the definition takes this form.}
+\item \Lem Composites of maps are maps. \Pf{$(g\circ f)^{-1}(W)=f^{-1}(g^{-1}(W))$.}
+\item \Key\Lem It is enough to test a basis: $f$ continuous $\iff f^{-1}(B)$ open for all
+      $B\in\cB$.\quad And enough to test a subbasis: $\iff f^{-1}(S)$ open for all $S\in\cS$.
+\Pf{Because $f^{-1}$ commutes with unions (basis) and with finite intersections (subbasis).}
+\item \Exa Metric spaces: continuity $\iff$ for all $x$ and $\varepsilon>0$ there is $\delta>0$ with
+      $d(x,y)<\delta\imp d'(f(x),f(y))<\varepsilon$. The $\varepsilon$--$\delta$ definition, recovered.
+\item \Key\Exa $\id\colon\RR\to\RR_\ell$ is \emph{not} continuous ($[a,b)$ is not open in $\RR$);
+      $\id\colon\RR_\ell\to\RR$ \emph{is} continuous.
+\item \Dfn $f$ is \emph{continuous at $x$} if for each neighborhood $V$ of $f(x)$ there is a
+      neighborhood $U$ of $x$ with $f(U)\subset V$.
+\item \Thm $f$ continuous $\iff$ $f$ continuous at every $x\in X$.
+\Pf{$\Leftarrow$ is the gluing trick again: $f^{-1}(V)=\bigcup_{x\in f^{-1}(V)}U_x$.}
+\item \Key\Thm TFAE:
+  \begin{NL}
+  \item $f$ is continuous;
+  \item $f(\bar A)\subset\overline{f(A)}$ for every $A\subset X$;
+  \item $f^{-1}(B)$ is closed for every closed $B\subset Y$.
+  \end{NL}
+\Pf{$(1)\imp(2)$ via the neighborhood criterion for closure;
+$(2)\imp(3)$ apply to $A=f^{-1}(B)$;
+$(3)\imp(1)$ complement.}
+\item \Key\Dfn $f\colon X\to Y$ is a \emph{homeomorphism} if it is bijective and both $f$ and
+      $f^{-1}$ are continuous. Then $X\cong Y$, \emph{topologically equivalent}.
+\item \Lem $\cong$ is an equivalence relation (identity, inverse, composite).
+\item \Lem For $f$ bijective, TFAE: $f$ homeomorphism;
+      $U$ open in $X\iff f(U)$ open in $Y$;
+      $V$ open in $Y\iff f^{-1}(V)$ open in $X$.
+\Cue{So a homeomorphism is a bijection $\cT_X\to\cT_Y$ of the topologies, not just of the points.}
+\item \Dfn A \emph{topological property} is one expressible in terms of points and open sets;
+      such properties are preserved by homeomorphism.
+      E.g.\ finiteness, discreteness, Hausdorff, and later compactness and connectedness.
+\item \Exa $(0,1)\cong(a,b)$ via $f(x)=(1-x)a+xb$.
+\item \Exa $(-1,1)\cong\RR$ via $f(x)=x/(1-x^2)$, \;
+      $f^{-1}(y)=2y/\bigl(1+\sqrt{1+4y^2}\bigr)$. Hence every open interval $\cong\RR$.
+\item \Key\Warn \textbf{Continuous bijection $\neq$ homeomorphism.}
+  \begin{SB}
+  \item $\id\colon\RR_\ell\to\RR$.
+  \item $f\colon[0,1)\to S^1$, $f(t)=(\cos2\pi t,\sin2\pi t)$. Here $U=[0,\tfrac12)$ is open in
+        $[0,1)$ but $f(U)$ is not open in $S^1$: no neighborhood of $(1,0)$ lies inside it.
+  \end{SB}
+\end{BL}
 
-\section*{Week 10 — Local Compactness and Separation Axioms}
+\textbf{Constructing maps.}
+\begin{BL}
+\item \Thm The subspace topology on $A\subset X$ is the \emph{coarsest} making the inclusion
+      $i\colon A\to X$ continuous.
+\item \Cor Restrictions $f|A$ of maps are maps.\quad
+      \Lem Corestrictions $X\to B$ (with $f(X)\subset B$) are maps.
+\item \Dfn $f\colon X\to Y$ is an \emph{embedding} if the corestriction $X\to f(X)$ is a
+      homeomorphism onto the subspace $f(X)$.
+\item \Lem $f$ is an embedding $\iff$ $f=j\circ h$ with $h$ a homeomorphism onto a subspace
+      and $j$ the inclusion. Embeddings are injective.
+\item \Exa $[0,1)\to\RR^2$, $t\mapsto(\cos2\pi t,\sin2\pi t)$: injective and continuous,
+      \emph{not} an embedding.
+\item \Lem Maps to a one-point space are continuous; hence constant maps are continuous.
+\item \Key\Thm \textbf{(Pasting lemma.)}
+  \begin{SB}
+  \item $X=\bigcup_{\alpha\in J}U_\alpha$ with all $U_\alpha$ open:
+        $f$ continuous $\iff$ every $f|U_\alpha$ continuous.
+  \item $X=A_1\cup\cdots\cup A_n$ with all $A_i$ closed (\emph{finitely many}):
+        $f$ continuous $\iff$ every $f|A_i$ continuous.
+  \end{SB}
+\Pf{Open case: $f^{-1}(V)=\bigcup(f|U_\alpha)^{-1}(V)$, a union of open sets.
+Closed case: same with closed sets --- and now finiteness is essential.}
+\item \Key\Thm \textbf{(Maps into a product.)} $f\colon A\to X\times Y$ is continuous
+      $\iff$ both components $f_1=\pi_1 f$ and $f_2=\pi_2 f$ are continuous.
+\Pf{Subbasis criterion: $f^{-1}(U\times Y)=f_1^{-1}(U)$, $f^{-1}(X\times V)=f_2^{-1}(V)$.}
+\item \Cor The product topology is the \emph{coarsest} topology making both projections
+      continuous.
+\end{BL}
 
-% Replace with actual Week 10 notes.
+\subsection{(\S19) The product topology (general)}
 
-%%%WEEK 11 | Urysohn lemma; metrization; Tietze extension
+\begin{BL}
+\item \Key\Dfn On $\prod_{\alpha\in J}X_\alpha$ the \emph{product topology} is generated by the
+      subbasis
+      \(\cS=\{\pi_\beta^{-1}(U_\beta)\mid\beta\in J,\ U_\beta\subset X_\beta\text{ open}\}.\)
+\item \Key\Lem Concretely:
+  \begin{SB}
+  \item subbasis elements are $\prod_\alpha U_\alpha$ with $U_\alpha\neq X_\alpha$
+        for \emph{at most one} $\alpha$;
+  \item basis elements are $\prod_\alpha U_\alpha$ with $U_\alpha\neq X_\alpha$
+        for \emph{finitely many} $\alpha$.
+  \end{SB}
+\Cue{Emphasise ``all but finitely many coordinates unrestricted''. This is the point where
+students expect the naive definition and get a different one.}
+\item \Thm $f\colon A\to\prod X_\alpha$ continuous $\iff$ every component $f_\beta=\pi_\beta f$
+      is continuous.
+\item \Cor The product topology is the coarsest making all $\pi_\beta$ continuous.
+\item \Thm $A_\alpha\subset X_\alpha$ subspaces: on $\prod A_\alpha$, product topology
+      $=$ subspace topology from $\prod X_\alpha$.
+\item \Thm All $X_\alpha$ Hausdorff $\imp\prod X_\alpha$ Hausdorff.
+\item \Thm $\overline{\prod_\alpha A_\alpha}=\prod_\alpha\overline{A_\alpha}$.
+\end{BL}
 
-\section*{Week 11 — Urysohn Lemma and Metrization}
+%%%WEEK 6 | Metric topologies, metrizability, and sequences
+\subsection{(\S20) The metric topology}
 
-% Replace with actual Week 11 notes.
+\begin{BL}
+\item \Dfn $(X,\cT)$ is \emph{metrizable} if $\cT=\cT_d$ for some metric $d$.
+\item \Dfn $(X,d)$ \emph{bounded} if $d\le M$ throughout;
+      $\diam(X)=\sup\{d(x,y)\}$.
+\item \Key\Thm $\bar d(x,y)=\min\{d(x,y),1\}$ is a bounded metric inducing the \emph{same}
+      topology as $d$.
+\Pf{Triangle inequality by cases. Same topology because $\varepsilon$-balls with $\varepsilon<1$
+already form a basis, and there $d$ and $\bar d$ agree. Moral: boundedness is metric data,
+not topological data.}
+\item \Dfn On $\RR^n$: \;$\|x\|=\sqrt{x_1^2+\cdots+x_n^2}$, $d(x,y)=\|y-x\|$ (Euclidean);
+      $\|x\|_\infty=\max_i|x_i|$, $\rho(x,y)=\|y-x\|_\infty$ (square metric).
+\item \Thm $d$ and $\rho$ induce the same topology on $\RR^n$.
+\item \Dfn $\RR^J=\{x\colon J\to\RR\}$;\; $\RR^\omega$ for $J=\NN$.
+\Cue{Neither $\|x\|$ nor $\|x\|_\infty$ is defined for all of $\RR^\omega$ --- hence the need to
+truncate with $\bar d$.}
+\item \Dfn \emph{Uniform metric} on $X^J$, $(X,d)$ metric:
+      \(\bar\rho(x,y)=\sup\{\bar d(x_\alpha,y_\alpha)\mid\alpha\in J\}.\)
+      The induced topology is the \emph{uniform topology}.
+\item \Thm On $\RR^J$: uniform topology is finer than the product topology
+      (strictly, for $J$ infinite).
+\Pf{Given a basis box $B$ constrained at $\alpha_1,\dots,\alpha_n$, take
+$\varepsilon=\min_i\varepsilon_i$; then $B_{\bar\rho}(x,\varepsilon)\subset B$.}
+\item \Key\Thm The product topology on $\RR^\omega$ \emph{is} metrizable:
+      \(D(x,y)=\sup\bigl\{\bar d(x_n,y_n)/n \;\bigm|\; n\in\NN\bigr\}\)
+      induces it.
+\Cue{The $1/n$ damping makes all but finitely many coordinates irrelevant at scale
+$\varepsilon$ --- exactly matching ``$U_n\neq\RR$ for finitely many $n$''.}
+\end{BL}
 
-%%%WEEK 12 | Tychonoff theorem; Nagata-Smirnov
+\subsection{(\S21) The metric topology, continued}
 
-\section*{Week 12 — The Tychonoff Theorem}
+\begin{BL}
+\item \Dfn $X$ has a \emph{countable basis at $x$} if there are neighborhoods
+      $\{B_n\}_{n=1}^{\infty}$ of $x$ such that every neighborhood of $x$ contains some $B_n$.
+      $X$ is \emph{first-countable} if this holds at every point.
+      May assume $B_1\supset B_2\supset\cdots$ (replace $B_n$ by $B_1\cap\cdots\cap B_n$).
+\item \Lem Every metric space is first-countable \;--- take $B_d(x,1/n)$.
+\item \Key\Lem \textbf{(Sequence lemma.)} If some sequence in $A$ converges to $x$, then
+      $x\in\bar A$. If $X$ is metrizable, the converse holds.
+\Pf{Converse: pick $x_n\in A\cap B_d(x,1/n)$.}
+\item \Key\Thm $f$ continuous $\imp$ ($x_n\to x$ gives $f(x_n)\to f(x)$).
+      If $X$ is metrizable, the converse holds.
+\Pf{Converse: show $f(\bar A)\subset\overline{f(A)}$ using the sequence lemma.}
+\item \Key\Lem $\RR^J$ with $J$ uncountable is \emph{not} metrizable.
+\Pf{Let $A=\{x\mid x_\alpha\neq1\text{ for finitely many }\alpha\}$ and $x=0$.
+Then $0\in\bar A$, but no sequence in $A$ converges to $0$: the union of countably many finite
+``support'' sets misses some $\beta\in J$, and $\pi_\beta^{-1}(-\tfrac12,\tfrac12)$ separates.
+So the sequence lemma fails.}
+\end{BL}
 
-% Replace with actual Week 12 notes.
+%%%WEEK 7 | The quotient topology and identification spaces
+\subsection{(\S22) The quotient topology}
 
-%%%WEEK 13 | Paracompactness; Smirnov; complete metric spaces
+\begin{BL}
+\item \Rmk Injections gave us subspaces and embeddings. Surjections will give quotients ---
+      the dual construction, with \emph{finest} in place of coarsest.
+\item \Dfn An \emph{equivalence relation} $\sim$ on $X$: reflexive, symmetric, transitive.
+      Classes $[x]=\{y\mid x\sim y\}$; they are nonempty, cover $X$, are mutually disjoint.
+      $X/\!\!\sim\;=\{[x]\}$, canonical surjection $\pi(x)=[x]$.
+\item \Lem Any surjection $f\colon X\to Y$ arises this way: set $x\sim y\iff f(x)=f(y)$;
+      then $h([x])=f(x)$ is a bijection $X/\!\!\sim\;\to Y$ with $f=h\circ\pi$.
+\item \Key\Dfn \emph{Quotient topology} on $Y$ from a surjection $f\colon X\to Y$:
+      \(U\subset Y\text{ open}\iff f^{-1}(U)\text{ open in }X.\)
+      A surjection carrying this topology is a \emph{quotient map}.
+\Pf{It is a topology because $f^{-1}$ commutes with $\cup$ and $\cap$. Quotient maps are
+continuous by construction.}
+\item \Lem The quotient topology is the \emph{finest} topology on $Y$ making $f$ continuous.
+\item \Lem $f$ surjective is a quotient map $\iff$ ($A\subset Y$ closed $\iff f^{-1}(A)$ closed).
+\item \Lem A bijective quotient map is a homeomorphism, and conversely.
+\item \Dfn $f$ is an \emph{open map} if $f(U)$ is open for all open $U$;
+      a \emph{closed map} if $f(A)$ is closed for all closed $A$.
+\item \Lem $f$ open $\iff$ $f(B)$ open for every basis element $B$.
+\item \Key\Lem A surjective open map is a quotient map. So is a surjective closed map.
+\Pf{$U=f(f^{-1}(U))$ by surjectivity; then apply openness (resp.\ closedness).}
+\item \Key\Exa $f\colon[0,1]\to S^1$, $f(t)=(\cos2\pi t,\sin2\pi t)$: continuous, surjective,
+      closed (compactness), hence a quotient map. \emph{Not} open.
+      With $0\sim1$: $[0,1]/\!\!\sim\;\cong S^1$.
+\item \Key\Exa Torus. $g=f\times f\colon[0,1]^2\to S^1\times S^1$ is a quotient map;
+      identify $(s,0)\sim(s,1)$ and $(0,t)\sim(1,t)$. Classes: the four corners; the paired
+      edge points; the interior singletons. So $T^2\cong[0,1]^2/\!\!\sim$.
+\item \Exa $\RR\to\{n,z,p\}$ by sign. Quotient topology
+      $\{\emptyset,\{n\},\{p\},\{n,p\},Y\}$: not Hausdorff; $z$ is the only closed point.
+\item \Exa $\pi_1\colon\RR^2\to\RR$ is open (hence a quotient map) but \emph{not} closed:
+      the hyperbola $C=\{xy=1\}$ is closed, $\pi_1(C)=\RR-\{0\}$ is not.
+\item \Warn \Exa Restricting a quotient map can destroy the property.
+      With $A=C\cup\{(0,0)\}$, the map $\pi_1|A\colon A\to\RR$ is a continuous surjection but
+      \emph{not} a quotient map: $\{0\}$ is not open in $\RR$, yet its preimage $\{(0,0)\}$
+      is open in $A$.
+\item \Thm $f\colon X\to Y$ a quotient map, $B\subset Y$, $A=f^{-1}(B)$ \emph{saturated},
+      $g=f|A\colon A\to B$. Then $g$ is a quotient map if either
+      (1) $A$ is open, or $A$ is closed; or (2) $f$ is an open map, or a closed map.
+\Pf{Two identities do the work: $g^{-1}(V)=f^{-1}(V)$ for $V\subset B$, and
+$g(A\cap U)=B\cap f(U)$. Both use $A=f^{-1}(B)$.}
+\item \Rmk Composites of quotient maps are quotient maps.
+      \Warn Products of quotient maps need \emph{not} be; some local compactness hypothesis
+      is required. Quotients of Hausdorff spaces need not be Hausdorff.
+\item \Key\Thm \textbf{(Universal property.)} $f\colon X\to Y$ a quotient map,
+      $h\colon X\to Z$ constant on the fibres of $f$. Then $h$ factors uniquely as $h=g\circ f$;
+      moreover $g$ is continuous $\iff h$ is, and $g$ is a quotient map $\iff h$ is.
+\item \Cor $h\colon X\to Z$ a continuous surjection, $x\sim y\iff h(x)=h(y)$.
+      Then $h$ induces a continuous bijection $g\colon X/\!\!\sim\;\to Z$;
+      $g$ is a homeomorphism $\iff h$ is a quotient map;
+      and if $Z$ is Hausdorff so is $X/\!\!\sim$.
+\end{BL}
 
-\section*{Week 13 — Paracompactness and Complete Metric Spaces}
+% ======================================================================
+\section{Connectedness and Compactness}
 
-% Replace with actual Week 13 notes.
+\subsection{(\S23) Connected spaces}
 
-%%%WEEK 14 | Compact convergence; Ascoli; Baire spaces
+\begin{BL}
+\item \Dfn For disjoint spaces $C,D$: the \emph{disjoint union} $C\sqcup D$ carries the
+      topology consisting of those $W$ with $C\cap W$ open in $C$ and $D\cap W$ open in $D$;
+      the finest making both inclusions continuous.
+\item \Rmk $C\sqcup D$ is also called the \emph{sum}, or \emph{coproduct}, of $C$ and $D$;
+      it has a universal property dual to that of the product $C\times D$.
+      Every $X$ is trivially $C\sqcup D$ with $C=\emptyset$ or $D=\emptyset$;
+      if $X\cong C\sqcup D$ non-trivially, $X$ is \emph{disconnected}.
+\item \Key\Dfn A \emph{separation} of $X$: a pair $U,V$ of disjoint nonempty open sets with
+      $U\cup V=X$. $X$ is \emph{connected} if no separation exists.
+\item \Rmk Being connected is a topological property. The empty space needs care: some authors
+      declare $\emptyset$ not connected, much as $1$ has no proper factors yet is not counted
+      as a prime.
+\item \Key\Lem $X$ is connected $\iff$ the only clopen subsets are $\emptyset$ and $X$.
+\Pf{In a separation $V=X-U$, so ``$U,V$ both open'' $=$ ``$U$ clopen'', and ``both nonempty''
+$=$ ``$U\neq\emptyset,X$''. Cleanest working form of the definition.}
+\item \Lem $U,V$ a separation $\imp X\cong U\sqcup V$; conversely $X=C\sqcup D$ with both
+      nonempty gives a separation.
+\item \Lem Equivalent formulation: a separation is a pair of disjoint nonempty sets
+      $A,B$ with $A\cup B=X$, neither containing a limit point of the other
+      ($\bar A\cap B=\emptyset=A\cap\bar B$).
+\item \Exa One-point spaces are connected.
+      Sierpi\'nski $\{a,b\}$ is connected ($\{a\}$ open not closed, $\{b\}$ closed not open).
+      $[-1,0)\cup(0,1]$ is disconnected.
+\item \Rmk Coming in \S24: $\RR$ is connected, as is every interval
+      $[a,b]$, $[a,b)$, $(a,b]$, $(a,b)$ for $-\infty\le a\le b\le\infty$.
+\item \Exa Every $X\subset\QQ$ with $\ge2$ points is disconnected:
+      pick irrational $a$ between $p<q$ in $X$ and cut at $a$.
+\item \Key\Lem $U,V$ a separation of $X$, $A\subset X$ connected $\imp A\subset U$ or $A\subset V$.
+\Pf{$A\cap U$ is clopen in $A$. The single most-used lemma of the section.}
+\item \Key\Thm A union of connected subspaces with a point in common is connected.
+\item \Key\Thm $A\subset B\subset\bar A$, $A$ connected $\imp B$ connected.
+      (Adding limit points cannot disconnect.)
+\item \Key\Thm The continuous image of a connected space is connected.
+\end{BL}
 
-\section*{Week 14 — Function Spaces and Baire Spaces}
+\subsection{(\S24) Connected subspaces of the real line}
 
-% Replace with actual Week 14 notes.
+\begin{BL}
+\item \Dfn $C\subset\RR$ is \emph{convex} if $a<b$ in $C$ $\imp[a,b]\subset C$.
+\item \Exa The convex subsets of $\RR$: $\emptyset$; the intervals $(a,b),[a,b),(a,b],[a,b]$;
+      the rays; and $\RR$.
+\item \Key\Thm Every convex $C\subset\RR$ is connected. In particular $\RR$ is connected.
+\Pf{Reduce to $[a,b]$. Given $[a,b]=U\sqcup V$ with $a\in U,b\in V$, let $c=\sup U$.
+Then $c\in\bar U=U$, so $c\neq b$; but $U$ open gives points $>c$ in $U$ ---
+contradicting the supremum. Least upper bound property is doing all the work.}
+\item \Key\Thm \textbf{(Intermediate value theorem.)} $f\colon X\to\RR$ continuous,
+      $X$ connected, $r$ between $f(a)$ and $f(b)$ $\imp\exists c$ with $f(c)=r$.
+\Pf{Otherwise $f^{-1}(-\infty,r)$ and $f^{-1}(r,\infty)$ separate $X$.}
+\item \Dfn A \emph{path} from $x$ to $y$: a map $f\colon[a,b]\to X$, $f(a)=x$, $f(b)=y$.
+      $X$ is \emph{path connected} if any two points are joined by a path.
+\item \Key\Lem Path connected $\imp$ connected.
+      \Pf{A separation of $X$ would pull back to a separation of $[a,b]$.}
+\item \Lem The continuous image of a path connected space is path connected.
+\item \Dfn $C$ in a real vector space is \emph{convex} if $(1-t)x+ty\in C$ for
+      $x,y\in C$, $t\in[0,1]$.
+\item \Exa Convex subsets of $\RR^n$ are path connected --- e.g.\ the unit ball
+      $B^n=\{\|x\|\le1\}$.
+\item \Exa $\RR^n-\{0\}$ is path connected for $n\ge2$ (not for $n=1$).
+      Hence $S^{n-1}=\{\|x\|=1\}$ is path connected for $n\ge2$, being the image of
+      $x\mapsto x/\|x\|$. ($S^0=\{\pm1\}$ is not.)
+\item \Key\Exa \textbf{Topologist's sine curve.}
+      $S=\{(x,\sin(1/x))\mid 0<x\le1\}$, \; $\bar S=S\cup V$ with $V=\{0\}\times[-1,1]$.
+      $S$ is connected (continuous image of $(0,1]$), hence so is $\bar S$.
+      But $\bar S$ is \emph{not} path connected.
+\Pf{A path from $V$ into $S$: reparametrise so $f(0)\in V$, $f(t)\in S$ for $t>0$.
+Write $f=(x,y)$. Construct $t_n\to0$ with $y(t_n)=(-1)^n$ via the IVT applied to $x$.
+Then $y(t_n)$ does not converge --- contradicting continuity.}
+\end{BL}
 
+%%%WEEK 8 | Components, path components, and local connectedness
+\subsection{(\S25) Components and local connectedness}
+
+\begin{BL}
+\item \Dfn $x\sim y$ iff some connected $C\subset X$ contains both. An equivalence relation;
+      classes are the \emph{components} of $X$.
+\item \Thm Components are connected, disjoint, and cover $X$; every nonempty connected
+      subset lies in exactly one.
+\Pf{Connectedness of a component $C$: fix $x_0\in C$, write $C=\bigcup_{x\in C}A_x$ with each
+$A_x$ connected containing $x_0$; apply the common-point theorem.}
+\item \Thm A finite product of connected spaces is connected.
+\Pf{In $X\times Y$: $X\times\{y\}$ then $\{x'\}\times Y$ links $(x,y)$ to $(x',y')$.
+Then induct.}
+      \Rmk True for arbitrary products too.
+\item \Dfn $x\simeq y$ iff a path joins them; classes are the \emph{path components}.
+      Same statements as for components.
+\item \Exa $\bar S$ (topologist's sine curve): \emph{one} component, \emph{two} path components
+      $S$ and $V$. Note $S$ is open but not closed in $\bar S$; $V$ is closed but not open.
+\item \Dfn $X$ is \emph{locally connected at $x$} if every neighborhood $U$ of $x$ contains a
+      connected neighborhood $V$ of $x$: $x\in V\subset U$. Likewise
+      \emph{locally path connected}.
+\item \Exa $\RR$ is locally (path) connected.
+      $\bar S$ is not: small neighborhoods of points of $V$ are disconnected.
+\item \Warn Connected $\neq$ locally connected, in either direction.
+\item \Key\Thm $X$ locally connected $\imp$ every component is open.
+      $X$ locally path connected $\imp$ every path component is open.
+\item \Key\Thm Each path component lies in a unique component. If $X$ is locally path connected,
+      components $=$ path components.
+\Pf{$C=P\sqcup U$ with $U$ a union of other path components; all are open,
+so $P$ is clopen in the connected $C$, forcing $P=C$.}
+\end{BL}
+
+\subsection{(\S26) Compact spaces}
+
+\begin{BL}
+\item \Dfn $\cA=\{U_\alpha\}$ \emph{covers} $X$ if $\bigcup U_\alpha=X$;
+      an \emph{open cover} if all $U_\alpha$ are open.
+      A \emph{subcover} is a subcollection that still covers.
+\item \Key\Dfn $X$ is \emph{compact} if every open cover of $X$ has a finite subcover.
+\item \Exa Finite spaces are compact. $\RR$ is \emph{not}: $\{(n-1,n+1)\}_{n\in\NN}$
+      has no finite subcover. But $\RR$ with $\Ttriv$ \emph{is} compact.
+\Cue{Compactness is a property of the topology, not of the set --- worth saying out loud
+before students attach it to ``bounded''.}
+\item \Rmk \textbf{Story break.} Tell the Atiyah--Segal examination anecdote from
+      S.\,G.\ Krantz, \emph{Mathematical Apocrypha}: a nervous student, asked for an example of
+      a compact set, answers ``the real line'' --- and Segal rescues him with
+      ``in what topology?'' The joke is exactly the previous two examples.
+\item \Exa $X=\{0\}\cup\{1/n\mid n\in\NN\}\subset\RR$ is compact:
+      one $U\ni0$ catches all but finitely many $1/n$; cover those individually.
+\item \Exa Any $X$ with $\Tcof$ is compact: one nonempty $U_\beta$ leaves a finite complement.
+\item \Key\Lem $Y\subset X$ is compact $\iff$ every cover of $Y$ by open subsets \emph{of $X$}
+      has a finite subcollection covering $Y$.
+\Pf{Translate along $V_\alpha=Y\cap U_\alpha$. Lets you work in $X$ and forget the subspace
+topology.}
+\item \Key\Thm A closed subspace of a compact space is compact.
+\item \Key\Thm A compact subspace of a Hausdorff space is closed.
+\Pf{Fix $p\notin K$. For each $q\in K$ separate $p,q$ by $U_q,V_q$. Finitely many $V_{q_i}$
+cover $K$; then $U=\bigcap U_{q_i}$ misses $K$. Compact sets generalise finite sets here.}
+\item \Lem (Extracted from that proof.) $X$ Hausdorff, $K$ compact, $p\notin K$
+      $\imp$ there are disjoint open $U\ni p$ and $V\supset K$.
+\item \Key\Thm The continuous image of a compact space is compact.
+\item \Key\Thm $f\colon X\to Y$ a map, $X$ compact, $Y$ Hausdorff. Then
+  \begin{NL}
+  \item $f$ is a closed map;
+  \item $f$ surjective $\imp$ $f$ is a quotient map;
+  \item $f$ bijective $\imp$ $f$ is a homeomorphism;
+  \item $f$ injective $\imp$ $f$ is an embedding.
+  \end{NL}
+\Pf{All from (1): $A$ closed $\imp$ $A$ compact $\imp$ $f(A)$ compact $\imp$ $f(A)$ closed.
+This is the standard device for upgrading continuous bijections --- contrast $[0,1)\to S^1$.}
+\item \Exa $\RR\to\{0\}$: preimages of compact sets need not be compact.
+      \Dfn $f$ is \emph{proper} if $f^{-1}(K)$ is compact for every compact $K$.
+\item \Key\Lem \textbf{(Tube lemma.)} $Y$ compact, $N\subset X\times Y$ open with
+      $\{p\}\times Y\subset N$ $\imp$ there is a neighborhood $U\ni p$ with $U\times Y\subset N$.
+\Pf{Cover $\{p\}\times Y$ by basis boxes $U_q\times V_q\subset N$; finitely many $V_{q_i}$
+suffice; take $U=\bigcap U_{q_i}$.}
+\item \Warn Fails without compactness of $Y$: take $N=\{|xy|<1\}\supset\{0\}\times\RR$.
+\item \Key\Thm $X,Y$ compact $\imp X\times Y$ compact. \Cor Finite products of compact spaces
+      are compact.
+\Pf{For each $p$, finitely many $W_\alpha$ cover $\{p\}\times Y$; the tube lemma widens this to
+$U_p\times Y$. Then finitely many $U_p$ cover $X$. Union of finitely many finite collections.}
+\item \Dfn $\cC$ has the \emph{finite intersection property} if every finite subcollection has
+      nonempty intersection.
+\item \Key\Thm $X$ is compact $\iff$ every collection $\cC$ of closed sets with the finite
+      intersection property has $\bigcap_{C\in\cC}C\neq\emptyset$.
+\Pf{Purely the contrapositive of the definition, read through complements. Write the four
+successive rephrasings on the board.}
+\end{BL}
+
+%%%WEEK 9 | Compact subsets of Euclidean space; Heine-Borel
+\subsection{(\S27) Compact subspaces of the real line}
+
+\begin{BL}
+\item \Key\Thm Every closed interval $[a,b]\subset\RR$ is compact.
+\Pf{Let $S=\{x\in[a,b]\mid[a,x]\text{ has a finite subcover}\}$, $c=\sup S$.
+Show $c\in S$ (an open $U_\beta\ni c$ reaches back past some $x\in S$), then $c=b$
+(otherwise $U_\beta$ reaches past $c$). Least upper bound property again.}
+\item \Key\Thm $Y\subset\RR^n$ is compact $\iff$ $Y$ is closed and bounded.
+\Pf{$\Leftarrow$: $Y$ is closed inside some $\prod[a_i,b_i]$.
+$\imp$: cover by the cubes $(-M,M)^n$; and $\RR^n$ Hausdorff gives closed.}
+\item \Exa $(a,b)$, $[a,b)$, $(a,b]$ are not closed in $\RR$, hence not compact.
+\item \Exa $f\colon[0,1]\to S^1$ is a quotient map ($[0,1]$ compact, $S^1$ Hausdorff);
+      likewise $f\times f\colon[0,1]^2\to T^2$.
+\item \Key\Thm \textbf{(Extreme value theorem.)} $f\colon X\to\RR$ continuous, $X$ compact
+      $\imp$ there are $c,d\in X$ with $f(c)\le f(x)\le f(d)$ for all $x$.
+\Pf{$f(X)$ compact $\imp$ closed and bounded $\imp$ contains its inf and sup.}
+\item \Dfn $d(x,A)=\inf\{d(x,a)\mid a\in A\}$;\quad $\diam(A)=\sup\{d(a,b)\mid a,b\in A\}$.
+\item \Lem $x\mapsto d(x,A)$ is continuous; indeed $|d(x,A)-d(y,A)|\le d(x,y)$.
+\item \Key\Lem \textbf{(Lebesgue number lemma.)} $\cA$ an open cover of a compact metric space
+      $(X,d)$ $\imp$ there is $\delta>0$ such that every $B\subset X$ with
+      $\diam(B)<\delta$ lies in a single element of $\cA$.
+\Pf{Take a finite subcover $U_1,\dots,U_n$, put $C_i=X-U_i$ and
+$f(x)=\frac1n\sum_i d(x,C_i)$. Then $f>0$; let $\delta=\min f>0$ by the extreme value theorem.}
+\item \Dfn $f$ is \emph{uniformly continuous} if $\forall\varepsilon>0\ \exists\delta>0$:
+      $d_X(x,x')<\delta\imp d_Y(f(x),f(x'))<\varepsilon$ --- one $\delta$ for all points.
+\item \Key\Thm $f\colon X\to Y$ continuous, $X$ compact metric $\imp$ $f$ is uniformly continuous.
+\Pf{Take a Lebesgue number for $\{f^{-1}(B(y,\varepsilon/2))\}_{y\in Y}$.}
+\end{BL}
+
+\subsection{(\S28) Limit point compactness}
+
+\begin{BL}
+\item \Dfn $X$ is \emph{limit point compact} if every infinite subset has a limit point.
+\item \Thm Compact $\imp$ limit point compact.
+\Pf{If $A$ has no limit point, $A$ is closed and each $p\in A$ has $U_p$ with
+$A\cap U_p=\{p\}$. Cover by $X-A$ and the $U_p$; finiteness forces $A$ finite.}
+\item \Dfn A \emph{subsequence} $x_{n_1},x_{n_2},\dots$ with $n_1<n_2<\cdots$.
+      $X$ is \emph{sequentially compact} if every sequence has a convergent subsequence.
+\item \Key\Thm For \emph{metrizable} $X$, TFAE:
+      (1) compact; (2) limit point compact; (3) sequentially compact.
+\Pf{$(1)\imp(2)$ above.
+$(2)\imp(3)$: if $A=\{x_n\}$ is finite use a constant subsequence; else take a limit point $p$
+and pick $x_{n_k}\in A\cap B(p,1/k)$ inductively.
+$(3)\imp(1)$ needs two lemmas below.}
+\item \Lem $X$ sequentially compact metric $\imp$ the Lebesgue number lemma holds for $X$.
+\Pf{Else get $C_n$ of diameter $<1/n$ in no element of $\cA$; a convergent subsequence
+$x_{n_k}\to p$ traps $C_{n_k}$ inside a ball around $p$ --- contradiction.}
+\item \Lem $X$ sequentially compact metric $\imp$ $X$ is \emph{totally bounded}
+      (finitely many $\varepsilon$-balls cover $X$, each $\varepsilon>0$).
+\Pf{Else build $x_n$ with mutual distances $\ge\varepsilon$; no convergent subsequence.}
+\item \Rmk Then $(3)\imp(1)$: given $\cA$ with Lebesgue number $\delta$, cover by
+      $\varepsilon$-balls with $\varepsilon=\delta/3$; each has diameter $<\delta$, so each sits
+      in one element of $\cA$.
+\end{BL}
+
+%%%WEEK 10 | Local compactness and the one-point compactification
+\subsection{(\S29) Local compactness}
+
+\begin{BL}
+\item \Key\Dfn $X$ is \emph{locally compact at $x$} if there is a compact $C$ containing a
+      neighborhood $V$ of $x$: \; $x\in V\subset C\subset X$. Locally compact: at every point.
+\item \Exa Compact $\imp$ locally compact. $\RR$ is locally compact ($V=(x-1,x+1)\subset
+      C=[x-1,x+1]$); so is $\RR^n$, using products of intervals.
+\item \Exa $\QQ$ is \emph{not} locally compact. Nor is $\RR^\omega$: a basis neighborhood of $0$
+      has non-compact closure.
+\item \Key\Dfn \textbf{(One-point compactification.)} $X$ locally compact Hausdorff,
+      $Y=X\cup\{\infty\}$ with $\cT_\infty$ consisting of
+      (1) the open $U\subset X$, and
+      (2) the sets $Y-C$ for $C\subset X$ compact.
+\item \Key\Thm $Y$ is compact Hausdorff, $X\subset Y$ is a subspace, and $Y-X$ is one point.
+\Pf{Topology: three cases each for $\cap$ and $\cup$; needs $C_1\cup C_2$ compact, $X-C$ open
+(Hausdorff), and $\bigcap C_\beta$, $C-U$ compact (closed in a compact set).
+Compact: any cover has some $V=Y-C$ containing $\infty$; cover the compact $C$ by finitely many
+others. Hausdorff at $\infty$: use local compactness at $x$.}
+\item \Prp \textbf{(Converse.)} If $X\subset Y$ with $Y$ compact Hausdorff and $Y-X$ a single
+      point, then $X$ is locally compact Hausdorff.
+\item \Prp \textbf{(Uniqueness.)} Any two such $Y$ are homeomorphic rel $X$ ---
+      hence \emph{the} one-point compactification.
+\item \Exa $(0,1)^{+}\cong S^1$, hence $\RR^{+}\cong S^1$.
+      \; $B(0,1)^{+}\cong S^n$, hence $(\RR^n)^{+}\cong S^n$.
+\item \Warn $[0,1]$ is a \emph{different} compactification of $(0,1)$ --- it adds two points.
+      Likewise $\bar B(0,1)$ adds $S^{n-1}$.
+\item \Key\Thm $X$ Hausdorff. Then $X$ is locally compact $\iff$ for each $x$ and each
+      neighborhood $U$ of $x$ there is a neighborhood $V$ with
+      \(x\in V\subset\bar V\subset U\) and $\bar V$ compact.
+\Pf{$\Leftarrow$ take $U=X$. $\imp$ work inside $Y=X\cup\{\infty\}$: separate $x$ from the
+compact $K=Y-U$.}
+\item \Cor Open and closed subspaces of a locally compact Hausdorff space are locally compact.
+\item \Cor $X$ is homeomorphic to an open subspace of a compact Hausdorff space
+      $\iff$ $X$ is locally compact Hausdorff.
+\end{BL}
+
+% ======================================================================
+\section{Countability and Separation Axioms}
+
+\textbf{Goal of the chapter.} Urysohn metrization: one countability axiom (second countable)
+plus one separation axiom (regular) yield enough maps $X\to\RR$ to embed $X$ in a metric space.
+
+\subsection{(\S30) The countability axioms}
+
+\begin{BL}
+\item \Rmk \Mk{\S7} Recall: subsets, finite or countable unions, and finite products of
+      countable sets are countable. $\QQ$ is countable; $\RR$ is not.
+\item \Dfn \emph{First-countable}: a countable neighborhood basis at each point.
+      \emph{Second-countable}: a countable basis for the topology.
+\item \Lem Second-countable $\imp$ first-countable
+      \Pf{take $\cB_x=\{U\in\cB\mid x\in U\}$.}
+      \quad Every metric space is first-countable.
+\item \Exa Second-countable: $\RR$ (intervals $(a,b)$, $a,b\in\QQ$);
+      $\RR^n$ (rational boxes);
+      even $\RR^\omega$ (rational boxes, $U_n=\RR$ for all but finitely many $n$).
+\item \Warn Not every metric space is second-countable: $\RR^\omega$ in the uniform topology.
+\item \Thm Subspaces, and countable products, of first- (resp.\ second-) countable spaces are
+      first- (resp.\ second-) countable.
+\item \Dfn $A\subset X$ is \emph{dense} if $\bar A=X$, i.e.\ every nonempty open set meets $A$.
+      \Exa $\QQ$ dense in $\RR$.
+\item \Key\Thm $X$ second-countable $\imp$
+      (1) every open cover has a \emph{countable} subcover (\emph{Lindel\"of});
+      (2) $X$ has a countable dense subset (\emph{separable}).
+\Pf{Fix a countable basis $\{B_n\}$. (1) For each $n$ pick $A_n\in\cA$ with $B_n\subset A_n$
+when possible. (2) Pick $x_n\in B_n$ for each nonempty $B_n$.}
+\end{BL}
+
+\subsection{(\S31--\S32) The separation axioms; normal spaces \Mk{\S31--32}}
+
+\begin{BL}
+\item \Dfn Assume one-point sets are closed ($T_1$). Then:
+  \begin{SB}
+  \item $X$ is \emph{regular} if a point and a disjoint closed set can be separated by
+        disjoint open sets;
+  \item $X$ is \emph{normal} if two disjoint closed sets can be so separated.
+  \end{SB}
+  Normal $\imp$ regular $\imp$ Hausdorff.
+\item \Thm \Mk{Thm 32.1} A regular space with a countable basis is normal.
+      (This is the input to Urysohn metrization.)
+\item \Rmk Full treatment, examples and counterexamples: work through Munkres \S31--32.
+\end{BL}
+
+%%%WEEK 11 | Normal spaces and the Urysohn lemma
+\subsection{(\S33) The Urysohn lemma}
+
+\begin{BL}
+\item \Key\Thm \textbf{(Urysohn's lemma.)} $A,B$ disjoint closed subsets of a normal space $X$
+      $\imp$ there is a map $f\colon X\to[0,1]$ with $f\equiv0$ on $A$ and $f\equiv1$ on $B$.
+\item \textbf{Proof, on the board in four moves.}
+  \begin{NL}
+  \item \emph{Dyadic rationals} $r=a/2^n$ are dense in $\RR$.
+  \item \emph{Build a nested family.} $U_1=X-B$; normality gives $U_0$ with
+        $A\subset U_0\subset\bar U_0\subset U_1$, then $U_{1/2}$ between them.
+        Inductively insert $U_{(2b+1)/2^n}$ between $U_{2b/2^n}$ and $U_{(2b+2)/2^n}$.
+        Result: $\bar U_p\subset U_q$ whenever $p<q$.
+        Extend by $U_r=\emptyset$ for $r<0$ and $U_r=X$ for $r>1$.
+  \item \emph{Define} $D(x)=\{r\text{ dyadic}\mid x\in U_r\}$ and
+        \(f(x)=\inf D(x)\in[0,1].\)
+  \item \emph{Three claims.}
+        (a) $x\in\bar U_r\imp f(x)\le r$;\;
+        (b) $x\notin U_r\imp f(x)\ge r$;\;
+        (c) $f$ is continuous.
+  \end{NL}
+\Pf{For (c): given $(c,d)\ni f(x)$, pick dyadic $c<p<f(x)<q<d$; then
+$U=U_q-\bar U_p$ is a neighborhood of $x$ with $f(U)\subset(c,d)$.}
+\item \Dfn $A,B$ are \emph{separated by a continuous function} if some $f\colon X\to\RR$
+      is $0$ on $A$ and $1$ on $B$. (Forces $A\cap B=\emptyset$.)
+\item \Dfn $X$ is \emph{completely regular} ($T_{3\frac12}$) if points are closed and each
+      point and disjoint closed set are separated by a continuous function.
+\item \Lem Normal $\imp$ completely regular $\imp$ regular.
+\Pf{First: Urysohn with $A=\{x\}$.
+Second: $U=f^{-1}[0,\tfrac12)$, $V=f^{-1}(\tfrac12,1]$.}
+\item \Thm Subspaces and products of completely regular spaces are completely regular.
+      \Warn The same is \emph{not} true for normality.
+\end{BL}
+
+\subsection{(\S34) The Urysohn metrization theorem}
+
+\begin{BL}
+\item \Key\Thm Every second-countable regular space is metrizable.
+\item \textbf{Proof: embed $X$ into $\RR^\omega$ (product topology, which is metrizable).}
+  \begin{NL}
+  \item \emph{Claim 1: a countable separating family.} There are maps $f_k\colon X\to[0,1]$
+        such that for every $p\in U$ open, some $f_k$ has $f_k(p)=1$ and $f_k(X-U)\subset\{0\}$.
+  \item \emph{Construction.} $\{B_n\}$ a countable basis. For each pair $(m,n)$ with
+        $\bar B_m\subset B_n$, use Urysohn (X is normal by Thm 32.1) to get $g_{m,n}$
+        with $g_{m,n}(\bar B_m)=\{1\}$, $g_{m,n}(X-B_n)=\{0\}$. Reindex as $\{f_k\}$.
+  \item \emph{Claim 2:} $F(x)=(f_1(x),f_2(x),\dots)$ is an embedding $X\to\RR^\omega$.
+        Continuous (components are); injective (separate $x$ from $y$ using $U=X-\{y\}$).
+  \item \emph{Claim 3: $F$ is open onto its image $Z$.} Given $q=F(p)\in F(U)$, choose $k$ with
+        $f_k(p)=1$, $f_k(X-U)=\{0\}$, and set $W=Z\cap\pi_k^{-1}(0,\infty)$.
+        Then $q\in W\subset F(U)$.
+  \end{NL}
+\Cue{Regularity is used exactly once --- to produce $p\in B_m\subset\bar B_m\subset B_n$,
+which is what makes the pair $(m,n)$ available.}
+\end{BL}
+
+\subsection{(\S35--\S36) Tietze extension; manifolds}
+
+\begin{BL}
+\item \Key\Thm \textbf{(Tietze.)} $A$ closed in a normal $X$. Every map $A\to[0,1]$
+      (resp.\ $A\to\RR$) extends to a map $X\to[0,1]$ (resp.\ $X\to\RR$). \Mk{\S35}
+\item \Key\Dfn An \emph{$m$-manifold} is a second-countable Hausdorff space in which every point
+      has a neighborhood homeomorphic to an open subset of $\RR^m$
+      (equivalently, to $\RR^m$ itself).
+\item \Ntn $m=0$: discrete countable set. $m=1$: \emph{curve}. $m=2$: \emph{surface}.
+\item \Thm A compact $m$-manifold embeds in $\RR^n$ for some $n$. \Mk{\S36}
+\end{BL}
+
+% ======================================================================
+%%%WEEK 12 | The Tychonoff theorem and compactness of products
+\section{The Tychonoff Theorem}
+
+\subsection{(\S37) The Tychonoff theorem}
+
+\begin{BL}
+\item \Key\Thm \textbf{(Tychonoff.)} For any $J$ and any compact spaces $X_\alpha$,
+      the product $\prod_{\alpha\in J}X_\alpha$ is compact in the product topology.
+\item \Rmk Proved above for finite $J$ (tube lemma). The general case is omitted here;
+      it needs the axiom of choice. Application below instead.
+\end{BL}
+
+\subsection{The profinite integers}
+
+\begin{BL}
+\item \Ntn $a\equiv b\ (\mathrm{mod}\ n)$ iff $n\mid b-a$; classes $[a]_n=a+n\ZZ$;
+      ring $\ZZ/n$ with $[a]_n+[b]_n=[a+b]_n$, $[a]_n\cdot[b]_n=[ab]_n$;
+      surjection $\varphi_n\colon\ZZ\to\ZZ/n$.
+\item \Lem Give each $\ZZ/n$ and $\ZZ$ the discrete topology. Then
+      $\prod_{n=1}^{\infty}\ZZ/n$ is compact Hausdorff, and
+      \(\Phi=(\varphi_1,\varphi_2,\dots)\colon\ZZ\to\prod_{n}\ZZ/n\)
+      is injective and continuous.
+\Pf{Each $\ZZ/n$ is finite, hence compact; Tychonoff. Injective: if $n\mid b-a$ for all $n$,
+take $n>|b-a|$.}
+\item \Dfn For $d\mid m$, reduction $\rho_{m,d}\colon\ZZ/m\to\ZZ/d$, $[a]_m\mapsto[a]_d$;
+      note $\rho_{m,d}\circ\varphi_m=\varphi_d$. Set
+  \[
+    \Zh=\Bigl\{(x_n)_{n}\in\prod_{n=1}^{\infty}\ZZ/n \ \Bigm|\
+        \rho_{m,d}(x_m)=x_d\ \text{ for all } d\mid m\Bigr\},
+  \]
+  the ring of \emph{profinite integers} (operations termwise; a topological ring).
+\item \Key\Lem $\Zh$ is a closed subspace of $\prod_n\ZZ/n$, hence compact Hausdorff.
+\Pf{$\Zh=\bigcap_{d\mid m}f_{m,d}^{-1}([0]_d)$ where
+$f_{m,d}\bigl((x_n)\bigr)=\rho_{m,d}(x_m)-x_d$ is continuous and $\ZZ/d$ is discrete.}
+\item \Lem $\Phi$ corestricts to an injective continuous ring map $\Psi\colon\ZZ\to\Zh$,
+      with \emph{dense} image.
+\Pf{Given $p\in\Zh$ and a basis neighborhood constrained at finitely many $n$, let $N$ be a
+common multiple of those $n$ and choose $a$ with $[a]_N=x_N$; then $[a]_n=x_n$ for each
+constrained $n$.}
+\item \Dfn The subspace topology on $\ZZ$ from $\Zh$ is the \emph{F\"urstenberg topology}.
+      ($\Psi$ is not an embedding of \emph{discrete} $\ZZ$.)
+\item \Key\Thm \textbf{(Euclid, ca.\ 300 BC.)} There are infinitely many primes.
+\Pf{F\"urstenberg's 1955 argument. In the F\"urstenberg topology every nonempty open set is
+infinite, and each $p\ZZ$ is closed. If there were finitely many primes,
+$A=\bigcup_{p}p\ZZ$ would be closed, so its complement $\{\pm1\}$ would be open and
+finite --- contradiction.}
+\end{BL}
+
+% ======================================================================
+%%%WEEK 13 | Paracompactness; complete metric spaces
+\section{Complete Metric Spaces and Function Spaces}
+
+\subsection{(\S43) Complete metric spaces}
+
+\begin{BL}
+\item \Dfn $(x_n)$ in $(X,d)$ is \emph{Cauchy} if $\forall\varepsilon>0\ \exists N$:
+      $d(x_m,x_n)<\varepsilon$ for all $m,n\ge N$.
+      $(X,d)$ is \emph{complete} if every Cauchy sequence converges.
+\item \Rmk Every convergent sequence is Cauchy. The converse is the content of completeness.
+\item \Lem It suffices that every Cauchy sequence has a \emph{convergent subsequence}.
+\Pf{Cauchy $+$ a subsequential limit $\imp$ the whole sequence converges to it.}
+\item \Thm Every compact metric space is complete.
+      \Pf{Sequential compactness supplies the subsequence.}
+\item \Thm $\RR^n$ is complete (in any norm-induced metric).
+\end{BL}
+
+\subsection{(\S45) Compactness in metric spaces}
+
+\begin{BL}
+\item \Dfn $(X,d)$ is \emph{totally bounded} if for every $\varepsilon>0$ finitely many
+      $\varepsilon$-balls cover $X$.
+\item \Prp Compact $\imp$ totally bounded. \Pf{The $\varepsilon$-balls form an open cover.}
+\item \Key\Thm $(X,d)$ is compact $\iff$ complete and totally bounded.
+\Pf{$\Leftarrow$: build a Cauchy subsequence. Cover by finitely many balls of radius $1$;
+one, $B_1$, contains $x_n$ for $n$ in an infinite set $J_1$. Inductively pick $B_{k+1}$ of
+radius $1/(k+1)$ containing $x_n$ for infinitely many $n\in J_k$, giving
+$J_1\supset J_2\supset\cdots$. Choose $n_1<n_2<\cdots$ with $n_k\in J_k$;
+then $x_{n_i},x_{n_j}\in B_k$ for $i,j\ge k$, so the subsequence is Cauchy.
+Complete $\imp$ convergent $\imp$ sequentially compact $\imp$ compact (\S28).}
+\item \Warn Total boundedness alone is not enough --- and boundedness alone is far weaker
+      than total boundedness in general metric spaces.
+\end{BL}
+
+%%%WEEK 14 | Pointwise and compact convergence; Baire spaces
+\subsection{(\S46) Pointwise and compact convergence}
+
+\begin{BL}
+\item \Ntn $Y^X=\{f\colon X\to Y\}=\prod_{X}Y$.
+\item \Dfn For $x\in X$, $U\subset Y$ open: \; $S(x,U)=\{f\mid f(x)\in U\}=\pi_x^{-1}(U)$.
+      These form a subbasis for the \emph{topology of pointwise convergence}
+      $=$ the product topology on $Y^X$.
+\item \Lem $f_n\to f$ in it $\iff$ $f_n(x)\to f(x)$ for every $x$.
+\item \Dfn $(Y,d)$ metric. \; $B(f,\varepsilon)=\{g\mid\sup_{x\in X}d(f(x),g(x))<\varepsilon\}$
+      is a basis for the \emph{topology of uniform convergence}.
+\Pf{Basis axiom: for $g\in B(f,\varepsilon)$ take $\delta=\varepsilon-\sup_x d(f,g)$;
+then $B(g,\delta)\subset B(f,\varepsilon)$.}
+\item \Lem $f_n\to f$ in it $\iff$ $f_n\to f$ uniformly.
+\item \Key\Thm A uniform limit of continuous functions is continuous.
+\item \Dfn For $C\subset X$ compact: \;
+      $B_C(f,\varepsilon)=\{g\mid\sup_{x\in C}d(f(x),g(x))<\varepsilon\}$ is a basis for the
+      \emph{topology of compact convergence} (uniform convergence on compact sets).
+\item \Lem $f_n\to f$ in it $\iff$ $f_n|C\to f|C$ uniformly for every compact $C\subset X$.
+\item \Rmk Ordering: pointwise $\subset$ compact $\subset$ uniform. If $X$ is compact the last
+      two agree.
+\item \Exa $f_n(x)=\sum_{k=0}^{n}x^k/k!\to e^x$ on $\RR$: pointwise and uniformly on compact
+      sets, but \emph{not} uniformly.
+\item \Dfn $X$ is \emph{compactly generated} if: $A\subset X$ is open whenever $A\cap C$ is
+      open in $C$ for every compact $C\subset X$.
+\item \Lem Equivalently, with ``closed'' in place of ``open''.
+\item \Lem $X$ compactly generated $\imp$ ($f\colon X\to Y$ continuous $\iff$ every $f|C$ is).
+\Pf{$f^{-1}(U)\cap C=(f|C)^{-1}(U)$.}
+\item \Key\Thm $X$ compactly generated, $(Y,d)$ metric. If continuous $f_n\to f$ uniformly on
+      compact subspaces, then $f$ is continuous.
+\item \Prp Locally compact spaces, and first-countable (hence metrizable) spaces, are
+      compactly generated. \Mk{p.\ 284}
+\end{BL}
+
+\subsection{Mapping spaces and the compact-open topology}
+
+\begin{BL}
+\item \Ntn $\Map(X,Y)=\{f\colon X\to Y\mid f\text{ continuous}\}\subset Y^X$.
+      (Also written $\mathrm{Map}(X,Y)$.)
+\item \Key\Dfn For $C\subset X$ compact and $U\subset Y$ open:
+      \(S(C,U)=\{f\in\Map(X,Y)\mid f(C)\subset U\}.\)
+      These form a subbasis for the \emph{compact-open topology}.
+\item \Rmk Finer than pointwise convergence, since points are compact.
+\item \Key\Thm $X$ a space, $(Y,d)$ metric. On $\Map(X,Y)$ the compact-open topology equals
+      the topology of compact convergence.
+\Pf{Two inclusions.
+$(\supset)$ Given $f\in S(C,U)$: $f(C)$ is compact in the open $U$, so
+$B(f(C),\varepsilon)\subset U$ for some $\varepsilon>0$; then $B_C(f,\varepsilon)\subset S(C,U)$.
+$(\subset)$ Given $B_C(f,\varepsilon)$: cover $C$ by finitely many $V_{x_i}$ with
+$f(\bar V_{x_i})$ of diameter $<\varepsilon$; set $C_i=\bar V_{x_i}\cap C$, $U_i=B(f(x_i),\varepsilon/3)$;
+then $f\in\bigcap_i S(C_i,U_i)\subset B_C(f,\varepsilon)$.}
+\item \Cor Hence the compact-convergence topology on $\Map(X,Y)$ depends only on the
+      \emph{topology} of $Y$, not on the chosen metric.
+\end{BL}
+
+\subsection{Joint continuity and the exponential law}
+
+\begin{BL}
+\item \Dfn $F\colon X\times Y\to Z$ and $f\colon X\to Z^{Y}$ correspond by
+      \(f(x)(y)=F(x,y).\)
+      Call $F$ the \emph{left adjoint}, $f$ the \emph{right adjoint}.
+\item \Key\Thm $F$ continuous $\imp$ $f\colon X\to\Map(Y,Z)$ is continuous
+      (compact-open topology).
+\Pf{Given $f(p)\in S(C,U)$, i.e.\ $F(\{p\}\times C)\subset U$: apply the \emph{tube lemma}
+to the open $F^{-1}(U)\supset\{p\}\times C$ with $C$ compact, getting $V\ni p$ with
+$V\times C\subset F^{-1}(U)$.}
+\item \Key\Prp $Y$ locally compact Hausdorff $\imp$ the evaluation map
+      \(e\colon\Map(Y,Z)\times Y\to Z,\quad e(g,y)=g(y)\) is continuous.
+\Pf{Given $g(p)\in U$: local compactness gives $V\ni p$ with $\bar V$ compact,
+$\bar V\subset g^{-1}(U)$. Then $W=S(\bar V,U)\times V$ works.}
+\item \Thm $Y$ locally compact Hausdorff: $f\colon X\to\Map(Y,Z)$ continuous $\imp$
+      $F\colon X\times Y\to Z$ continuous.
+      \Pf{$F=e\circ(f\times\id)$.}
+\item \Key\Cor $I=[0,1]$ is compact Hausdorff, hence locally compact Hausdorff. So there are
+      bijective correspondences between maps
+  \[
+    F\colon X\times I\to Y,\quad f\colon X\to\Map(I,Y),\quad
+    G\colon I\times X\to Y,\quad g\colon I\to\Map(X,Y)
+  \]
+  ($g$ requires $X$ locally compact Hausdorff), related by
+  \(F(x,t)=f(x)(t)=G(t,x)=g(t)(x).\)
+\item \Rmk Each such map is a \emph{homotopy} between $g(0)$ and $g(1)$. This is the bridge
+      into Chapter 7: a homotopy is a path in a mapping space.
+\end{BL}
+
+% ======================================================================
 %%%WEEK 15 | Homotopy of paths; course review
+\section{The Fundamental Group}
 
-\section*{Week 15 — Homotopy of Paths}
+\subsection{(\S51) Homotopy of paths}
 
-% Replace with actual Week 15 notes.
+\begin{BL}
+\item \Key\Dfn $f,g\colon X\to Y$ are \emph{homotopic}, $f\simeq g$, if there is a map
+      $F\colon X\times I\to Y$ with $F(x,0)=f(x)$, $F(x,1)=g(x)$. $F$ is a \emph{homotopy}.
+\item \Ntn $f_t(x)=F(x,t)$; the rule $t\mapsto f_t$ is a path $I\to\Map(X,Y)$ from $f$ to $g$.
+\item \Dfn A \emph{path} in $Y$ from $y_0$ to $y_1$: a map $f\colon I\to Y$ with
+      $f(0)=y_0$, $f(1)=y_1$.
+\item \Key\Dfn Paths $f,g$ from $y_0$ to $y_1$ are \emph{path homotopic}, $f\simeq_p g$,
+      if there is $F\colon I\times I\to Y$ with
+      \(F(s,0)=f(s),\ F(s,1)=g(s),\ F(0,t)=y_0,\ F(1,t)=y_1.\)
+      \textbf{The endpoints stay fixed throughout.}
+\item \Lem $\simeq$ and $\simeq_p$ are equivalence relations.
+\Pf{Reflexive: constant homotopy. Symmetric: $\bar F(x,t)=F(x,1-t)$.
+Transitive: concatenate,
+$(F\star G)(x,t)=F(x,2t)$ for $t\le\tfrac12$, $G(x,2t-1)$ for $t\ge\tfrac12$;
+continuous by the pasting lemma since $F(x,1)=g(x)=G(x,0)$.}
+\item \Ntn $[f]$ = homotopy class; for paths, $[f]$ = \emph{path} homotopy class.
+\item \Key\Exa \textbf{Straight-line homotopy.} For $f,g\colon X\to\RR^2$ (or into any convex
+      $Y\subset\RR^n$): \; $F(x,t)=(1-t)f(x)+tg(x)$. So any two maps into a convex set are
+      homotopic; and if $f,g$ are paths with the same endpoints, this is a path homotopy.
+\item \Key\Exa In the punctured plane $Y=\RR^2-\{0\}$, with
+      $f(s)=(\cos\pi s,\sin\pi s)$, $g(s)=(\cos\pi s,2\sin\pi s)$,
+      $h(s)=(\cos\pi s,-\sin\pi s)$:
+      $f\simeq_p g$ (the straight-line homotopy stays in $Y$), but the straight-line homotopy
+      from $f$ to $h$ passes through the origin. In fact $f\not\simeq_p h$ --- proved later.
+\Cue{$f$ and $h$ \emph{are} homotopic as maps if endpoints are released. That is why path
+homotopy, not homotopy, is the right relation here.}
+\item \Key\Dfn For $f$ a path $x_0\to x_1$ and $g$ a path $x_1\to x_2$, the \emph{product}
+  \[
+    (f*g)(s)=\begin{cases} f(2s) & 0\le s\le\tfrac12\\ g(2s-1) & \tfrac12\le s\le1.\end{cases}
+  \]
+  Continuous by the pasting lemma.
+\item \Lem $f_0\simeq_p f_1$ and $g_0\simeq_p g_1$ $\imp f_0*g_0\simeq_p f_1*g_1$.
+      Hence $[f]*[g]=[f*g]$ is well defined.
+\item \Key\Thm $*$ on path homotopy classes satisfies:
+  \begin{NL}
+  \item \emph{Associativity}: $([f]*[g])*[h]=[f]*([g]*[h])$;
+  \item \emph{Units}: with $e_x(s)\equiv x$ the constant path,
+        $[e_{x_0}]*[f]=[f]=[f]*[e_{x_1}]$;
+  \item \emph{Inverses}: with $\bar f(s)=f(1-s)$,
+        $[f]*[\bar f]=[e_{x_0}]$ and $[\bar f]*[f]=[e_{x_1}]$.
+  \end{NL}
+\Pf{All three are reparametrisation homotopies. For (1) let the breakpoints slide:
+traverse $f$ on $0\le s\le(1+t)/4$, $g$ on $(1+t)/4\le s\le(2+t)/4$, $h$ thereafter.
+Draw the square with the two subdivision patterns and interpolate.}
+\item \Warn $*$ is \emph{not} a group operation on paths --- only on path homotopy classes,
+      and only when endpoints match.
+\end{BL}
+
+\subsection{(\S52) The fundamental group}
+
+\begin{BL}
+\item \Dfn A \emph{loop} at $x_0$: a path from $x_0$ to $x_0$.
+\item \Key\Dfn $\pi_1(X,x_0)$ = set of path homotopy classes of loops at $x_0$, with $*$.
+      By the theorem above it is a \emph{group}: unit $e=[e_{x_0}]$, inverse $[f]^{-1}=[\bar f]$.
+      The \emph{fundamental group} of $X$ based at $x_0$.
+\item \Exa $A\subset\RR^n$ convex, $x_0\in A$ $\imp\pi_1(A,x_0)=\{e\}$.
+\item \Key\Dfn \textbf{(Functoriality.)} $h\colon(X,x_0)\to(Y,y_0)$ a based map. Define
+  \[ h_*\colon\pi_1(X,x_0)\to\pi_1(Y,y_0),\qquad h_*[f]=[h\circ f]. \]
+\item \Lem $h_*$ is a group homomorphism.
+\item \Key\Thm $(k\circ h)_*=k_*\circ h_*$ and $(\id)_*=\id$.
+\item \Key\Cor $h$ a homeomorphism $\imp h_*$ an isomorphism.
+      So $\pi_1$ is a topological invariant of based spaces.
+\item \Dfn $\alpha$ a path from $x_0$ to $x_1$. Define
+      \(\hat\alpha\colon\pi_1(X,x_0)\to\pi_1(X,x_1),\qquad\hat\alpha[f]=[\bar\alpha*f*\alpha].\)
+\item \Thm $\hat\alpha$ is an isomorphism; and $\alpha\simeq_p\beta\imp\hat\alpha=\hat\beta$.
+\item \Cor $X$ path connected $\imp\pi_1(X,x_0)\cong\pi_1(X,x_1)$ for all $x_0,x_1$.
+\item \Warn The isomorphism depends on the path: different paths give \emph{conjugate}
+      isomorphisms, which differ when $\pi_1$ is non-abelian. So ``$\pi_1(X)$'' without a base
+      point is well defined only up to isomorphism.
+\item \Rmk $x_0\in P\subset X$ with $P$ the path component $\imp\pi_1(P,x_0)\cong\pi_1(X,x_0)$.
+      $\pi_1$ sees only one path component.
+\item \Dfn $X$ is \emph{simply connected} if it is path connected and $\pi_1(X,x_0)$ is trivial.
+      Then any two paths with the same endpoints are path homotopic.
+\item \Key\Thm \textbf{(Brouwer.)} Every map $f\colon B^2\to B^2$ has a fixed point. \Mk{\S55}
+\end{BL}
+
+\subsection{(\S53) Covering spaces}
+
+\begin{BL}
+\item \Key\Dfn $p\colon E\to B$ a surjective map. An open $U\subset B$ is \emph{evenly covered}
+      if \(p^{-1}(U)=\coprod_\alpha V_\alpha\) with each $V_\alpha\subset E$ open and each
+      $p|V_\alpha\colon V_\alpha\to U$ a homeomorphism. The $V_\alpha$ are the \emph{sheets}
+      (slices).
+\item \Key\Dfn $p$ is a \emph{covering map} (and $E$ a \emph{covering space} of $B$) if every
+      point of $B$ has an evenly covered neighborhood.
+\item \Exa Trivial covering: $F$ discrete, $p\colon B\times F\to B$; sheets $B\times\{\alpha\}$.
+\item \Lem Each fibre $p^{-1}(x)$ is discrete.
+\item \Key\Lem Every covering map is an open surjection, hence a quotient map.
+\Pf{For $A\subset E$ open and $x\in p(A)$: pick $y\in A$ over $x$, let $V_\beta$ be its sheet;
+$p(A\cap V_\beta)$ is open in $U$ and contains $x$.}
+\item \Key\Thm $p\colon\RR\to S^1$, \; $p(t)=(\cos2\pi t,\sin2\pi t)$, is a covering map.
+\Pf{For $U=\{(x,y)\in S^1\mid x>0\}$: $p^{-1}(U)=\coprod_{n\in\ZZ}(n-\tfrac14,n+\tfrac14)$,
+with inverse $(x,y)\mapsto n+\frac1{2\pi}\arcsin y$. Four such $U$ cover $S^1$.
+Each interval $[n,n+1]$ wraps once around.}
+\item \Dfn $p$ is a \emph{local homeomorphism} if each $y\in E$ has a neighborhood $V$ with
+      $p(V)$ open and $p|V\colon V\to p(V)$ a homeomorphism.
+\item \Lem Covering map $\imp$ local homeomorphism.
+\item \Key\Warn Converse fails: $q=p|(0,\infty)\colon(0,\infty)\to S^1$ is a local
+      homeomorphism but not a covering map --- no neighborhood of $(1,0)$ is evenly covered.
+\item \Exa $p_n\colon S^1\to S^1$, $z\mapsto z^n$, i.e.\
+      $(\cos\theta,\sin\theta)\mapsto(\cos n\theta,\sin n\theta)$. A covering map for each $n$.
+      (E.g.\ $p_2(x,y)=(x^2-y^2,2xy)$.)
+\item \Prp \textbf{(Restriction.)} $p$ a covering map, $B_0\subset B$, $E_0=p^{-1}(B_0)$
+      $\imp$ $p|E_0\colon E_0\to B_0$ is a covering map.
+\item \Prp \textbf{(Products.)} $p\times p'\colon E\times E'\to B\times B'$ is a covering map.
+\item \Key\Exa $p\times p\colon\RR^2\to S^1\times S^1=T^2$ covers the torus;
+      each unit square $[n,n+1]\times[m,m+1]$ wraps once around.
+\item \Key\Exa Figure eight. $B_0=(S^1\times\{s_0\})\cup(\{s_0\}\times S^1)\subset T^2$;
+      then $E_0=(p\times p)^{-1}(B_0)=(\RR\times\ZZ)\cup(\ZZ\times\RR)$,
+      the infinite grid, covers $B_0$.
+\item \Exa $\exp\colon\CX\to\CX-\{0\}$, in real coordinates
+      $p(x,y)=(e^x\cos y,e^x\sin y)$, is a covering map: it factors through
+      $\RR\times S^1\cong\RR^2-\{0\}$ as a product of coverings.
+\end{BL}
+
+\subsection{(\S54--\S55) The fundamental group of the circle \Mk{\S54--55}}
+
+\begin{BL}
+\item \Key\Thm $\pi_1(S^1,s_0)\cong\ZZ$, generated by the loop that goes once around;
+      the isomorphism sends a loop to its \emph{winding number}, i.e.\ the endpoint of its lift
+      along $p\colon\RR\to S^1$.
+\item \Rmk Machinery needed: path lifting, homotopy lifting, the lifting correspondence.
+      Work these through from Munkres \S54; then \S55 gives no-retraction of $B^2$ onto $S^1$,
+      and Brouwer's theorem.
+\end{BL}
+
+\subsection{(\S58) Deformation retracts and homotopy type}
+
+\begin{BL}
+\item \Dfn $j\colon A\to X$ an inclusion. A \emph{retraction} is a map $r\colon X\to A$ with
+      $r\circ j=\id_A$.
+\item \Key\Dfn A \emph{deformation retraction} of $X$ onto $A$: a homotopy
+      $H\colon X\times I\to X$ from $\id_X$ to $j\circ r$, with $H(a,t)=a$ for all
+      $a\in A$, $t\in I$.
+\item \Key\Exa $A=S^n\subset X=\RR^{n+1}-\{0\}$, $r(x)=x/\|x\|$, and
+      \(H(x,t)=(1-t)x+t\,x/\|x\|.\)
+\item \Lem $H$ a homotopy from $h$ to $k$ with $H(x_0,t)=y_0$ for all $t$ (a homotopy
+      \emph{relative to} $x_0$) $\imp$ $h_*=k_*$ on $\pi_1$.
+\Pf{For a loop $f$ at $x_0$, the composite $H\circ(f\times\id)\colon I\times I\to Y$ is a
+path homotopy from $hf$ to $kf$.}
+\item \Key\Thm $A$ a deformation retract of $X$ $\imp$
+      \(j_*\colon\pi_1(A,a_0)\xrightarrow{\ \cong\ }\pi_1(X,a_0).\)
+\Pf{$rj=\id_A$ gives $r_*j_*=\id$. And $H$ is a homotopy rel $a_0$ from $\id_X$ to $jr$,
+so $j_*r_*=\id$ by the lemma.}
+\item \Key\Exa $\pi_1(\CX-\{0\})\cong\pi_1(S^1)\cong\ZZ$, infinite cyclic.
+\item \Key\Exa Doubly punctured plane $X=\CX-\{+i,-i\}$ deformation retracts onto the
+      \emph{figure eight} $8=(i+S^1)\cup(-i+S^1)=S^1\vee S^1$, meeting at $0$.
+      So $\pi_1(8,0)\cong\pi_1(X,0)$.
+\item \Rmk With $x=[f]$, $y=[g]$ the classes of the two circle loops:
+      $\pi_1(8,0)=F_2=\langle x,y\rangle$, the free group on two generators ---
+      every element a word in $x^{\pm1},y^{\pm1}$, with no relations beyond the group axioms.
+      We prove less:
+\item \Key\Prp $\pi_1(8,0)$ is \emph{not abelian}.
+\Pf{Use the path-connected threefold cover of $8$ which is onefold over one circle and
+twofold over the other. Starting at the right vertex, the lifts of $f*g$ and $g*f$ end at
+different points, so $[f]*[g]\neq[g]*[f]$. Draw the covering graph.}
+\end{BL}
+
+\subsection{(\S59) The fundamental group of \texorpdfstring{$S^n$}{Sn}}
+
+\begin{BL}
+\item \Key\Thm $X=U\cup V$ with $U,V$ open and simply connected and $U\cap V$ path connected
+      $\imp$ $X$ is simply connected.
+\Pf{Base point $x_0\in U\cap V$; loop $f$. The cover $\{f^{-1}(U),f^{-1}(V)\}$ of the compact
+metric space $I$ has a Lebesgue number, giving $0=s_0<\cdots<s_n=1$ with each
+$f([s_{i-1},s_i])$ inside $U$ or $V$. Delete any $s_i$ with $f(s_i)\notin U\cap V$;
+then all $f(s_i)\in U\cap V$. Pick a loop $g$ in $U\cap V$ agreeing with $f$ at each $s_i$;
+patch the piecewise path homotopies. Finally $[g]$ dies already in $\pi_1(U,x_0)$.}
+\item \Key\Thm $S^2$ is simply connected.
+\Pf{$U=S^2-\{S\}$, $V=S^2-\{N\}$; stereographic projection
+$h(x_1,x_2,x_3)=\frac{1}{1+x_3}(x_1,x_2)$ gives $U\cong\RR^2$, likewise $V$;
+and $U\cap V\cong\RR^2-\{0\}$ is path connected.}
+\item \Rmk Same argument: $S^n$ is simply connected for all $n\ge2$.
+\end{BL}
+
+\subsection{(\S60) Fundamental groups of some surfaces}
+
+\begin{BL}
+\item \Dfn Product group $G\times H$: $(g,h)(g',h')=(gg',hh')$, unit $(e,e)$,
+      inverse $(g^{-1},h^{-1})$.
+\item \Key\Thm With $p=\mathrm{pr}_X$, $q=\mathrm{pr}_Y$, the map
+      \(\Phi=(p_*,q_*)\colon\pi_1(X\times Y,(x_0,y_0))\To\pi_1(X,x_0)\times\pi_1(Y,y_0)\)
+      is a group isomorphism.
+\Pf{Surjective: given loops $f,g$ set $h(s)=(f(s),g(s))$.
+Injective: path homotopies $F,G$ assemble to $H=(F,G)$.}
+\item \Key\Exa \(\pi_1(T^2)=\pi_1(S^1\times S^1)\cong\ZZ\times\ZZ=\ZZ^2,\)
+      free abelian on two generators.
+\item \Rmk The inclusion $8=S^1\vee S^1\subset S^1\times S^1=T^2$ induces the canonical
+      surjection $F_2\to\ZZ^2$ (abelianisation).
+      The commutator $xyx^{-1}y^{-1}$ maps to $0$: in the square model of $T^2$, the loop
+      $f*g*\bar f*\bar g$ is the boundary of $I^2$, which is nullhomotopic in $I^2$.
+\item \Key\Dfn \textbf{Double torus} $T^2\# T^2$: the quotient of an octagon with boundary word
+      \(a\,b\,a^{-1}b^{-1}\,c\,d\,c^{-1}d^{-1}.\)
+      Cutting along the diagonal gives two tori each with a disc removed; regluing along that
+      circle is the connected sum.
+\item \Key\Thm $\pi_1(T^2\# T^2)$ is not abelian.
+\Pf{Let $A\subset X=T^2\#T^2$ be the edges labelled $a$ and $c$; then $A\cong8$.
+There is a retraction $r\colon X\to A$: collapse the cutting circle to get $T^2\vee T^2$,
+then retract each torus onto a circle. So $j_*\colon\pi_1(8)\to\pi_1(X)$ is injective,
+and $\pi_1(X)$ has a non-abelian subgroup.}
+\item \Key\Thm $S^2$, $T^2$ and $T^2\#T^2$ are pairwise non-homeomorphic.
+\Pf{$\pi_1(S^2)=1$ and $\pi_1(T^2)=\ZZ^2$ are abelian and non-isomorphic;
+$\pi_1(T^2\#T^2)$ is not abelian. Fundamental groups distinguish all three.}
+\item \Rmk \textbf{Closing remark (3-manifolds).} A compact 3-manifold splits into finitely many
+      compact connected ones; a connected one is \emph{irreducible} if every embedded $S^2$
+      bounds an embedded $B^3$, and reducible ones simplify by cutting along such a sphere and
+      capping off. By Thurston's geometrization conjecture, proved by Perelman, an irreducible
+      3-manifold decomposes along canonical tori into geometric pieces (eight model geometries).
+      Combining the classifications --- Waldhausen for Haken manifolds, Seifert for six of the
+      geometries, Mostow rigidity for the hyperbolic one --- the fundamental group turns out to
+      be a complete invariant for irreducible 3-manifolds, apart from lens spaces.
+\end{BL}
+
+\vfill
+\begin{center}\small\color{cue}
+--- end of notes ---
+\end{center}
 
 \end{document}
