@@ -35,4 +35,23 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+<!-- LaTeXML list layout fix: bullet and content on the same line -->
+<style>
+li.ltx_item {
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+  margin-bottom: 0.4em;
+}
+span.ltx_tag_item {
+  flex-shrink: 0;
+  min-width: 1.4em;
+  padding-top: 0.05em;
+}
+li.ltx_item > div.ltx_para {
+  flex: 1;
+  min-width: 0;
+}
+</style>
+
 <!-- end custom head snippets -->
