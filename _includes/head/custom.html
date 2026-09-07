@@ -55,6 +55,24 @@ li.ltx_item > div.ltx_para {
 li.ltx_item > div.ltx_para > p.ltx_p:first-child {
   margin-top: 0;
 }
+
+/* LaTeXML wraps display equations in a <table>, which picks up the
+   theme's table border and reduced font size. Strip both. */
+table.ltx_equation,
+table.ltx_eqn_table {
+  border: none;
+  width: 100%;
+  font-size: inherit;
+  margin: 0.6em 0;
+}
+table.ltx_equation tr,
+table.ltx_equation td,
+table.ltx_eqn_table tr,
+table.ltx_eqn_table td {
+  border: none;
+  background: none;
+  padding: 0;
+}
 </style>
 
 <!-- end custom head snippets -->
