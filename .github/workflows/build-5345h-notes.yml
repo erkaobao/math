@@ -36,7 +36,7 @@ jobs:
           marker_re = re.compile(r'%%%WEEK\s+(\d+)\s*\|([^\n]*)', re.MULTILINE)
           markers = list(marker_re.finditer(body))
 
-          os.makedirs('_teaching', exist_ok=True)
+          os.makedirs('_teaching/5345h_notes', exist_ok=True)
           os.makedirs('/tmp/latexml_work', exist_ok=True)
 
           for i, m in enumerate(markers):
@@ -70,7 +70,7 @@ jobs:
                   ['latexmlpost',
                    '--dest=' + html_path,
                    '--format=html5',
-                   '--pmml',          # Presentation MathML
+                   '--pmml',
                    '--nodefaultresources',
                    xml_path],
                   capture_output=True, text=True
@@ -84,17 +84,17 @@ jobs:
               body_match = re.search(r'<body[^>]*>(.*?)</body>', html_full, re.DOTALL)
               body_html = body_match.group(1).strip() if body_match else html_full
 
-              # Write Jekyll page
-              out_path = f'_teaching/5345h_fall2026_week_{week_num}.md'
+              # Write Jekyll page into the subfolder
+              out_path = f'_teaching/5345h_notes/week_{week_num}.md'
               front_matter = textwrap.dedent(f"""\
                   ---
                   layout: archive
-                  title: "MATH 5345H — Week {week_num}: {week_title}"
-                  permalink: /teaching/5345h_fall2026_week_{week_num}
+                  title: "MATH 5345H --- Week {week_num}: {week_title}"
+                  permalink: /teaching/5345h_notes/week_{week_num}
                   author_profile: false
                   ---
 
-                  <p><a href="{{{{ '/teaching/2026_fall_5345h_lecture_notes' | relative_url }}}}">← Back to Lecture Notes</a></p>
+                  <p><a href="https://erkaobao.github.io/math/teaching/2026_fall_5345h_lecture_notes">&#8592; Back to Lecture Notes</a></p>
 
                   """)
               with open(out_path, 'w', encoding='utf-8') as f:
@@ -110,7 +110,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _teaching/5345h_fall2026_week_*.md
+          git add _teaching/5345h_notes/week_*.md
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
