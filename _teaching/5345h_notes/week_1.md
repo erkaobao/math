@@ -3,6 +3,7 @@ layout: archive
 title: "MATH 5345H --- Week 1: Sets, functions, relations, and the standard number systems"
 permalink: /teaching/5345h_notes/week_1
 author_profile: false
+render_with_liquid: false
 ---
 
 <p><a href="https://erkaobao.github.io/math/teaching/2026_fall_5345h_lecture_notes">&#8592; Back to Lecture Notes</a></p>
