@@ -16,7 +16,7 @@ The 12th Yamabe Memorial Symposium features eight speakers over 2.5 days. See th
 travel information, and applications for financial support (graduate students and postdoctoral
 scholars; applications are reviewed on a rolling basis, and early applications are encouraged).
 
-**Organizers**: Scot Adams, Anar Akhmedov, Erkao Bao, Michelle Chu, David Favero, Tian-Jun Li, and Alexander Voronov.
+**Organizers**: Anar Akhmedov, Erkao Bao, Michelle Chu, David Favero, Tian-Jun Li, and Alexander Voronov.
 
 ## Speakers
 
