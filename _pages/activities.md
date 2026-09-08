@@ -6,6 +6,7 @@ author_profile: false
 ---
 
 ## Differential geometry and symplectic topology seminar
+- [Fall 2026](https://erkaobao.github.io/math/activities/gt2026fall)
 - [Spring 2026](https://erkaobao.github.io/math/activities/gt2026spring)
 - [Fall 2025](https://erkaobao.github.io/math/activities/gt2025fall)
 - [Spring 2025](https://erkaobao.github.io/math/activities/gt2025spring)
@@ -16,6 +17,12 @@ author_profile: false
 - [Fall 2022](https://erkaobao.github.io/math/activities/gt2022fall)
 - [Spring 2022](https://erkaobao.github.io/math/activities/gt2022spring)
 - [Fall 2021](https://erkaobao.github.io/math/activities/gt2021fall)
+
+## [2026 Yamabe Memorial Symposium](https://cse.umn.edu/math/yamabe-memorial-symposium)
+- Friday, October 2nd to Sunday, October 4th, 2026: Low-Dimensional Topology and Gauge Theory
+- Funding is available to partially support graduate students and postdoctoral scholars; applications are reviewed on a rolling basis.
+- [Schedule, talks' titles and abstracts](https://erkaobao.github.io/math/activities/2026yamabe)
+
 
 ## [2024 Yamabe Memorial Symposium](https://cse.umn.edu/math/yamabe-memorial-symposium)
 - Friday, October 4th to Sunday, October 6th, 2024: Symplectic and Contact Geometry
