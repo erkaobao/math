@@ -1,2 +1,16 @@
 _site/
 
+# macOS Finder metadata
+.DS_Store
+
+# LaTeX build artifacts (only the .tex sources are tracked in _notes_src/)
+_notes_src/*.aux
+_notes_src/*.fdb_latexmk
+_notes_src/*.fls
+_notes_src/*.log
+_notes_src/*.out
+_notes_src/*.pdf
+_notes_src/*.synctex.gz
+_notes_src/*.toc
+_notes_src/*.bbl
+_notes_src/*.blg
