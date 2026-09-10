@@ -21,7 +21,7 @@ author_profile: false
 | Thu, 2026-11-12 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-11-19 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 | Thu, 2026-11-26 | 1:25pm - 2:25pm | Thanksgiving | | |
-| Thu, 2026-12-03 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
+| Thu, 2026-12-03 | 1:25pm - 2:25pm | Lino Amorim| | in person |
 | Thu, 2026-12-10 | 1:25pm - 2:25pm | | | [https://umn.zoom.us/j/92113794726](https://umn.zoom.us/j/92113794726) |
 
 
